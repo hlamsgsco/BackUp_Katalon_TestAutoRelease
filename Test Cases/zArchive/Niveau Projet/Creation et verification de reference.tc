@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifier si le bouton &quot;Create a project&quot; est present dependant du droit que l'utilisateur a pour créer les projets
+
+Verifier que le bouton &quot;Create a project&quot; est fonctionnel et nous dirige vers le formulaire pour ajouter le nom du projet
+
+Verifier que le champ &quot;Project Name&quot; est obligatoire et que on ne pourra pas avancer si elle est vide. 
+
+Verifier que s'il y a plus d'un project template disponible, l'utilisateur peut faire un choix et que ce champ soit obligatoire
+
+Verifier que l'utilisateur peut voir seulement les project template dont il a le droit d'utiliser 
+
+Verifier que lorsqu'on clique sur le bouton &quot;Create the project&quot;, on est dirigé vers le formulaire de creation de projet
+
+Verifier que le formulaire de creation de projet ne peut etre valider si tous les champs obligatoires ne sont pas rempli. 
+
+Verifier que le projet a été crée correctement</description>
+   <name>Creation et verification de reference</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c609893-811c-41e7-9d07-f38c68a15996</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Création de compte - annuler la creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e94732d-791b-42c5-a9d0-fbc4542f5b0b</testCaseGuid>
+   <variable>
+      <defaultValue>'http://mdb-release.diadeis.lan/Mediabox-independence/?MBI_datasource=REL_SEPHORA'</defaultValue>
+      <description></description>
+      <id>d407ecfa-7563-4225-90d8-daf7d6579954</id>
+      <masked>false</masked>
+      <name>Website</name>
+   </variable>
+</TestCaseEntity>

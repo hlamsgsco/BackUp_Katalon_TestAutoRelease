@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Création de compte(normal)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0ac5754-e073-47c5-a9ed-f2e6320d5c0e</testCaseGuid>
+   <variable>
+      <defaultValue>'http://mdb-release.diadeis.lan/Mediabox-independence/?MBI_datasource=REL_SEPHORA'</defaultValue>
+      <description></description>
+      <id>bc7ffb15-e50b-407e-929c-2b5b56ac0f6f</id>
+      <masked>false</masked>
+      <name>Website</name>
+   </variable>
+</TestCaseEntity>

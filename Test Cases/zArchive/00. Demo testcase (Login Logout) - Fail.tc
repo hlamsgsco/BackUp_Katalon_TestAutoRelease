@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>00. Demo testcase (Login Logout) - Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd03617b-62a3-467a-9044-c5caa90f4a65</testCaseGuid>
+</TestCaseEntity>

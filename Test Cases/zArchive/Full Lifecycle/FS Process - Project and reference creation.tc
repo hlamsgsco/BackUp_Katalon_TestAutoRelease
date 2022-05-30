@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FS Process - Project and reference creation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>119622f1-5bf3-4fb1-97eb-fa708f2b1ed5</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>65d089fc-8396-4326-aa7e-f6fde83fcb45</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

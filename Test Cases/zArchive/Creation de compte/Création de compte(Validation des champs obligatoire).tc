@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Création de compte(Validation des champs obligatoire)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25d1149b-f258-4b23-97f2-1a09c37214a4</testCaseGuid>
+   <variable>
+      <defaultValue>'http://mdb-release.diadeis.lan/Mediabox-independence/?MBI_datasource=REL_SEPHORA'</defaultValue>
+      <description></description>
+      <id>29cdd6f9-1462-41f2-89c6-6f4a844d4216</id>
+      <masked>false</masked>
+      <name>Website</name>
+   </variable>
+</TestCaseEntity>
