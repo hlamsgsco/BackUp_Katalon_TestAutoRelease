@@ -12,17 +12,17 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>bbe6feb2-d7ba-40d7-850b-4513bd4658ea</testSuiteGuid>
    <testCaseLink>
-      <guid>d8e08eb0-c5f8-4cdc-a893-2426c7e3cec9</guid>
+      <guid>c77505cb-ce3d-4b91-8f87-0b8be97ac5a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Task (Standard_ Question_ Prod)/18.01 Tag Full Lifecycle_Perform Task (used in 18.02) P1</testCaseId>
+      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.01 Tag Full Lifecycle_Perform Task (used in 18.02) P1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>733844db-7718-4700-8e5f-5e6eeb6c253d</guid>
+      <guid>386f196b-1092-47dc-bae9-de37a0681387</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Task (Standard_ Question_ Prod)/18.02 Tag full Lifecycle Daughter _Perform Task 18.01 P2</testCaseId>
+      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.02 Tag full Lifecycle Daughter _Perform Task 18.01 P2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

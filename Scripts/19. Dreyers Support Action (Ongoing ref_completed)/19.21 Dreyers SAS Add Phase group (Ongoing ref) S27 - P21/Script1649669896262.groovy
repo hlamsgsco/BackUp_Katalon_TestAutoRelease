@@ -236,9 +236,36 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-'Choose the 4th option-   S27'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID21) + '"]/td[14]/div[1]/div/a[4]']))
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
 
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS S27: Add PG Step C/ Skip P3.1'
+
+	String xpath_SAS ='//*[@id="source_' + refID21 + '"]/td[14]/div[1]/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+
+/*
+'Choose the 4th option-   S27'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID21 + '"]/td[14]/div[1]/div/a[4]']))
+*/
 'Screenshot: SAS popup'
 WebUI.takeScreenshot()
 

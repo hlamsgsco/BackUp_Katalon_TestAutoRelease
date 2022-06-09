@@ -88,8 +88,31 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-'Choose the last 11th option-   S20'
-functions.I.click_button_javascriptS('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[4]/div/div[5]/div/div[1]/div[2]/div/div/a[11]')
+
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS S20: Add Step Group AC/ Skip Phase 1.2 [Complete]'
+	String xpath_SAS ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[4]/div/div[5]/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+		'Choose the last 11th option-   S20'
+functions.I.click_button_javascriptS(xpath_SAS)
+
+		
+		break
+		}
+		i =i+1
+	}
 
 'Screenshot: SAS popup'
 WebUI.takeScreenshot()

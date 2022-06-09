@@ -77,8 +77,6 @@ WebUI.click(findTestObject('1. Constant/02_LHSMenu_Projects'))
 'search for the project number'
 functions.I.SearchProjectNo_xpath(Project_No, '//*[@id="keynum_project"]', '/html/body/div[1]/div[1]/div[2]/div/ul/li[2]/div/div/form/div[4]/button')
 
-'Screenshot: Ref list page of Project'
-WebUI.takeScreenshot()
 
 WebUI.delay(1)
 

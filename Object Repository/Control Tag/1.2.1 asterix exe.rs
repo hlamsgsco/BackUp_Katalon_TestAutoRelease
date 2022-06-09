@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ModifFiche&quot;]/div[2]/div[2]/label/img</value>
+         <value>//*[@id=&quot;ModifFiche&quot;]/div[2]/div/div[2]/div[2]/label/img</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -183,41 +183,6 @@ while (color1 == 'rgba(255, 255, 255, 1)') {
 
 WebUI.delay(1)
 
-'Click on the link ref'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID1) + '"]/td[8]/a']))
-
-WebUI.delay(1)
-
-'Click on the doc tab'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_content"]/div[3]/div/ul/li[2]/a']))
-
-WebUI.delay(1)
-
-'Click on the approval workflow'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_doc_AW"]']))
-
-'Screenshot: doc tab '
-WebUI.takeScreenshot()
-
-WebUI.delay(1)
-
-'81 Click on ? to refuse for the other'
-WebUI.mouseOver(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_0"]/div[2]/div[2]/div[1]/div']))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_0"]/div[2]/div[2]/div[1]/div/div[6]/a[2]/span']))
-
-'Screenshot:popup displayed '
-WebUI.takeScreenshot()
-
-WebUI.delay(1)
-
-'Click on refuse'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="btn_reffor"]']))
-
-'Verify toastr'
-functions.I.VerifyMatchToastrmsg('//*[@id="toast-container"]/div/div[2]', 'Rejection reason required')
 
 'Logout'
 functions.I.Logout()
@@ -293,7 +258,7 @@ WebUI.delay(1)
 'click refuse'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="disable_rejectionButton"]']))
 
-'Verify lifecycle status'
+'77 Verify lifecycle status'
 functions.I.VerifyMatchText(('//*[@id="source_' + refID1) + '"]/td[13]/span[1]', 'Creative: Artwork production')
 
 Double task2_aomoto = functions.I.Get_Task_No('//*[@id="kt_header"]/div/div[2]/div[1]/div[1]')
@@ -372,6 +337,7 @@ while (color2 == 'rgba(255, 255, 255, 1)') {
 
 WebUI.delay(1)
 
+'79'
 functions.I.Logout()
 
 'Login as daguirre'
@@ -662,11 +628,14 @@ WebUI.delay(1)
 'Screenshot: doc tab page '
 WebUI.takeScreenshot()
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 'Click on the approval workflow'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_doc_AW"]']))
 
+WebUI.delay(3)
+
+////*[@id="level_apl_2"]/div[2]/div[2]/div/div
 'Mouse Over'
 WebUI.mouseOver(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_0"]/div[2]/div[2]/div[1]/div/div[1]/img']))
 
@@ -701,9 +670,12 @@ WebUI.delay(1)
 'Click on the approval tab'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_doc_AW"]']))
 */
+WebUI.delay(3)
+
 'Mouse Over'
 WebUI.mouseOver(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_1"]/div[2]/div[2]/div[1]/div/div[1]/img']))
 
+////*[@id="level_apl_1"]/div[2]/div[2]/div[1]/div/div[6]/a[2]/span
 'Click on ? to approve for others'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_1"]/div[2]/div[2]/div[1]/div/div[6]/a[2]/span']))
 
@@ -732,6 +704,8 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_doc_A
 
 WebUI.delay(1)
 */
+WebUI.delay(3)
+
 'Mouse Over'
 WebUI.mouseOver(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="level_apl_1"]/div[2]/div[2]/div[2]/div/div[1]/img']))
 

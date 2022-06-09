@@ -50,8 +50,6 @@ functions.I.clearnotepad('D:\\Upoad_File\\Projet_ Login\\Sephora\\3.02\\3.02_Sep
 //Keyword log
 KeywordLogger log = new KeywordLogger()
 
-
-
 /////////////////////////////////////TEST START ///////////////////////////////
 //BROWSE & MAXIMIZE BROWSER
 WebUI.openBrowser(Url_Sephora)
@@ -532,7 +530,7 @@ functions.I.SearchProjectNo(Project_No, findTestObject('HL Full Lifecycle/9 Filt
 WebUI.delay(2)
 
 '162 Approve doc'
-functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID + '"]/td[7]/a']))
+functions.I.AWF_approve_byaction(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[7]/a']))
 
 'Screenshot: user marketing: Successfully approved doc '
 WebUI.takeScreenshot()
@@ -667,8 +665,6 @@ functions.I.click_button_javascript(findTestObject('HL Full Lifecycle/15 RefPage
 
 WebUI.delay(2)
 
-
-
 //LOGOUT AS ATRAN (DEVFS)
 'Logout as atran\r\n'
 functions.I.Logout()
@@ -693,8 +689,9 @@ WebUI.click(findTestObject('Object Repository/HL Full Lifecycle/16.11 Ref_Submit
 WebUI.delay(1)
 
 //*[@id="ModifFiche"]/div[2]/div[2]/label/img
-'The star is displayed next to Exe files'
-functions.I.verifystar('Print type', findTestObject('Object Repository/Control Tag/1.2.1 asterix exe'), log)
+'217 The star is displayed next to Exe files'
+////*[@id="ModifFiche"]/div[2]/div[2]/label/img
+functions.I.verifystar('Exe files archive', findTestObject('Object Repository/Control Tag/1.2.1 asterix exe'), log)
 
 //REF PAGE: CLICK SUBMIT
 WebUI.click(findTestObject('HL Full Lifecycle/16 RefPg_Button_SubmitCyril'))
@@ -713,6 +710,7 @@ WebUI.click(findTestObject('Control Tag/2.2 ButtonModifyProject'))
 WebUI.delay(1)
 
 //*[@id="ModifFiche"]/div[2]/div[2]/div[2]/div/label
+///*[@id="var_123"]
 //functions.I.UploadDoc('C:\\Users\\lamhe\\Desktop\\Upoad_File\\testdata1.pdf', findTestObject('Object Repository/HL Full Lifecycle/16.1 ref_field_studio'))
 functions.I.UploadDoc_sendkey_field('//*[@id="var_123"]', 'D:\\Upoad_File\\Upload doc\\testdata1.jpg', 'testdata1')
 

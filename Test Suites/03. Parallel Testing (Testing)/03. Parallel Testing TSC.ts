@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/03. StarPack Tag Full Lifecycle_SAS_Task</testSuiteEntity>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/03. StarPack Full Lifecycle_SAS_Task</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -62,7 +62,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/06. NPP Partial Submission Mass Submit</testSuiteEntity>
@@ -85,37 +85,7 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.01 Dreyers Support Action (Ongoing _ Completed ref) - PART 1</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/08 Tag Mass Submit _ Import ref</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.02 Dreyers Support Action (Ongoing _ Completed ref) - PART 2</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.03 Dreyers Support Action (Ongoing _ Completed ref) - PART 3</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -132,20 +102,60 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.04 Dreyers Support Action (Ongoing _ Completed ref) - PART 4</testSuiteEntity>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/11 Tag SAS_Task_Full lifecycle</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/11 Tag SAS_Task_Full lifecycle</testSuiteEntity>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/13 Tag StarPack Dreyers Out of Office</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.01 Dreyers Support Action (Ongoing _ Completed ref) - PART 1</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.02 Dreyers Support Action (Ongoing _ Completed ref) - PART 2</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.03 Dreyers Support Action (Ongoing _ Completed ref) - PART 3</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/14.04 Dreyers Support Action (Ongoing _ Completed ref) - PART 4</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -175,47 +185,7 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/13 Tag StarPack Dreyers Out of Office</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.01 Sephora Duplication Standard</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/02. Parallel Testing/TS -PT/14.04 Dreyers Support Action (Ongoing _ Completed ref) - PART 4</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/02. Parallel Testing/TS -PT/14.05 Dreyers Support Action (Ongoing _ Completed ref) - PART 5</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/02. Parallel Testing/TS -PT/14.06 Dreyers Support Action (Ongoing _ Completed ref) - PART 6</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -225,7 +195,47 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/13 Tag StarPack Dreyers Out of Office</testSuiteEntity>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.02 NPP Duplication Shortcut (Translation Ref) -Part 1</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.03 NPP Duplication Shortcut (TR) - Part 2</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/Retest For failed TC</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/Retest for failed TC - Part 2</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

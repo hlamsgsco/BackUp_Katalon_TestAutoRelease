@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>03. StarPack Tag Full Lifecycle_SAS_Task</name>
+   <name>03. StarPack Full Lifecycle_SAS_Task</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -54,10 +54,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>097748a5-1898-4dcc-8db6-c56a59a0d06d</guid>
+      <guid>3ccdeec9-27d5-4a3e-9085-af8c4657eb64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Task (Standard_ Question_ Prod)/18.05 StarPack change of rights (Prod)_Ticket4757</testCaseId>
+      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.05 StarPack change of rights (Prod)_Ticket4757</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

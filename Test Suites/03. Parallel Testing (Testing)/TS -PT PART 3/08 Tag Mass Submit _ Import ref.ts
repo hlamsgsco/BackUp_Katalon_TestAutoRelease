@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>2167bed8-0955-4b87-b845-a4d03e6ac872</testSuiteGuid>
    <testCaseLink>
+      <guid>264762f2-5b98-426a-9fc9-1540c0aeb1af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/06. Tag _ Dreyers _ NPP Mass Submit/6.03 tag_MassSubmit_controlTag(Project _ ref) P1 (6.04)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>ea0e523a-4851-43bf-af89-411a5546093a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -37,13 +44,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/14. Tag Import ref (P1 - P3 Consecutive)/14.4 Tag_del_Standby_Cancel_mother_Creation_Update - Existing Project</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>264762f2-5b98-426a-9fc9-1540c0aeb1af</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/06. Tag _ Dreyers _ NPP Mass Submit/6.03 tag_MassSubmit_controlTag(Project _ ref) P1 (6.04)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

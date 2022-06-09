@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6dbc6a72-cdc0-4430-9e9b-3bdc33bea848</testSuiteGuid>
    <testCaseLink>
-      <guid>757d8f1f-70f2-4de9-966e-b2868d518cd7</guid>
+      <guid>347b7876-aedd-48c5-acf6-df17e3a8f7d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome)</testCaseId>
+      <testCaseId>Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -26,10 +26,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4427961-2429-4f80-b580-c97cf3534ed1</guid>
+      <guid>7e2946db-d0a3-4ad0-953e-927258c68287</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/10. Tag Add Approver/10.01 Tag Add Approver (Existing Project _ admin)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>757d8f1f-70f2-4de9-966e-b2868d518cd7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -44,13 +51,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/02. Sephora_Starpack User management/2.01 Création de compte - annuler la creation (Chrome)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>347b7876-aedd-48c5-acf6-df17e3a8f7d6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

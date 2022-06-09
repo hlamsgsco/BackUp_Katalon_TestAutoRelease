@@ -12,24 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>12160a02-01c0-438e-95d7-21dbf9ab8a75</testSuiteGuid>
    <testCaseLink>
-      <guid>409efb21-2a7f-4ac4-a058-5e2efa42bb6c</guid>
+      <guid>7630eebe-1321-4a35-9785-75caba578835</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Task (Standard_ Question_ Prod)/18.04 Npp Task translation _ change rights</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>81556949-67b3-4b1c-8e3b-eb180e5be8ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/16 Support action (Completed ref)/16.08 NPP SAS Translation - Agency MKT RSA Reset to MKT (no skip) S5 - P1 (will be used16.09)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8de408c5-57a6-427f-989f-bc0a21dc9e28</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/16 Support action (Completed ref)/16.09 NPP SAS translation - Add phases Completed subref ( Prev16.08) - P2 (Will be used in 20.06)</testCaseId>
+      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.04 Npp Task translation _ change rights</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>34a97189-5d48-4fcd-bb35-d385e89c0e34</testSuiteGuid>
    <testCaseLink>
-      <guid>594784f7-225f-48be-8acb-f0decbc1bdc0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.02 Dreyers SAS Add Step (Ongoing ref) S5 - P2</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3b2c5bd7-dec5-4d1e-a98a-f895392e7aee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -44,6 +37,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.13 Dreyers SAS Add Step Group (Completed) S18- Used P9 _P13</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>594784f7-225f-48be-8acb-f0decbc1bdc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.02 Dreyers SAS Add Step (Ongoing ref) S5 - P2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

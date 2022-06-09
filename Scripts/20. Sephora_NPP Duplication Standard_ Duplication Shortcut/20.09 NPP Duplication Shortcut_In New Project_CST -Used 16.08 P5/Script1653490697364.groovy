@@ -691,6 +691,6 @@ functions.I.status_lifecycle(findTestObject('1. Constant/xpath', [('xpath') : '/
     'Local Translation Validation')
 
 //READ FROM NOTEPAD TC 20.08
-functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\NPP\\16.08\\20.08_NPP_ProjectNo.txt',Project_No4)
+functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\NPP\\16.08\\20.09_NPP_ProjectNo.txt',Project_No4)
 
 WebUI.closeBrowser()

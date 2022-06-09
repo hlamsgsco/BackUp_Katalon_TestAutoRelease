@@ -231,6 +231,8 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_conten
 'Screenshot: Lifecycle tab page'
 WebUI.takeScreenshot()
 
+
+
 'Click on the SAS button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/button']))
 
@@ -241,9 +243,36 @@ WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 15
+int i = 1
+
+while ( i <=x)
+{
+	//SAS S41: Add Phase 3.5 / Skip P3.4
+	String Expected_SAS_Selected = 'SAS S41: Add Phase 3.5 / Skip P3.4'
+	String xpath_SAS ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+	
+/*
 'Choose the 9th option- S41 '
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/div/a[9]']))
-
+*/
 'Screenshot: SAS popup'
 WebUI.takeScreenshot()
 
