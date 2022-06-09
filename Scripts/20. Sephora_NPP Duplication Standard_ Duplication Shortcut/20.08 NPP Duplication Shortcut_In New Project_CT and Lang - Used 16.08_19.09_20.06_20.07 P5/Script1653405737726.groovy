@@ -630,13 +630,16 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="aff_text_
 WebUI.delay(1)
 
 //TABLE
-String ExpectedValue3 = ((((((((('Analytical Constituents:' + '\n') + 'protein: %,') + '\n') + 'fat content: %,') + '\n') +
+String ExpectedValue3 = ((((((((('Analytical Constituents:' + '\n') + 'protein: %,') + '\n') + 'fat content: %,') + '\n') + 
 'crude ash: %,') + '\n') + 'crude fibre: %,') + '\n') + 'omega 6 fatty acids: %.'
 
-String ExpectedValue4 = ((((((((('Analytical constituents:' + '\n') + 'Protein: %,') + '\n') + 'Fat content: %,') + '\n') +
+String ExpectedValue4 = ((((((((('Analytical constituents:' + '\n') + 'Protein: %,') + '\n') + 'Fat content: %,') + '\n') + 
 'Crude ash: %,') + '\n') + 'Crude fibre: %,') + '\n') + 'Omega 6 fatty acids: %.'
 
-'Verify source content '
+WebUI.delay(3)
+
+
+'208 Verify source content '
 functions.I.Verify_Table_getdata('//*[@id="table_body"]', 0, 15, ExpectedValue3)
 
 'Verify Translated reference '
@@ -693,6 +696,7 @@ functions.I.status_lifecycle(findTestObject('1. Constant/xpath', [('xpath') : '/
     'Local Translation Validation')
 
 //READ FROM NOTEPAD TC 20.08
-functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\NPP\\16.08\\20.08_NPP_ProjectNo.txt',Project_No3)
+functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\NPP\\16.08\\20.08_NPP_ProjectNo.txt', Project_No3)
 
 WebUI.closeBrowser()
+

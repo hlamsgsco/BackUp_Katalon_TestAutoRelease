@@ -275,9 +275,35 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+
  
 WebUI.delay(1)
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS S27: Add Phase Group Step C/ Skip P3.1'
+	//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]
+	String xpath_SAS ='//*[@id="source_'+refID26+'"]/td[14]/div[1]/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+/*
 'Click SAS 9th option - SAS 27'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID26+'"]/td[14]/div[1]/div/a[9]']))
-
+*/
 
 'Screenshot: Lifecycle tab page'
 WebUI.takeScreenshot()

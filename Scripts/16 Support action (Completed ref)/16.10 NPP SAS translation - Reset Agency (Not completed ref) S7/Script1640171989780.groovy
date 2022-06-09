@@ -552,9 +552,36 @@ WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'Reset to Agency translation'
+	//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]
+	String xpath_SAS ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[3]/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+	
+/*
 ' Click Option 1:Reset agency'
 functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[3]/div/div[1]/div[2]/div/div/a[1]']))
-
+*/
 WebUI.takeScreenshot()
 
 'Select reason'

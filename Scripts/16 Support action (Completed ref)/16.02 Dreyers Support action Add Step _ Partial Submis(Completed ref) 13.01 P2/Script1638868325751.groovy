@@ -105,9 +105,9 @@ WebUI.delay(2)
 ///html/body/div[9]/div[2]
 '32 Verify tooltip support actions shortcuts'
 ////*[@id="popover960683"]/div[2]
-String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[9]/div[2]']))
+String Actual_SAS1 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[9]/div[2]']))
 
-WebUI.verifyMatch(Actual_SAS, 'Support action shortcuts', false)
+WebUI.verifyMatch(Actual_SAS1, 'Support action shortcuts', false)
 
 /////////////////////////////////////////////SCEANRIO 1 :RESTART FOR MKT, RG & TECH PACK//////////////////////////////////
 'Click on the ref link'
@@ -142,18 +142,44 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 
 'Verify tooltip support actions shortcuts'
-String Actual_SAS1 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[9]/div[2]']))
+String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[9]/div[2]']))
 
-WebUI.verifyMatch(Actual_SAS1, 'Support action shortcuts', false)
+WebUI.verifyMatch(Actual_SAS, 'Support action shortcuts', false)
 
 'Click on SAS button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div/div/div[1]/div[2]/div/button']))
 
 WebUI.delay(1)
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected2 = 'Restart for Marketing, Regulatory and Tech Pack'
+	//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]
+	String xpath_SAS2 ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS2 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS2]))
+	functions.I.print(i)
+	
+	if (Actual_SAS2.contains(Expected_SAS_Selected2))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS2]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+/*
 'Choose option 1 : Restart for mkt, reg & tech pack'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div/div/div[1]/div[2]/div/div/a[1]']))
-
+*/
 WebUI.delay(1)
 
 'Verify Reason support actions shortcuts'

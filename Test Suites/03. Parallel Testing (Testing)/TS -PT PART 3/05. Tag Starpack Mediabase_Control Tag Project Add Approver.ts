@@ -40,13 +40,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c0c6993-d89d-44f5-810b-8572d3d8bb4d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>38102bba-6254-4fce-9992-819518f53f5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -54,10 +47,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e998f123-5541-49ed-9a7d-b78dd16f04fa</guid>
+      <guid>3c0c6993-d89d-44f5-810b-8572d3d8bb4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)</testCaseId>
+      <testCaseId>Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be3f90cb-6cc1-463a-848a-1c1741d52ac7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/10. Tag Add Approver/10.01 Tag Add Approver (Existing Project _ admin)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

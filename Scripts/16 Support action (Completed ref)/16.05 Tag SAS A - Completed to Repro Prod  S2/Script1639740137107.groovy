@@ -141,10 +141,38 @@ WebUI.click( findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]
 
 WebUI.delay(1)
 
+
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 10
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'Go back to Repro production'
+					   ///html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[3]/div/div[1]/div[2]/div/div/a[1]
+	String xpath_SAS ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[3]/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+		functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') :xpath_SAS ]))
+		
+		
+		break
+		}
+		i =i+1
+	}
+
+	
+/*
 'Click on Option 1 '
 WebUI.click( findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[2]/div/div[3]/div/div[1]/div[2]/div/div/a[1]']))
 
-
+*/
 'Screenshot: popup page'
 WebUI.takeScreenshot()
 

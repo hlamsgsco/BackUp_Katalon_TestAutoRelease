@@ -3,8 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import com.google.common.base.Functions
+import com.google.common.base.Functions as Functions
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -106,25 +105,25 @@ WebUI.takeScreenshot()
 
 ///
 'Project name: Project name mass submit'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 
-    'Project:MASS SUBMIT (Empty Group)')
-WebUI.delay(1)
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 'Project:MASS SUBMIT (Empty Group)')
 
+WebUI.delay(2)
 
 'Domain'
 functions.I.SelectFromList_Value('//*[@id="var_116"]', '1070')
 
+WebUI.delay(2)
+
 'Development zone Required'
 functions.I.SelectFromList_Value('//*[@id="var_262"]', '16352')
-
+WebUI.delay(2)
 'Select Division :CPD'
 functions.I.SelectFromList_Value('//*[@id="var_15"]', '57')
-
-'Select Signature: Garnier '
+WebUI.delay(2)
+'37 Select Signature: Garnier '
 functions.I.SelectFromList_Value('//*[@id="var_16"]', '58')
 
-WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_15"]']), 
-    5)
+WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_15"]']), 5)
 
 WebUI.delay(4)
 
@@ -185,13 +184,11 @@ WebUI.delay(1)
 //////////////////////////REF Modif page
 ////*[@id="source_15177"]/td[17]/div[1]/button
 '62 create daughter ref'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refID) + '"]/td[16]/div[1]/button']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[16]/div[1]/button']))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refID) + '"]/td[16]/div[1]/div/a[1]']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[16]/div[1]/div/a[1]']))
 
 'Screenshot: Ref creation page'
 WebUI.takeScreenshot()
@@ -258,8 +255,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 WebUI.takeScreenshot()
 
 'Check checkbox 1'
-WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[1]/label']))
+WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[1]/label']))
 
 '48 Click confirm selection'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="action_btnMassSubmit"]']))
@@ -286,12 +282,10 @@ WebUI.takeScreenshot()
 //////////////////////FILL IN MANDATORY FIELDS
 ////*[@id="source_24472"]/td[15]/a[1]
 '36 Update ref'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[15]/a[1]']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[15]/a[1]']))
 
 'approval date'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_89"]']), 
-    '12/12/2030')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_89"]']), '12/12/2030')
 
 '95 Update ref'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[3]/div/button[1]']))
@@ -312,8 +306,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 WebUI.takeScreenshot()
 
 'Check checkbox 1'
-WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[1]/label']))
+WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[1]/label']))
 
 'Click confirm selection'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="action_btnMassSubmit"]']))
@@ -338,8 +331,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="modal_mas
 WebUI.takeScreenshot()
 
 '33 Update ref'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[15]/a[1]']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[15]/a[1]']))
 
 'Select languages: Spainish'
 functions.I.select_multiplelist('//*[@id="selSource_10"]', '//*[@id="btnAdd_10"]', '1040')
@@ -371,8 +363,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/
 WebUI.takeScreenshot()
 
 'Check checkbox 1'
-WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[1]/label']))
+WebUI.check(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[1]/label']))
 
 'Click confirm selection'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="action_btnMassSubmit"]']))
@@ -396,8 +387,7 @@ WebUI.takeScreenshot()
 WebUI.delay(1)
 
 'Verify Lifecycle stauts'
-String Actual_text4 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refId_d1) + '"]/td[13]/span[1]']))
+String Actual_text4 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refId_d1) + '"]/td[13]/span[1]']))
 
 //*[@id="source_24472"]/td[13]/span[1]
 functions.I.print(Actual_text4)

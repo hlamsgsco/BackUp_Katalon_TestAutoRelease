@@ -54,7 +54,6 @@ String refID = functions.I.readnotepad('D:\\Upoad_File\\Projet_ Login\\Dreyers\\
 
 'Navigate to URL Dreyers Release'
 WebUI.openBrowser(Url_Dreyer)
-
 WebUI.maximizeWindow()
 
 'Log in as suser'
@@ -234,10 +233,32 @@ WebUI.delay(1)
 WebUI.takeScreenshot()
 
 WebUI.delay(1)
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 10
+int i = 1
 
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS: S15 - Add Step Group A & C'
+	String xpath_SAS ='/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+		WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+		
+		break
+		}
+		i =i+1
+	}
+/*
 'Choose the 4th option-   S15 - Add Step Group A & C'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[4]/div/div[1]/div[2]/div/div/a[3]']))
-
+*/
 'Screenshot: SAS popup'
 WebUI.takeScreenshot()
 

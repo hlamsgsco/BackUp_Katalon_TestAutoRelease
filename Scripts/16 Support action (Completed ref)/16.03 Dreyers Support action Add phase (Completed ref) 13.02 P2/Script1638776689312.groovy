@@ -109,9 +109,36 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_'
 
 WebUI.delay(1)
 
-'Choose option 7 : Restart for reg & tech pack'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID_LI) + '"]/td[17]/div[1]/div/a[7]']))
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected1 = 'Restart for Regulatory and Tech Pack'
+
+	String xpath_SAS1 ='//*[@id="source_' + refID_LI + '"]/td[17]/div[1]/div/a['+i+']'
+	
+	
+	String Actual_SAS1 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS1]))
+	functions.I.print(i)
+	
+	if (Actual_SAS1.contains(Expected_SAS_Selected1))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS1]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+/*
+'Choose option 7 : Restart for reg & tech pack'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID_LI + '"]/td[17]/div[1]/div/a[7]']))
+*/
 WebUI.delay(1)
 
 'Verify Reason support actions shortcuts'

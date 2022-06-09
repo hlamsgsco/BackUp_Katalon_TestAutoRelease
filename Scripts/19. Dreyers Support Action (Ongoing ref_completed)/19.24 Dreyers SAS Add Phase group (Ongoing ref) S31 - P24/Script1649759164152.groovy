@@ -220,9 +220,36 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_'
 
 WebUI.delay(1)
 
-'Click SAS 8th option - SAS 30'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID24) + '"]/td[14]/div[1]/div/a[8]']))
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS S31: Skip Phase 3.5/Add Phase Group SA/ Skip to Phase 1.1'
+	//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]
+	String xpath_SAS ='//*[@id="source_' + refID24 + '"]/td[14]/div[1]/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+/*
+'Click SAS 8th option - SAS 30'
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID24 + '"]/td[14]/div[1]/div/a[8]']))
+*/
 'Screenshot: Lifecycle tab page'
 WebUI.takeScreenshot()
 

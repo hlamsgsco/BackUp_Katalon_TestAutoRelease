@@ -108,7 +108,7 @@ String Url_Tag = data_urlRELAUTO.getValue(2, 3)
 WebUI.openBrowser(Url_Tag)
 
 WebUI.maximizeWindow()
-
+/*
 
 //1 jedun
 functions.I.Login_password('jedun', password_jedun)
@@ -146,7 +146,7 @@ functions.I.Logout()
 //9 ccaramella
 functions.I.Login_password('ccaramella', password_ccaramella)
 functions.I.Logout()
-
+*/
 //10 achay
 functions.I.Login_password('achay', password_achay)
 

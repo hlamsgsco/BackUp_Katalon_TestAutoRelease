@@ -182,6 +182,32 @@ public class I {
 
 
 	}
+	/*
+	//SELECT AN OPTION FORM SAS LIST
+	
+	public static Select_Click_SAS(String Expected_SAS_Selected ,String xpath_SAS){
+		'no of option present '
+int x = 20 // I HAVE PUT ANY NUMBER
+int i = 1 //START WITH 1
+
+while ( i <=x)
+{
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+		WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+		
+		break
+		}
+		i =i+1
+	}
+
+
+	}*/
 
 	/////////////////////////////////////// GET THE PROJECT NO AND REFID VIA URL///////////////////////////////////////////////////
 

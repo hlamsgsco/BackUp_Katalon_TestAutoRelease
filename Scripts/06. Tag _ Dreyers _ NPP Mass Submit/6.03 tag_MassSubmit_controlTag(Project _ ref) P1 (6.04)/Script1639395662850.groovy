@@ -110,30 +110,28 @@ WebUI.delay(1)
 WebUI.takeScreenshot()
 
 'Select Project template '
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="project_template"]']), 
-    '14', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="project_template"]']), '14', false)
 
 'Screenshot: creation project page'
 WebUI.takeScreenshot()
 
-
-
-
 WebUI.delay(2)
+
 'Click on create the project'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[3]/div/button']))
 
 WebUI.delay(10)
 
 'Project name: Project name mass submit'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']),
-	'AUto Test Mass submit')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 'AUto Test Mass submit')
 
 WebUI.delay(2)
+
 'Project name: Project name mass submit'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_229"]']),
-	'PD description')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_229"]']), 'PD description')
+
 WebUI.delay(5)
+
 String Project_No = functions.I.ProjectNo()
 
 'Screenshot: Project modif page'
@@ -154,8 +152,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="create_re
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="create_ref_btn"]/div/a']))
 
 'Select ref template'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ref_type"]']), 
-    '13', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ref_type"]']), '13', false)
 
 WebUI.delay(1)
 
@@ -219,29 +216,27 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="modal_mas
 WebUI.takeScreenshot()
 
 '35 Click on submit'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refID) + '"]/td[15]/a[2]']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[15]/a[2]']))
 
 'Screenshot:ref modif page'
 WebUI.takeScreenshot()
 
 ///FILL IN COTNTROL TAG FIELD
 'Marketing product name'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_117"]']), 
-    'MKT_PART_1')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_117"]']), 'MKT_PART_1')
 
 'PC > Select from list: FAke'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_57"]']), 
-    '134', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_57"]']), '134', false)
 
 'PF > Select form list : aCcesory'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_28"]']), 
-    '15738', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_28"]']), '15738', false)
 
 'Click update'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[1]']))
 
-'Click mass submit'
+WebUI.delay(5)
+
+'76 Click mass submit'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[2]/span/div[2]/button']))
 
 'Screenshot'
@@ -286,38 +281,29 @@ WebUI.takeScreenshot()
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="card_project"]/div[2]/div/div[3]/a[2]']))
 
 'Project name: Project name mass submit'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 
-    'Project name - mass submit ')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 'Project name - mass submit ')
 
 'Project type: Animation '
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_12"]']), 
-    '16291', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_12"]']), '16291', false)
 
 'Domain'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_116"]']), 
-    '1070', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_116"]']), '1070', false)
 
 'Development zone Required'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_262"]']), 
-    '16352', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_262"]']), '16352', false)
 
 'PAD: 10/10/2030 '
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_14"]']), 
-    '10/10/2030 ')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_14"]']), '10/10/2030 ')
 
-WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_18"]']), 
-    5)
+WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_18"]']), 5)
 
 'Brand: Acne'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_18"]']), 
-    '14527', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_18"]']), '14527', false)
 
 'Axis: Fragrance'
-WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_20"]']), 
-    '3773', false)
+WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_20"]']), '3773', false)
 
-WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="selSource_24"]']), 
-    5)
+WebUI.scrollToElement(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="selSource_24"]']), 5)
 
 'C&A contacts: Adrien Etheve'
 functions.I.select_multiplelist('//*[@id="selSource_24"]', '//*[@id="btnAdd_24"]', 'aetheve')
@@ -388,8 +374,7 @@ WebUI.takeScreenshot()
 
 ////*[@id="source_24467"]/td[12]/span[1]
 '41 Lifecycle status'
-String Actual_text7 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + 
-            refID) + '"]/td[12]/span[1]']))
+String Actual_text7 = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[12]/span[1]']))
 
 functions.I.print(Actual_text7)
 

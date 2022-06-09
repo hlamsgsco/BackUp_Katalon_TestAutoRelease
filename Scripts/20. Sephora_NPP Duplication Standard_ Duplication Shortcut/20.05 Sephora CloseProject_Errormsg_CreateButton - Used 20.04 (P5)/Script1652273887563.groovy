@@ -103,12 +103,12 @@ WebUI.takeScreenshot()
 'click option button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[7]/div/button']))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 'Click standby'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[7]/div/div/a[1]']))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 'Click ok'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="validButtonStdBy"]']))
@@ -143,7 +143,7 @@ WebUI.takeScreenshot()
 'click option button'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[7]/div/button']))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 'Click delete'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[7]/div/div/a[3]']))

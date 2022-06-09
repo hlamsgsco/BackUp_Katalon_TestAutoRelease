@@ -224,9 +224,40 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID35) + '"]/td[14]/div[1]/button']))
 
 ////*[@id="source_3827"]/td[14]/div[1]/div/a[10]
-'Click SAS 43 - 10th option '
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID35) + '"]/td[14]/div[1]/div/a[10]']))
 
+
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 20
+int i = 1
+
+while ( i <=x)
+{
+	String Expected_SAS_Selected = 'SAS S43: Skip P3.5/Add Phase 1.1/ Skip 1.1'
+	//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]
+	String xpath_SAS ='//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a['+i+']'
+	
+	
+	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	functions.I.print(i)
+	
+	if (Actual_SAS.contains(Expected_SAS_Selected))
+	{
+	WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+		//functions.I.click_button_javascriptS(xpath_SAS)
+		
+		break
+		}
+		i =i+1
+	}
+	
+
+
+/*
+'Click SAS 43 - 10th option '
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_' + refID35 + '"]/td[14]/div[1]/div/a[10]']))
+*/
 'click on ok'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="confirmSupportActionShortcut"]']))
 

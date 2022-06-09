@@ -15,9 +15,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-
 import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+
 /* SCENARIO TESTED
  
  SCENARIO 1: [NON ADMIN]
@@ -32,24 +31,27 @@ import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
  CBONO SHOULD NOT RECEIVE EMAIL
  
   */
- 
- //POST CONDITION CBONO & BMARTIN & sguy MUST NOT HAVE ANY DELEGATE
-
+//POST CONDITION CBONO & BMARTIN & sguy MUST NOT HAVE ANY DELEGATE
 //DATA FIELD USERNAME_PASSWORD (TAG)
 def data_Tag = TestDataFactory.findTestData('Data Files/Username_Password/Tag')
-String password_jedun = data_Tag.getValue(3, 1) //R
-String password_cbono = data_Tag.getValue(3, 11) //R
-String password_asch =data_Tag.getValue(3, 25) //R
+
+String password_jedun = data_Tag.getValue(3, 1 //R
+    )
+
+String password_cbono = data_Tag.getValue(3, 11 //R
+    )
+
+String password_asch = data_Tag.getValue(3, 25 //R
+    )
 
 //DATA FIELD URL
 def data_urlRELAUTO = TestDataFactory.findTestData('Data Files/URL/URL_relauto')
 
 String Url_Tag = data_urlRELAUTO.getValue(2, 3)
 
-
 //NOTEPAD
-
 functions.I.clearnotepad('D:\\Upoad_File\\Projet_ Login\\Tag\\17.04 Tag _Project_No\\17.04_Tag_ProjectNo.txt')
+
 functions.I.clearnotepad('D:\\Upoad_File\\Projet_ Login\\Tag\\17.04 Tag _Project_No\\17.04_Tag_refID1.txt')
 
 ///////////////////////////// TEST BEGIN /////////////////////////////////////////
@@ -121,7 +123,7 @@ WebUI.delay(1)
 
 'Select suser'
 functions.I.SelectFromList_Value('//*[@id="delegation_select_user_new2"]', 'suser')
- 
+
 'Uncheck checkbox email'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="delegation_linenew2"]/td[7]/label']))
 
@@ -149,7 +151,6 @@ functions.I.SelectFromList_Value('//*[@id="delegation_select_user_new3"]', 'afro
 
 'Uncheck checkbox email'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="delegation_linenew3"]/td[7]/label']))
- 
 
 'Screenshot: MyProfile - delegate 3'
 WebUI.takeScreenshot()
@@ -159,13 +160,12 @@ WebUI.delay(1)
 functions.I.Pagedown()
 
 'click on update'
-WebUI.click (findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifierUser"]/div[3]/div/button']))
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifierUser"]/div[3]/div/button']))
 
 'Logout'
-functions.I.Logout_xpath('//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span','//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[3]')
+functions.I.Logout_xpath('//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span', '//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[3]')
 
 WebUI.delay(1)
-
 
 //log in as jedun : CREATION OF PROJECT FOR DMI
 'Log in as jedun'
@@ -195,14 +195,12 @@ WebUI.delay(2)
 WebUI.takeScreenshot()
 
 'Enter Project name'
-def Project_name = (('AutoTest_Tag_Outofoffice_' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(10)) + 
-'_') + functions.I.gettimedate()
+def Project_name = (('AutoTest_Tag_Outofoffice_' + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(10)) + '_') + 
+functions.I.gettimedate()
 
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), 
-    Project_name)
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_141"]']), Project_name)
 
 'Project type'
-
 functions.I.SelectFromList_Value('//*[@id="var_12"]', '1025')
 
 'Domain'
@@ -212,8 +210,7 @@ functions.I.SelectFromList_Value('//*[@id="var_116"]', '1070')
 functions.I.SelectFromList_Value('//*[@id="var_262"]', '16352')
 
 'Enter PAD date'
-WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_14"]']), 
-    '10/10/2020')
+WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_14"]']), '10/10/2020')
 
 'Division '
 functions.I.SelectFromList_Value('//*[@id="var_15"]', '19')
@@ -228,10 +225,8 @@ WebUI.delay(1)
 'Franchise '
 functions.I.SelectFromList_Value('//*[@id="var_17"]', '14518')
 
-
 'Brand'
 functions.I.SelectFromList_Value('//*[@id="var_18"]', '14541')
-
 
 'Fragrance'
 functions.I.SelectFromList_Value('//*[@id="var_20"]', '3773')
@@ -241,10 +236,9 @@ functions.I.SelectFromList_Value('//*[@id="var_21"]', '246')
 'Metier'
 functions.I.SelectFromList_Value('//*[@id="var_22"]', '3853')
 
-
 'DMI contacts '
 functions.I.SelectFromList_Value('//*[@id="selSource_23"]', 'cbono')
-    
+
 functions.I.select_multiplelist('//*[@id="selSource_23"]', '//*[@id="btnAdd_23"]', 'mengli')
 
 WebUI.delay(1)
@@ -286,7 +280,6 @@ WebUI.delay(1)
 'Get the Ref id'
 String refID = functions.I.RefID_tag()
 
-
 'Enter Text : Marketing product name'
 WebUI.setText(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="var_117"]']), 'OUTOFOFFICE_PART_1')
 
@@ -319,7 +312,10 @@ functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath
 'Screenshot: Ref List page '
 WebUI.takeScreenshot()
 
-'Logout'
+
+WebUI.delay(5)
+
+'101 Logout'
 functions.I.Logout()
 
 WebUI.delay(1)
@@ -333,28 +329,23 @@ WebUI.delay(1)
 'Screenshot: Popup '
 WebUI.takeScreenshot()
 
-
 'Click on cotinue with my account'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="modal_delegations"]/div/div/div[3]/button']))
 
 WebUI.delay(1)
 
-
-
-
 'Click on my profile'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img']))
- 
+
 'Get task no'
 double taskaftercbono = functions.I.Get_Task_No('//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[1]/span')
 
-WebUI.verifyEqual(task_b4_cbono+1, taskaftercbono)
+WebUI.verifyEqual(task_b4_cbono + 1, taskaftercbono)
 
 WebUI.delay(1)
 
 'Screenshot:  '
 WebUI.takeScreenshot()
-
 
 'Click on switch to another account'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[1]/img']))
@@ -362,14 +353,14 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_header
 'Get task no'
 double taskaftercbono_1 = functions.I.Get_Task_No('//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/span')
 
-WebUI.verifyEqual( taskaftercbono_1, taskaftercbono)
-WebUI.delay(1)
-
+WebUI.verifyEqual(taskaftercbono_1, taskaftercbono)
 
 WebUI.delay(1)
+
+WebUI.delay(1)
+
 'Screenshot: cbono account '
 WebUI.takeScreenshot()
-
 
 'Go to LHS menu: Projects'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="menu_2"]/a']))
@@ -380,11 +371,8 @@ functions.I.SearchProjectNo_xpath(Project_No, '//*[@id="keynum_project"]', '//*[
 'Screenshot: cbono account - ref list page '
 WebUI.takeScreenshot()
 
-
-
 'Click on submit ref'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[14]/a[3]']))
-
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[14]/a[3]']))
 
 WebUI.delay(1)
 
@@ -394,20 +382,13 @@ WebUI.takeScreenshot()
 'Click on submit ref'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
 
-
 'Get task no'
 double taskaftercbono_2 = functions.I.Get_Task_No('//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/span')
 
-WebUI.verifyEqual( taskaftercbono_2, taskaftercbono -1)
-
-
-
-
+WebUI.verifyEqual(taskaftercbono_2, taskaftercbono - 1)
 
 'Click on ref link'
-WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="source_'+refID+'"]/td[6]/a']))
-
-
+WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[6]/a']))
 
 WebUI.delay(1)
 
@@ -420,13 +401,10 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_conten
 'Screenshot: cbono account >  lifecycle tab page '
 WebUI.takeScreenshot()
 
- 
 'Click Expand'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[1]/div[2]/a']))
 
-
 WebUI.delay(2)
-
 
 'Screenshot: cbono account >  lifecycle tab page :Expand '
 WebUI.takeScreenshot()
@@ -434,31 +412,29 @@ WebUI.takeScreenshot()
 'Get text '
 String textt = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[1]']))
 
-WebUI.verifyMatch(textt , ".*Par Alexandre Schwalberg au nom de Carole Bono.*", true, FailureHandling.STOP_ON_FAILURE)
-
+WebUI.verifyMatch(textt, '.*Par Alexandre Schwalberg au nom de Carole Bono.*', true, FailureHandling.STOP_ON_FAILURE)
 
 'Click on switch to user'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_header"]/div/div[2]/div[1]/span/a']))
-
 
 WebUI.delay(2)
 
 'Screenshot: '
 WebUI.takeScreenshot()
 
-
 'Click on my profile'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img']))
- 
+
 'Get task no'
 double taskaftercbono_test = functions.I.Get_Task_No('//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[1]/span')
-WebUI.verifyEqual( taskaftercbono_2, taskaftercbono_test )
+
+WebUI.verifyEqual(taskaftercbono_2, taskaftercbono_test)
 
 //NOTEPAD
-
 functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\Tag\\17.04 Tag _Project_No\\17.04_Tag_ProjectNo.txt', Project_No)
-functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\Tag\\17.04 Tag _Project_No\\17.04_Tag_refID1.txt', refID)
 
+functions.I.writenotepad('D:\\Upoad_File\\Projet_ Login\\Tag\\17.04 Tag _Project_No\\17.04_Tag_refID1.txt', refID)
 
 'Close Browser'
 WebUI.closeBrowser()
+

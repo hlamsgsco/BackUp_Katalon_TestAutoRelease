@@ -24,16 +24,18 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 //Step 2 : Approval
 //Step 5 : Effective
 //Step 6 : Deactive
-
 ///////////////////////////USERNAME - PASSWORD - URL////////////////////////////////////
 //USERNAME & PASSWORD  - NPP
 def data_Npp = TestDataFactory.findTestData('Data Files/Username_Password/Npp')
 
-String password_ncur = data_Npp.getValue(2, 1) //R
-String password_akim = data_Npp.getValue(2, 2)//R
+String password_ncur = data_Npp.getValue(2, 1 //R
+    )
 
+String password_akim = data_Npp.getValue(2, 2 //R
+    )
 
 def data_urlRELAUTO = TestDataFactory.findTestData('Data Files/URL/URL_relauto')
+
 String Url_Npp = data_urlRELAUTO.getValue(2, 5)
 
 ////////////////////////////NAVIGATE TO NPP ///////////////////////////////////
@@ -409,7 +411,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFich
 WebUI.delay(2)
 
 ///////////////////////Central RSA Approval//////////////////////////////////////
-'Action column : Click on submit to next phase'
+'134 Action column : Click on submit to next phase'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="fiches"]/table/tbody/tr/td[10]/div[2]/button']))
 
 WebUI.delay(3)
@@ -457,10 +459,14 @@ functions.I.Pagedown()
 
 'Select content template'
 WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="type_new"]']), '160', false)
+
 WebUI.delay(3)
+
 'Click add'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="add_newtranslationfield"]']))
+
 WebUI.delay(3)
+
 'Click send LSS translation'
 functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div[2]/button[2]']))
 
@@ -519,12 +525,38 @@ WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-' Click Option 1:Reset Languge setup'
-functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[2]/div/div[1]/div[2]/div/div/a[1]']))
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int x = 2
+
+int i = 1
+
+while (i <= x) {
+    String Expected_SAS_Selected = 'Reset to Languages Setup'
+
+    //html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[2]/div/div[1]/div[2]/div/div/a[1]
+    String xpath_SAS = ('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[2]/div/div[1]/div[2]/div/div/a[' + 
+    i) + ']'
+
+    String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+    functions.I.print(i)
+
+    if (Actual_SAS.contains(Expected_SAS_Selected)) {
+        functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+        break
+    }
+    
+    i = (i + 1)
+}
+
+
+WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-'Select reason'
+'184Select reason'
 WebUI.selectOptionByValue(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="added_support_action_reason"]']), '1', 
     false)
 
@@ -602,9 +634,34 @@ WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
+//CLCICK ON THE SAS WITH THE LABEL
+'no of option present '
+int y = 2
+
+int z = 1
+
+while (z <= y) {
+    String Expected_SAS_Selected = 'Skip to RSA translation'
+
+    //html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[3]/div/div[2]/div/div[1]/div[2]/div/div/a[1]
+    String xpath_SAS = ('/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[2]/div/div[1]/div[2]/div/div/a[' + 
+    z) + ']'
+
+    String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+    if (Actual_SAS.contains(Expected_SAS_Selected)) {
+        functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+
+        break
+    }
+    
+    z = (z + 1)
+}
+
+/*
 ' Click Option 2: Skip to RSA translation'
 functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : '/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div/div/div[2]/div/div[1]/div[2]/div/div/a[2]']))
-
+*/
 WebUI.takeScreenshot()
 
 'Select reason'
