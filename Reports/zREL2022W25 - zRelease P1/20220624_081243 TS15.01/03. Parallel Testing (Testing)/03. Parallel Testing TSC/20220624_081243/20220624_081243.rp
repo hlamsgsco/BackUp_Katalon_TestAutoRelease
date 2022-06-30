@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220624_081243</name>
+   <tag></tag>
+   <displayName>20220624_081243</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220624_081243/03. Parallel Testing (Testing)/TS -PT PART 3/15.01 Sephora Duplication Standard/20220624_081245</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/03. Parallel Testing (Testing)/03. Parallel Testing TSC</testSuiteCollectionId>
+</ReportCollectionEntity>

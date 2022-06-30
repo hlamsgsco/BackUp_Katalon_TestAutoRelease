@@ -94,6 +94,7 @@ WebUI.delay(2)
 'Select date To: Next: previous month'
 functions.I.Delegate_Select_date_NextMonth('//*[@id="delegation_linenew1"]/td[4]/div')
 
+WebUI.delay(2)
 'Select asch'
 functions.I.SelectFromList_Value('//*[@id="delegation_select_user_new1"]', 'asch')
 

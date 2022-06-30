@@ -409,8 +409,6 @@ WebUI.takeScreenshot()
 'ref  page: click on + button to create a daughter ref'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : ('//*[@id="source_' + refID) + '"]/td[13]/a']))
 
-'Screenshot:Daughter  Ref creation page '
-WebUI.takeScreenshot()
 
 'Select Lifecycle'
 functions.I.SelectFromList_Value('//*[@id="lfc_tpl"]', '94')

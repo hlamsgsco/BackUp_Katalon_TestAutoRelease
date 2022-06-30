@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220624_085649</name>
+   <tag></tag>
+   <displayName>20220624_085649</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220624_085649/03. Parallel Testing (Testing)/TS -PT PART 3/13 Tag StarPack Dreyers Out of Office/20220624_085651</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/03. Parallel Testing (Testing)/05. Parallel Testing TSC</testSuiteCollectionId>
+</ReportCollectionEntity>

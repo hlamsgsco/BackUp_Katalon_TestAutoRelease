@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220624_110238</name>
+   <tag></tag>
+   <displayName>20220624_110238</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220624_110238/03. Parallel Testing (Testing)/TS -PT PART 3/Retest For failed TC/20220624_110240</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/03. Parallel Testing (Testing)/03. Parallel Testing TSC</testSuiteCollectionId>
+</ReportCollectionEntity>

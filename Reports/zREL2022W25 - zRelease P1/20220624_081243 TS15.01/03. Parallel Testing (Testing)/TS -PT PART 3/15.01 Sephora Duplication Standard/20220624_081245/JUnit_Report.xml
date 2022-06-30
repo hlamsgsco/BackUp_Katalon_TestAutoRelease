@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="15.01 Sephora Duplication Standard" time="1678.309" tests="5" failures="0" errors="0">
+   <testsuite name="15.01 Sephora Duplication Standard" tests="5" failures="0" errors="0" time="1678.309" skipped="0" timestamp="2022-06-24 08:12:58" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.01 Sephora Duplication Standard">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051227369.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051249733.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051251578.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051258693.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051350790.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051384621.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051400728.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051409918.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051414897.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051419500.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051423623.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051431320.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051437700.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051439072.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051441979.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051442851.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051445534.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051447697.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051451955.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051505324.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051646729.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051650976.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051664999.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051686146.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051704614.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051714815.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051725403.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051826238.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051834217.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051864276.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051869872.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051907839.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051913824.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052030252.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052041618.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052062102.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052130302.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052164831.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052174901.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052195436.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052331974.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052339239.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052533617.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052540151.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052555546.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052595106.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052710937.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052722822.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052731002.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052731810.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052746667.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052768688.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052776368.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052777601.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052793145.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052807693.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052815195.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052841211.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="413b65f7e016177a93d258e0d2db0a80"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.01 Sephora Duplication (Rights _Error Msg_Duplicate) - Will be used in 20.02 ( P1)" time="356.149" classname="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.01 Sephora Duplication (Rights _Error Msg_Duplicate) - Will be used in 20.02 ( P1)" status="PASSED">
+         <system-out><![CDATA[2022-06-24 08:12:59 - [TEST_CASE][PASSED] - Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.01 Sephora Duplication (Rights _Error Msg_Duplicate) - Will be used in 20.02 ( P1): Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.01 Sephora Duplication (Rights _Error Msg_Duplicate) - Will be used in 20.02 ( P1)
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - password_atran = data_Sephora.getValue(2, 1): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - password_studio = data_Sephora.getValue(2, 4): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt"): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt"): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt"): null
+
+2022-06-24 08:13:01 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:13:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-24 08:13:02 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-24 08:13:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-24 08:13:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:13:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-24 08:13:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-24 08:13:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:13:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051227369.png]]
+
+2022-06-24 08:13:47 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:13:48 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:13:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:13:51 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:13:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:14:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div[1]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:14:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:14:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051249733.png]]
+
+2022-06-24 08:14:10 - [TEST_STEP][PASSED] - project_name = "AutoTest_Chrome_Duplication_" + RandomStringUtils.randomAlphanumeric(5) + "_" + I.gettimedate(): null
+
+2022-06-24 08:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("HL Full Lifecycle/4 CreateProjPage_inputProjectname"), project_name): Text 'AutoTest_Chrome_Duplication_XEbHc_juin242022_081410' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-24 08:14:11 - [MESSAGE][PASSED] - Text 'AutoTest_Chrome_Duplication_XEbHc_juin242022_081410' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-24 08:14:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:14:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051251578.png]]
+
+2022-06-24 08:14:12 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton")): Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-24 08:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-24 08:14:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:14:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051258693.png]]
+
+2022-06-24 08:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("HL Full Lifecycle/5 ModifyProjPage_input_code_project_field"), "12345"): Text '12345' is set on object 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_input_code_project_field'
+
+2022-06-24 08:14:20 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_input_code_project_field'
+
+2022-06-24 08:14:20 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_28"]", "240"): Delayed 2 second(s)
+
+2022-06-24 08:14:21 - [MESSAGE][PASSED] - All options with value '240' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:23 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_29"]", "BATH BODY"): Delayed 2 second(s)
+
+2022-06-24 08:14:26 - [MESSAGE][PASSED] - All options with label 'BATH BODY' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:28 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_31"]", "One Shot"): Delayed 2 second(s)
+
+2022-06-24 08:14:30 - [MESSAGE][PASSED] - All options with label 'One Shot' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:32 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_32"]", "//*[@id="btnAdd_32"]", "20"): Delayed 1 second(s)
+
+2022-06-24 08:14:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:14:40 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:14:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:14:44 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_34"]", "Fall"): Delayed 2 second(s)
+
+2022-06-24 08:14:47 - [MESSAGE][PASSED] - All options with label 'Fall' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:49 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_35"]", "119"): Delayed 2 second(s)
+
+2022-06-24 08:14:50 - [MESSAGE][PASSED] - All options with value '119' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:52 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_22"]", "//*[@id="btnAdd_22"]", "devpack"): Delayed 1 second(s)
+
+2022-06-24 08:14:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:14:54 - [MESSAGE][PASSED] - All options with value 'devpack' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:14:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:14:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:14:58 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_23"]", "//*[@id="btnAdd_23"]", "atran"): Delayed 1 second(s)
+
+2022-06-24 08:14:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:00 - [MESSAGE][PASSED] - All options with value 'atran' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:15:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:15:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:04 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_21"]", "//*[@id="btnAdd_21"]", "marketing"): Delayed 1 second(s)
+
+2022-06-24 08:15:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:06 - [MESSAGE][PASSED] - All options with value 'marketing' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:15:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:09 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_25"]", "//*[@id="btnAdd_25"]", "regulatory"): Delayed 1 second(s)
+
+2022-06-24 08:15:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:11 - [MESSAGE][PASSED] - All options with value 'regulatory' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:15:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:15:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:15 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_24"]", "//*[@id="btnAdd_24"]", "studio"): Delayed 1 second(s)
+
+2022-06-24 08:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:16 - [MESSAGE][PASSED] - All options with value 'studio' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:15:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:15:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:15:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:15:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:15:25 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-24 08:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-24 08:15:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:15:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:15:33 - [TEST_STEP][PASSED] - Project_No = I.ProjectNo(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21N9TZFVVSZ3WLHHG90MUBXZVHVO08UU3CC5KBN84Z&default_action=AfficheFichesProjet&id_project=MI001958'
+
+2022-06-24 08:15:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:15:39 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21N9TZFVVSZ3WLHHG90MUBXZVHVO08UU3CC5KBN84Z&default_action=AfficheFichesProjet&id_project=MI001958'
+
+2022-06-24 08:15:39 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPage_createrefbutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-24 08:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-24 08:15:40 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPaga_Create a component_button")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-24 08:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-24 08:15:42 - [TEST_STEP][PASSED] - waitForPageLoad(25): Wait for page load successfully
+
+2022-06-24 08:15:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-24 08:15:43 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="lfc_tpl"]", "FS process"): Delayed 2 second(s)
+
+2022-06-24 08:15:45 - [MESSAGE][PASSED] - All options with label 'FS process' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:15:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:15:47 - [TEST_STEP][PASSED] - ref_name = "TC20_Sephora_Duplication_" + RandomStringUtils.randomAlphanumeric(5) + "_" + I.gettimedate(): null
+
+2022-06-24 08:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("HL Full Lifecycle/6 Reference_input_Component name_field"), "Component_" + ref_name): Text 'Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' is set on object 'Object Repository/HL Full Lifecycle/6 Reference_input_Component name_field'
+
+2022-06-24 08:15:49 - [MESSAGE][PASSED] - Text 'Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' is set on object 'Object Repository/HL Full Lifecycle/6 Reference_input_Component name_field'
+
+2022-06-24 08:15:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051350790.png]]
+
+2022-06-24 08:15:51 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-24 08:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-24 08:15:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:16:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:16:01 - [TEST_STEP][PASSED] - refID = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21N9TZFVVSZ3WLHHG90MUBXZVHVO08UU3CC5KBN84Z&default_action=ModifierRef&id_project=MI001958&id_ref=5055&action_from=create_ref'
+
+2022-06-24 08:16:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:16:07 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21N9TZFVVSZ3WLHHG90MUBXZVHVO08UU3CC5KBN84Z&default_action=ModifierRef&id_project=MI001958&id_ref=5055&action_from=create_ref'
+
+2022-06-24 08:16:07 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_152"]", "Complete"): Delayed 2 second(s)
+
+2022-06-24 08:16:07 - [MESSAGE][PASSED] - All options with label 'Complete' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:16:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Control Tag/2.4 Closing Date")): Object: 'Object Repository/Control Tag/2.4 Closing Date' is clicked on
+
+2022-06-24 08:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Control Tag/2.4 Closing Date' is clicked on
+
+2022-06-24 08:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Control Tag/2.5 Closing date (choose date)")): Object: 'Object Repository/Control Tag/2.5 Closing date (choose date)' is clicked on
+
+2022-06-24 08:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Control Tag/2.5 Closing date (choose date)' is clicked on
+
+2022-06-24 08:16:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:16:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:16:12 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/7 ModifyRefPage_la-calendar_field")): Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_la-calendar_field' is clicked on
+
+2022-06-24 08:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_la-calendar_field' is clicked on
+
+2022-06-24 08:16:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:16:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Control Tag/2.5 Closing date (choose date)")): Object: 'Object Repository/Control Tag/2.5 Closing date (choose date)' is clicked on
+
+2022-06-24 08:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Control Tag/2.5 Closing date (choose date)' is clicked on
+
+2022-06-24 08:16:14 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_50"]", "Primaire"): Delayed 2 second(s)
+
+2022-06-24 08:16:15 - [MESSAGE][PASSED] - All options with label 'Primaire' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:16:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:16:17 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="var_49"]", "Etui"): Delayed 2 second(s)
+
+2022-06-24 08:16:17 - [MESSAGE][PASSED] - All options with label 'Etui' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:16:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:16:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("HL Full Lifecycle/7 ModifyRefPage_button_Save"), 10): Scroll to object 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' successfully
+
+2022-06-24 08:16:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' successfully
+
+2022-06-24 08:16:20 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/7 ModifyRefPage_button_Save")): Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-24 08:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-24 08:16:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:16:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051384621.png]]
+
+2022-06-24 08:16:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-24 08:16:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:16:27 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/8 ReferencePage_ActionButton", ["refID":"source_" + refID])): Object: 'Object Repository/HL Full Lifecycle/8 ReferencePage_ActionButton' is clicked on
+
+2022-06-24 08:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/8 ReferencePage_ActionButton' is clicked on
+
+2022-06-24 08:16:32 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/8 ReferencePage_button_Send to Marketing")): Object: 'Object Repository/HL Full Lifecycle/8 ReferencePage_button_Send to Marketing' is clicked on
+
+2022-06-24 08:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/8 ReferencePage_button_Send to Marketing' is clicked on
+
+2022-06-24 08:16:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is hovered
+
+2022-06-24 08:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is hovered
+
+2022-06-24 08:16:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:16:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:16:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:16:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051400728.png]]
+
+2022-06-24 08:16:41 - [TEST_STEP][PASSED] - tooltip_dupli1 = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[9]/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Duplicate a component'
+
+2022-06-24 08:16:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Duplicate a component'
+
+2022-06-24 08:16:47 - [TEST_STEP][PASSED] - verifyMatch(tooltip_dupli1, "Duplicate a component", false): Actual text 'Duplicate a component' and expected text 'Duplicate a component' are matched 
+
+2022-06-24 08:16:47 - [MESSAGE][PASSED] - Actual text 'Duplicate a component' and expected text 'Duplicate a component' are matched 
+
+2022-06-24 08:16:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:48 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object 'Object Repository/1. Constant/xpath' is NOT clickable
+
+2022-06-24 08:16:49 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT clickable
+
+2022-06-24 08:16:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:16:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051409918.png]]
+
+2022-06-24 08:16:50 - [TEST_STEP][PASSED] - msg_dupli1 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[2]/span/span[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: ' Please select at least one component to validate or'
+
+2022-06-24 08:16:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: ' Please select at least one component to validate or'
+
+2022-06-24 08:16:50 - [TEST_STEP][PASSED] - verifyMatch(msg_dupli1, " Please select at least one component to validate or", false): Actual text ' Please select at least one component to validate or' and expected text ' Please select at least one component to validate or' are matched 
+
+2022-06-24 08:16:50 - [MESSAGE][PASSED] - Actual text ' Please select at least one component to validate or' and expected text ' Please select at least one component to validate or' are matched 
+
+2022-06-24 08:16:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[2]/span/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:53 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[1]/label"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:16:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051414897.png]]
+
+2022-06-24 08:16:55 - [TEST_STEP][PASSED] - verifyTextNotPresent("Please select at least one component to validate or", false): Text 'Please select at least one component to validate or' is not present on page
+
+2022-06-24 08:16:56 - [MESSAGE][PASSED] - Text 'Please select at least one component to validate or' is not present on page
+
+2022-06-24 08:16:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:16:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:16:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:16:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:16:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051419500.png]]
+
+2022-06-24 08:16:59 - [TEST_STEP][PASSED] - title_dupli1 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="window_title"]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Duplicate component(s)'
+
+2022-06-24 08:17:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Duplicate component(s)'
+
+2022-06-24 08:17:00 - [TEST_STEP][PASSED] - verifyMatch(title_dupli1, "Duplicate component(s)", false): Actual text 'Duplicate component(s)' and expected text 'Duplicate component(s)' are matched 
+
+2022-06-24 08:17:00 - [MESSAGE][PASSED] - Actual text 'Duplicate component(s)' and expected text 'Duplicate component(s)' are matched 
+
+2022-06-24 08:17:00 - [TEST_STEP][PASSED] - NoCopy_1 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '1'
+
+2022-06-24 08:17:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '1'
+
+2022-06-24 08:17:01 - [TEST_STEP][PASSED] - verifyMatch(NoCopy_1, "1", false): Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:01 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="div_multiple_copies"]/div/div/span/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:02 - [TEST_STEP][PASSED] - NoCopy_01 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '1'
+
+2022-06-24 08:17:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '1'
+
+2022-06-24 08:17:03 - [TEST_STEP][PASSED] - verifyMatch(NoCopy_01, "1", false): Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:03 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051423623.png]]
+
+2022-06-24 08:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "49"): Text '49' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:08 - [MESSAGE][PASSED] - Text '49' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="div_multiple_copies"]/div/div/span/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:09 - [TEST_STEP][PASSED] - NoCopy_50 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:17:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:17:09 - [TEST_STEP][PASSED] - verifyMatch(NoCopy_50, "50", false): Actual text '50' and expected text '50' are matched 
+
+2022-06-24 08:17:09 - [MESSAGE][PASSED] - Actual text '50' and expected text '50' are matched 
+
+2022-06-24 08:17:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="div_multiple_copies"]/div/div/span/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:10 - [TEST_STEP][PASSED] - NoCopy_050 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:17:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:17:10 - [TEST_STEP][PASSED] - verifyMatch(NoCopy_050, "50", false): Actual text '50' and expected text '50' are matched 
+
+2022-06-24 08:17:10 - [MESSAGE][PASSED] - Actual text '50' and expected text '50' are matched 
+
+2022-06-24 08:17:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051431320.png]]
+
+2022-06-24 08:17:11 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "40ABC"): Text '40ABC' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:12 - [MESSAGE][PASSED] - Text '40ABC' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:12 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:15 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div", "Please select a Lifecycle template"): Actual text 'Please select a Lifecycle template' and expected text 'Please select a Lifecycle template' are matched 
+
+2022-06-24 08:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:17:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Please select a Lifecycle template'
+
+2022-06-24 08:17:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051437700.png]]
+
+2022-06-24 08:17:18 - [MESSAGE][PASSED] - Actual text 'Please select a Lifecycle template' and expected text 'Please select a Lifecycle template' are matched 
+
+2022-06-24 08:17:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051439072.png]]
+
+2022-06-24 08:17:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="list_project_type"]/label[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:20 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div", "Error invalid data : Project name or number"): Actual text 'Error invalid data : Project name or number' and expected text 'Error invalid data : Project name or number' are matched 
+
+2022-06-24 08:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:17:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Error invalid data : Project name or number'
+
+2022-06-24 08:17:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051441979.png]]
+
+2022-06-24 08:17:22 - [MESSAGE][PASSED] - Actual text 'Error invalid data : Project name or number' and expected text 'Error invalid data : Project name or number' are matched 
+
+2022-06-24 08:17:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051442851.png]]
+
+2022-06-24 08:17:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="list_project_type"]/label[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:24 - [TEST_STEP][PASSED] - Error3 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div"])): Text of object 'Object Repository/1. Constant/xpath' is: 'No project template found'
+
+2022-06-24 08:17:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'No project template found'
+
+2022-06-24 08:17:25 - [TEST_STEP][PASSED] - verifyMatch(Error3, "No project template found", false, CONTINUE_ON_FAILURE): Actual text 'No project template found' and expected text 'No project template found' are matched 
+
+2022-06-24 08:17:25 - [MESSAGE][PASSED] - Actual text 'No project template found' and expected text 'No project template found' are matched 
+
+2022-06-24 08:17:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051445534.png]]
+
+2022-06-24 08:17:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_duplicate_reference"]/div/div/div[3]/div/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051447697.png]]
+
+2022-06-24 08:17:28 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="allRefs"]"]), 2): Object 'Object Repository/1. Constant/xpath' is checked
+
+2022-06-24 08:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is checked
+
+2022-06-24 08:17:28 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:30 - [TEST_STEP][PASSED] - tree_dupli1 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ref_tree"]/div"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547'
+
+2022-06-24 08:17:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547'
+
+2022-06-24 08:17:30 - [TEST_STEP][PASSED] - if (tree_dupli1.contains("Component_TC20_Sephora_Duplication_")): Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:30 - [TEST_STEP][PASSED] - verifyMatch("1", "1", false): Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:30 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:17:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_duplicate_reference"]/div/div/div[1]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:17:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051451955.png]]
+
+2022-06-24 08:17:32 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="" + refID + ""]"]), 2): Object 'Object Repository/1. Constant/xpath' is checked
+
+2022-06-24 08:17:33 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is checked
+
+2022-06-24 08:17:33 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:17:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:17:55 - [TEST_STEP][PASSED] - I.Login_password("studio", password_studio): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:17:56 - [MESSAGE][PASSED] - Text 'studio' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:17:58 - [MESSAGE][PASSED] - Text 'dchi4' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:17:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:18:04 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:18:10 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:18:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:18:12 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:18:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:18:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:18:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:18:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:18:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051505324.png]]
+
+2022-06-24 08:18:25 - [TEST_STEP][PASSED] - tooltip1 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[1]/div[2]/span/a[1]"]), "id"): Attribute 'id' of object 'Object Repository/1. Constant/xpath' is: 'btnMassEditRefs'
+
+2022-06-24 08:18:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/1. Constant/xpath' is: 'btnMassEditRefs'
+
+2022-06-24 08:18:26 - [TEST_STEP][PASSED] - tooltip2 = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[1]/div[2]/span/a[3]"]), "id"): Attribute 'id' of object 'Object Repository/1. Constant/xpath' is: 'btnMassReview'
+
+2022-06-24 08:18:26 - [MESSAGE][PASSED] - Attribute 'id' of object 'Object Repository/1. Constant/xpath' is: 'btnMassReview'
+
+2022-06-24 08:18:26 - [TEST_STEP][PASSED] - verifyMatch(tooltip1, "btnMassEditRefs", false): Actual text 'btnMassEditRefs' and expected text 'btnMassEditRefs' are matched 
+
+2022-06-24 08:18:26 - [MESSAGE][PASSED] - Actual text 'btnMassEditRefs' and expected text 'btnMassEditRefs' are matched 
+
+2022-06-24 08:18:26 - [TEST_STEP][PASSED] - verifyMatch(tooltip2, "btnMassReview", false): Actual text 'btnMassReview' and expected text 'btnMassReview' are matched 
+
+2022-06-24 08:18:26 - [MESSAGE][PASSED] - Actual text 'btnMassReview' and expected text 'btnMassReview' are matched 
+
+2022-06-24 08:18:26 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:18:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:18:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:18:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:18:51 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt", Project_No): null
+
+2022-06-24 08:18:51 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt", refID): null
+
+2022-06-24 08:18:51 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt", ref_name): null
+
+2022-06-24 08:18:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-24 08:18:55 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-24 08:18:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.02 Sephora Duplication_New_Project_NC2 (Devpack) - Used 20.01 (P2)" time="414.346" classname="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.02 Sephora Duplication_New_Project_NC2 (Devpack) - Used 20.01 (P2)" status="PASSED">
+         <system-out><![CDATA[2022-06-24 08:18:55 - [TEST_CASE][PASSED] - Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.02 Sephora Duplication_New_Project_NC2 (Devpack) - Used 20.01 (P2): Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.02 Sephora Duplication_New_Project_NC2 (Devpack) - Used 20.01 (P2)
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - password_atran = data_Sephora.getValue(2, 1): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - password_devpack = data_Sephora.getValue(2, 14): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.02_Sephora_ProjectNo2.txt"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.02_Sephora_refID2.txt"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - ref_name1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt"): null
+
+2022-06-24 08:18:56 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-24 08:18:56 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-24 08:18:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-24 08:19:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:19:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-24 08:19:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-24 08:19:12 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:19:14 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:19:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:19:16 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:19:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:19:25 - [TEST_STEP][PASSED] - task_atran_b4_1 = I.Get_Task_No("//*[@id="kt_header"]/div/div[2]/div[1]/div[1]/span"): Text of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:19:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '50'
+
+2022-06-24 08:19:25 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:19:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:19:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:20:10 - [TEST_STEP][PASSED] - I.Login_password("devpack", password_devpack): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:12 - [MESSAGE][PASSED] - Text 'devpack' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:20:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:20:14 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:20:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:21 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:20:29 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[5]/button"): Delayed 5 second(s)
+
+2022-06-24 08:20:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:20:31 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:20:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:20:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:20:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:20:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051646729.png]]
+
+2022-06-24 08:20:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[1]/label"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:49 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:20:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051650976.png]]
+
+2022-06-24 08:20:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="list_project_type"]/label[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-24 08:20:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:20:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="project_template"]"]), "11", false): All options with value '11' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:20:57 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:20:57 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="div_multiple_copies"]/div/div/span/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:20:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-24 08:21:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:21:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="lfc_tpl5"]"]), "24", false): All options with value '24' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:21:04 - [MESSAGE][PASSED] - All options with value '24' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:21:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:21:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051664999.png]]
+
+2022-06-24 08:21:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:21:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:06 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:21:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:21:19 - [TEST_STEP][PASSED] - Project_No2 = I.ProjectNo(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&default_action=AfficheFichesProjet&id_project=MI001959'
+
+2022-06-24 08:21:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:21:25 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%21KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&default_action=AfficheFichesProjet&id_project=MI001959'
+
+2022-06-24 08:21:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:21:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051686146.png]]
+
+2022-06-24 08:21:26 - [TEST_STEP][PASSED] - verifyNotMatch(Project_No, Project_No2, false): Actual text 'MI001958' and expected text 'MI001959' are not matched 
+
+2022-06-24 08:21:26 - [MESSAGE][PASSED] - Actual text 'MI001958' and expected text 'MI001959' are not matched 
+
+2022-06-24 08:21:26 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[1]/h1/span", "2"): Actual text '2' and expected text '2' are matched 
+
+2022-06-24 08:21:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '2'
+
+2022-06-24 08:21:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:27 - [MESSAGE][PASSED] - Actual text '2' and expected text '2' are matched 
+
+2022-06-24 08:21:27 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[5]/a", "Copy 1 of Component_" + ref_name1): Actual text 'Copy 1 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' and expected text 'Copy 1 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' are matched 
+
+2022-06-24 08:21:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Copy 1 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547'
+
+2022-06-24 08:21:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:31 - [MESSAGE][PASSED] - Actual text 'Copy 1 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' and expected text 'Copy 1 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' are matched 
+
+2022-06-24 08:21:31 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[5]/a", "Copy 2 of Component_" + ref_name1): Actual text 'Copy 2 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' and expected text 'Copy 2 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' are matched 
+
+2022-06-24 08:21:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Copy 2 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547'
+
+2022-06-24 08:21:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:33 - [MESSAGE][PASSED] - Actual text 'Copy 2 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' and expected text 'Copy 2 of Component_TC20_Sephora_Duplication_VvPG4_juin242022_081547' are matched 
+
+2022-06-24 08:21:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[5]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:21:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:37 - [TEST_STEP][PASSED] - refid2 = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&num=VBH4OB1SCW&id_ref=5056'
+
+2022-06-24 08:21:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:21:43 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&num=VBH4OB1SCW&id_ref=5056'
+
+2022-06-24 08:21:43 - [TEST_STEP][PASSED] - I.print(refid2): null
+
+2022-06-24 08:21:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:21:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:21:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051704614.png]]
+
+2022-06-24 08:21:45 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_152"]", "Complete"): Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:21:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:48 - [MESSAGE][PASSED] - Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:21:48 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_50"]", "Primaire"): Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:21:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:21:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:50 - [MESSAGE][PASSED] - Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:21:50 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_49"]", "Etui"): Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:21:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:21:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:21:51 - [MESSAGE][PASSED] - Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:21:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:21:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051714815.png]]
+
+2022-06-24 08:21:55 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[5]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:21:58 - [TEST_STEP][PASSED] - refid3 = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&num=50RQTGJRQO&id_ref=5056'
+
+2022-06-24 08:22:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:22:04 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!KDTEZDQMU5CLT7R386VBG6UTGQGW7FLFW9YC9BZ0&num=50RQTGJRQO&id_ref=5056'
+
+2022-06-24 08:22:04 - [TEST_STEP][PASSED] - I.print(refid3): null
+
+2022-06-24 08:22:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:22:05 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:22:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:22:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051725403.png]]
+
+2022-06-24 08:22:05 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_152"]", "Complete"): Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:22:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:22:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:07 - [MESSAGE][PASSED] - Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:22:07 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_50"]", "Primaire"): Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:22:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:22:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:08 - [MESSAGE][PASSED] - Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:22:08 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_49"]", "Etui"): Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:22:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:22:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:10 - [MESSAGE][PASSED] - Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:22:10 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:22:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-24 08:22:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:22:15 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_27"]", "12345"): Actual text '12345' and expected text '12345' are matched 
+
+2022-06-24 08:22:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '12345'
+
+2022-06-24 08:22:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:16 - [MESSAGE][PASSED] - Actual text '12345' and expected text '12345' are matched 
+
+2022-06-24 08:22:16 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_28"]", "Hair"): Actual text 'Hair' and expected text 'Hair' are matched 
+
+2022-06-24 08:22:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Hair'
+
+2022-06-24 08:22:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:18 - [MESSAGE][PASSED] - Actual text 'Hair' and expected text 'Hair' are matched 
+
+2022-06-24 08:22:18 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_29"]", "BATH BODY"): Actual text 'BATH BODY' and expected text 'BATH BODY' are matched 
+
+2022-06-24 08:22:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'BATH BODY'
+
+2022-06-24 08:22:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:21 - [MESSAGE][PASSED] - Actual text 'BATH BODY' and expected text 'BATH BODY' are matched 
+
+2022-06-24 08:22:21 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_31"]", "One Shot"): Actual text 'One Shot' and expected text 'One Shot' are matched 
+
+2022-06-24 08:22:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'One Shot'
+
+2022-06-24 08:22:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:22 - [MESSAGE][PASSED] - Actual text 'One Shot' and expected text 'One Shot' are matched 
+
+2022-06-24 08:22:22 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_32"]", "Europe"): Actual text 'Europe' and expected text 'Europe' are matched 
+
+2022-06-24 08:22:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Europe'
+
+2022-06-24 08:22:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:23 - [MESSAGE][PASSED] - Actual text 'Europe' and expected text 'Europe' are matched 
+
+2022-06-24 08:22:23 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_34"]", "Fall"): Actual text 'Fall' and expected text 'Fall' are matched 
+
+2022-06-24 08:22:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Fall'
+
+2022-06-24 08:22:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:25 - [MESSAGE][PASSED] - Actual text 'Fall' and expected text 'Fall' are matched 
+
+2022-06-24 08:22:25 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_35"]", "2021"): Actual text '2021' and expected text '2021' are matched 
+
+2022-06-24 08:22:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '2021'
+
+2022-06-24 08:22:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:28 - [MESSAGE][PASSED] - Actual text '2021' and expected text '2021' are matched 
+
+2022-06-24 08:22:28 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_23"]", "Aurelie Tran"): Actual text 'Aurelie Tran' and expected text 'Aurelie Tran' are matched 
+
+2022-06-24 08:22:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Aurelie Tran'
+
+2022-06-24 08:22:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:34 - [MESSAGE][PASSED] - Actual text 'Aurelie Tran' and expected text 'Aurelie Tran' are matched 
+
+2022-06-24 08:22:34 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_22"]", ""): Actual text '' and expected text '' are matched 
+
+2022-06-24 08:22:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: ''
+
+2022-06-24 08:22:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:22:36 - [MESSAGE][PASSED] - Actual text '' and expected text '' are matched 
+
+2022-06-24 08:22:36 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:22:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:22:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:23:12 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:13 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:23:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:15 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:23:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:21 - [TEST_STEP][PASSED] - task_atran_af_2 = I.Get_Task_No("//*[@id="kt_header"]/div/div[2]/div[1]/div[1]/span"): Text of object 'Object Repository/1. Constant/xpath' is: '52'
+
+2022-06-24 08:23:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '52'
+
+2022-06-24 08:23:22 - [TEST_STEP][PASSED] - verifyEqual(task_atran_af_2, task_atran_b4_1 + 2): Actual object '52' and expected object '52' are equal
+
+2022-06-24 08:23:22 - [MESSAGE][PASSED] - Actual object '52' and expected object '52' are equal
+
+2022-06-24 08:23:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:23:25 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No2, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:23:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:28 - [MESSAGE][PASSED] - Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:23:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:23:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:23:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:23:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid2 + ""]/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:23:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:23:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051826238.png]]
+
+2022-06-24 08:23:46 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:23:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:23:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051834217.png]]
+
+2022-06-24 08:23:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:23:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:23:55 - [TEST_STEP][PASSED] - refid4 = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!WEHJJ83M57U2LI9OW51QCDD7PC2BLXOBDY7VZF38&num=450PEHLIZK&id_ref=5055'
+
+2022-06-24 08:24:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:24:01 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!WEHJJ83M57U2LI9OW51QCDD7PC2BLXOBDY7VZF38&num=450PEHLIZK&id_ref=5055'
+
+2022-06-24 08:24:01 - [TEST_STEP][PASSED] - verifyMatch(refid4, refID, false): Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:24:01 - [MESSAGE][PASSED] - Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:24:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[1]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:04 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No2, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:24:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:07 - [MESSAGE][PASSED] - Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:24:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:24:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:24:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:24:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid3 + ""]/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:24:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:24:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051864276.png]]
+
+2022-06-24 08:24:24 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:24:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051869872.png]]
+
+2022-06-24 08:24:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:24:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:31 - [TEST_STEP][PASSED] - refid5 = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!WEHJJ83M57U2LI9OW51QCDD7PC2BLXOBDY7VZF38&num=6ARLG86OE9&id_ref=5055'
+
+2022-06-24 08:24:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:24:36 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!WEHJJ83M57U2LI9OW51QCDD7PC2BLXOBDY7VZF38&num=6ARLG86OE9&id_ref=5055'
+
+2022-06-24 08:24:36 - [TEST_STEP][PASSED] - verifyMatch(refid5, refID, false): Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:24:36 - [MESSAGE][PASSED] - Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:24:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[1]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:41 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No2, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:24:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:44 - [MESSAGE][PASSED] - Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:24:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:24:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:24:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:24:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:24:58 - [TEST_STEP][PASSED] - I.superedit_ref(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid2 + ""]/td[7]/div/button"]), findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid2 + ""]/td[7]/div/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:25:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051907839.png]]
+
+2022-06-24 08:25:08 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_146"]"]), "Super edit component code - atran"): Text 'Super edit component code - atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:09 - [MESSAGE][PASSED] - Text 'Super edit component code - atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:25:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:25:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:25:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656051913824.png]]
+
+2022-06-24 08:25:14 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid2 + ""]/td[7]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:25:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:25:18 - [TEST_STEP][PASSED] - DCC = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2-var_152-container"]"]), "title"): Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:25:18 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:25:18 - [TEST_STEP][PASSED] - verifyMatch(DCC, "Complete", false): Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:25:18 - [MESSAGE][PASSED] - Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:25:18 - [TEST_STEP][PASSED] - PT = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2-var_50-container"]"]), "title"): Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:25:19 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:25:19 - [TEST_STEP][PASSED] - verifyMatch(PT, "Primaire", false): Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:25:19 - [MESSAGE][PASSED] - Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:25:19 - [TEST_STEP][PASSED] - CT = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2-var_49-container"]"]), "title"): Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:25:19 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:25:19 - [TEST_STEP][PASSED] - verifyMatch(CT, "Etui", false): Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:25:19 - [MESSAGE][PASSED] - Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:25:19 - [TEST_STEP][PASSED] - CC = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_146"]"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: 'Super edit component code - atran'
+
+2022-06-24 08:25:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: 'Super edit component code - atran'
+
+2022-06-24 08:25:20 - [TEST_STEP][PASSED] - verifyMatch(CC, "Super edit component code - atran", false): Actual text 'Super edit component code - atran' and expected text 'Super edit component code - atran' are matched 
+
+2022-06-24 08:25:20 - [MESSAGE][PASSED] - Actual text 'Super edit component code - atran' and expected text 'Super edit component code - atran' are matched 
+
+2022-06-24 08:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_36"]"]), "05/05/2022", STOP_ON_FAILURE): Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:22 - [MESSAGE][PASSED] - Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:25:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:25:23 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_37"]"]), "18/06/2023", STOP_ON_FAILURE): Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:24 - [MESSAGE][PASSED] - Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:25:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:25:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:25:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:29 - [TEST_STEP][PASSED] - I.status_lifecycle(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid2 + ""]/td[5]/span[1]"]), "Marketing part"): Status contain Marketing part.
+
+2022-06-24 08:25:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Marketing part'
+
+2022-06-24 08:25:30 - [MESSAGE][PASSED] - Status contain Marketing part.
+
+2022-06-24 08:25:30 - [TEST_STEP][PASSED] - task_atran_af_3 = I.Get_Task_No("//*[@id="kt_header"]/div/div[2]/div[1]/div[1]/span"): Text of object 'Object Repository/1. Constant/xpath' is: '51'
+
+2022-06-24 08:25:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '51'
+
+2022-06-24 08:25:31 - [TEST_STEP][PASSED] - verifyEqual(task_atran_af_2, task_atran_af_3 + 1): Actual object '52' and expected object '52' are equal
+
+2022-06-24 08:25:31 - [MESSAGE][PASSED] - Actual object '52' and expected object '52' are equal
+
+2022-06-24 08:25:31 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:25:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:25:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:25:46 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.02_Sephora_ProjectNo2.txt", Project_No2): null
+
+2022-06-24 08:25:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-24 08:25:50 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.03 Sephora Duplication Standard_Existing_Project(Admin) - Used 20.01_20.02 (P3)" time="479.619" classname="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.03 Sephora Duplication Standard_Existing_Project(Admin) - Used 20.01_20.02 (P3)" status="PASSED">
+         <system-out><![CDATA[2022-06-24 08:25:50 - [TEST_CASE][PASSED] - Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.03 Sephora Duplication Standard_Existing_Project(Admin) - Used 20.01_20.02 (P3): Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.03 Sephora Duplication Standard_Existing_Project(Admin) - Used 20.01_20.02 (P3)
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - password_atran = data_Sephora.getValue(2, 1): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - password_suser = data_Sephora.getValue(2, 10): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - Project_No1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - refID1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - ref_name1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - Project_No2 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.02_Sephora_ProjectNo2.txt"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - refID2 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.02_Sephora_refID2.txt"): null
+
+2022-06-24 08:25:50 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:25:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-24 08:25:50 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-24 08:25:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-24 08:26:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:26:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-24 08:26:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-24 08:26:21 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:26:23 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:26:26 - [MESSAGE][PASSED] - Text 'dchi1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:26:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:26:41 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:26:53 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No1, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[10]/button"): Delayed 5 second(s)
+
+2022-06-24 08:26:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:26:55 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:26:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:27:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:27:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:27:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052030252.png]]
+
+2022-06-24 08:27:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:27:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:27:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID1 + ""]/td[1]/label"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:15 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:27:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052041618.png]]
+
+2022-06-24 08:27:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="list_project_type"]/label[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-24 08:27:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:27:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="is_old_project"]/div/span/span[1]/span/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:27:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:27:27 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/span/span/span[1]/input"]), Project_No2): Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:27:31 - [MESSAGE][PASSED] - Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:27:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:27:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:27:32 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2-nbProject-results"]/li"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="nb_copies"]"]), "50"): Text '50' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:27:36 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:27:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-24 08:27:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:27:38 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="lfc_tpl5"]", "32"): Delayed 2 second(s)
+
+2022-06-24 08:27:39 - [MESSAGE][PASSED] - All options with value '32' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:27:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:27:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:27:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052062102.png]]
+
+2022-06-24 08:27:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:27:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:27:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:28:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:28:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:28:44 - [TEST_STEP][PASSED] - Project_No3 = I.ProjectNo(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%2132KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&default_action=AfficheFichesProjet&id_project=MI001959'
+
+2022-06-24 08:28:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:28:49 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_SEPHORA%2132KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&default_action=AfficheFichesProjet&id_project=MI001959'
+
+2022-06-24 08:28:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:28:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052130302.png]]
+
+2022-06-24 08:28:50 - [TEST_STEP][PASSED] - verifyMatch(Project_No3, Project_No2, false): Actual text 'MI001959' and expected text 'MI001959' are matched 
+
+2022-06-24 08:28:50 - [MESSAGE][PASSED] - Actual text 'MI001959' and expected text 'MI001959' are matched 
+
+2022-06-24 08:28:50 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[1]/h1/span", "52"): Actual text '52' and expected text '52' are matched 
+
+2022-06-24 08:28:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '52'
+
+2022-06-24 08:28:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:28:53 - [MESSAGE][PASSED] - Actual text '52' and expected text '52' are matched 
+
+2022-06-24 08:28:53 - [TEST_STEP][PASSED] - I.SearchRefNo_xpath("Copy 50 of", "//*[@id="fiche_filter_keywords11"]", "//*[@id="form_filters"]/div[5]/button"): Delayed 5 second(s)
+
+2022-06-24 08:28:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:28:56 - [MESSAGE][PASSED] - Text 'Copy 50 of' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:28:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:28:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:29:10 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[1]/h1/span", "1"): Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:29:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '1'
+
+2022-06-24 08:29:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:12 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched 
+
+2022-06-24 08:29:12 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:29:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:18 - [TEST_STEP][PASSED] - refid52 = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!32KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&num=TBVKIDT5IM&id_ref=5107'
+
+2022-06-24 08:29:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:29:23 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!32KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&num=TBVKIDT5IM&id_ref=5107'
+
+2022-06-24 08:29:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:29:24 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is clickable
+
+2022-06-24 08:29:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:29:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052164831.png]]
+
+2022-06-24 08:29:25 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_152"]", "Complete"): Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:29:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:29:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:26 - [MESSAGE][PASSED] - Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:29:26 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_50"]", "Primaire"): Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:29:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:29:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:28 - [MESSAGE][PASSED] - Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:29:28 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_49"]", "Etui"): Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:29:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:29:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:29 - [MESSAGE][PASSED] - Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:29:29 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:29:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052174901.png]]
+
+2022-06-24 08:29:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:29:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:29:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052195436.png]]
+
+2022-06-24 08:29:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:29:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:29:57 - [TEST_STEP][PASSED] - refidp = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!32KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&num=1TQ0SJ6IDC&id_ref=5055'
+
+2022-06-24 08:30:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:30:02 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!32KTW1ZIMZQODW5KVJK3Z1O51KN2NRP1GTMCPFAX&num=1TQ0SJ6IDC&id_ref=5055'
+
+2022-06-24 08:30:02 - [TEST_STEP][PASSED] - verifyMatch(refidp, refID1, false): Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:30:02 - [MESSAGE][PASSED] - Actual text '5055' and expected text '5055' are matched 
+
+2022-06-24 08:30:02 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:30:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:30:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:30:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:30:25 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:30:26 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:30:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:30:28 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:30:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:30:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:30:38 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No2, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:30:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:30:41 - [MESSAGE][PASSED] - Text 'MI001959' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:30:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:30:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:30:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:30:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:30:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:30:58 - [TEST_STEP][PASSED] - I.SearchRefNo_xpath("Copy 50 of", "//*[@id="fiche_filter_keywords11"]", "//*[@id="form_filters"]/div[3]/button"): Delayed 5 second(s)
+
+2022-06-24 08:30:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:04 - [MESSAGE][PASSED] - Text 'Copy 50 of' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:31:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:31:15 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[7]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:21 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_36"]"]), "05/05/2022", STOP_ON_FAILURE): Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:22 - [MESSAGE][PASSED] - Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_37"]"]), "18/06/2023", STOP_ON_FAILURE): Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:24 - [MESSAGE][PASSED] - Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="cardctrlphase"]/div[2]/div[2]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:33 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_24"]", "//*[@id="btnAdd_24"]", "studio"): Delayed 1 second(s)
+
+2022-06-24 08:31:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:35 - [MESSAGE][PASSED] - All options with value 'studio' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:31:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:40 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-24 08:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-24 08:31:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[7]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:31:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_36"]"]), "05/05/2022", STOP_ON_FAILURE): Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:53 - [MESSAGE][PASSED] - Text '05/05/2022' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:54 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_37"]"]), "18/06/2023", STOP_ON_FAILURE): Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:55 - [MESSAGE][PASSED] - Text '18/06/2023' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:31:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:31:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:31:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:03 - [TEST_STEP][PASSED] - I.status_lifecycle(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[5]/span[1]"]), "Phase 1.2"): Status contain Phase 1.2.
+
+2022-06-24 08:32:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Phase 1.2'
+
+2022-06-24 08:32:04 - [MESSAGE][PASSED] - Status contain Phase 1.2.
+
+2022-06-24 08:32:04 - [TEST_STEP][PASSED] - I.superedit_ref(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[7]/div/button"]), findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[7]/div/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:32:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052331974.png]]
+
+2022-06-24 08:32:12 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_146"]"]), "Super edit component code - TC20.3"): Text 'Super edit component code - TC20.3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:32:13 - [MESSAGE][PASSED] - Text 'Super edit component code - TC20.3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:32:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:32:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:32:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:32:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052339239.png]]
+
+2022-06-24 08:32:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refid52 + ""]/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-24 08:32:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:32:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aff_full_brief"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:32:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:32:30 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_146"]", "Super edit component code - TC20.3"): Actual text 'Super edit component code - TC20.3' and expected text 'Super edit component code - TC20.3' are matched 
+
+2022-06-24 08:32:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Super edit component code - TC20.3'
+
+2022-06-24 08:32:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:32:33 - [MESSAGE][PASSED] - Actual text 'Super edit component code - TC20.3' and expected text 'Super edit component code - TC20.3' are matched 
+
+2022-06-24 08:32:33 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-24 08:32:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:32:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:33:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:33:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-24 08:33:49 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-24 08:33:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.04 Sephora Duplication Standard_This_Project(DevFS) -Used 20.01 (P4)" time="214.134" classname="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.04 Sephora Duplication Standard_This_Project(DevFS) -Used 20.01 (P4)" status="PASSED">
+         <system-out><![CDATA[2022-06-24 08:33:49 - [TEST_CASE][PASSED] - Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.04 Sephora Duplication Standard_This_Project(DevFS) -Used 20.01 (P4): Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.04 Sephora Duplication Standard_This_Project(DevFS) -Used 20.01 (P4)
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_atran = data_Sephora.getValue(2, 1): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_marketing = data_Sephora.getValue(2, 2): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_regulatory = data_Sephora.getValue(2, 3): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_studio = data_Sephora.getValue(2, 4): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_iraz = data_Sephora.getValue(2, 5): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_cmouzawak = data_Sephora.getValue(2, 6): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_aalbeaux = data_Sephora.getValue(2, 7): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_hgarnier = data_Sephora.getValue(2, 8): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_emartineau = data_Sephora.getValue(2, 9): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_suser = data_Sephora.getValue(2, 10): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_lmorel = data_Sephora.getValue(2, 11): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_ageindreau = data_Sephora.getValue(2, 12): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - password_ytallant = data_Sephora.getValue(2, 13): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - ref_name1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.04_Sephora_refID3.txt"): null
+
+2022-06-24 08:33:50 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:33:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-24 08:33:50 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-24 08:33:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-24 08:34:53 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:34:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-24 08:34:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-24 08:34:54 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:34:55 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:34:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:34:57 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:34:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:35:18 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:35:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:20 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:35:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:35:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:35:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:35:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052533617.png]]
+
+2022-06-24 08:35:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[1]/label"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="action_btnduplicatereference"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:35:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052540151.png]]
+
+2022-06-24 08:35:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:35:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:41 - [TEST_STEP][PASSED] - I.SelectFromList_Label("//*[@id="lfc_tpl5"]", "FS process"): Delayed 2 second(s)
+
+2022-06-24 08:35:43 - [MESSAGE][PASSED] - All options with label 'FS process' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-24 08:35:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-24 08:35:45 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_submit_duplication"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:35:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:35:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:53 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="kt_content"]/div[3]/div/div[2]/div[1]/div[1]/h1/span", "2"): Actual text '2' and expected text '2' are matched 
+
+2022-06-24 08:35:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: '2'
+
+2022-06-24 08:35:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:55 - [MESSAGE][PASSED] - Actual text '2' and expected text '2' are matched 
+
+2022-06-24 08:35:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:35:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052555546.png]]
+
+2022-06-24 08:35:56 - [TEST_STEP][PASSED] - I.SearchRefNo_xpath("Copy 1 of", "//*[@id="fiche_filter_keywords11"]", "//*[@id="form_filters"]/div[3]/button"): Delayed 5 second(s)
+
+2022-06-24 08:35:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:35:58 - [MESSAGE][PASSED] - Text 'Copy 1 of' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:36:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:36:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:36:10 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:36:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:15 - [TEST_STEP][PASSED] - dupli_refid = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!D7TABJXWQIH2664BGQJ3U3LQ6J526SB60Z4C4OM7&num=OMYN15M1ST&id_ref=5108'
+
+2022-06-24 08:36:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:36:20 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!D7TABJXWQIH2664BGQJ3U3LQ6J526SB60Z4C4OM7&num=OMYN15M1ST&id_ref=5108'
+
+2022-06-24 08:36:20 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.04_Sephora_refID3.txt", dupli_refid): null
+
+2022-06-24 08:36:20 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aff_full_brief"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:36:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:23 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_152"]", "Complete"): Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:36:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Complete'
+
+2022-06-24 08:36:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:25 - [MESSAGE][PASSED] - Actual text 'Complete' and expected text 'Complete' are matched 
+
+2022-06-24 08:36:25 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_50"]", "Primaire"): Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:36:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Primaire'
+
+2022-06-24 08:36:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:27 - [MESSAGE][PASSED] - Actual text 'Primaire' and expected text 'Primaire' are matched 
+
+2022-06-24 08:36:27 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="var_49"]", "Etui"): Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:36:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Etui'
+
+2022-06-24 08:36:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:28 - [MESSAGE][PASSED] - Actual text 'Etui' and expected text 'Etui' are matched 
+
+2022-06-24 08:36:28 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_view_ref_parent"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:36:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052595106.png]]
+
+2022-06-24 08:36:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:36:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:36 - [TEST_STEP][PASSED] - parent_refid = I.RefID(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!D7TABJXWQIH2664BGQJ3U3LQ6J526SB60Z4C4OM7&num=OHQG4ULBUS&id_ref=5055'
+
+2022-06-24 08:36:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:36:41 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?action=VoirRef&IDSession=MBI!RELTESTAUTO_SEPHORA!D7TABJXWQIH2664BGQJ3U3LQ6J526SB60Z4C4OM7&num=OHQG4ULBUS&id_ref=5055'
+
+2022-06-24 08:36:41 - [TEST_STEP][PASSED] - verifyNotMatch(parent_refid, dupli_refid, false): Actual text '5055' and expected text '5108' are not matched 
+
+2022-06-24 08:36:41 - [MESSAGE][PASSED] - Actual text '5055' and expected text '5108' are not matched 
+
+2022-06-24 08:36:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:36:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_subheader"]/div/nav/ol/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:36:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:36:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:47 - [TEST_STEP][PASSED] - I.SearchRefNo_xpath("Copy 1 of", "//*[@id="fiche_filter_keywords11"]", "//*[@id="form_filters"]/div[3]/button"): Delayed 5 second(s)
+
+2022-06-24 08:36:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:36:50 - [MESSAGE][PASSED] - Text 'Copy 1 of' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:36:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:36:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:37:04 - [TEST_STEP][PASSED] - I.superedit_ref(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr/td[7]/div/button"]), findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr/td[7]/div/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_146"]"]), "TC20.04 Super edit component code - devfs"): Text 'TC20.04 Super edit component code - devfs' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:37:13 - [MESSAGE][PASSED] - Text 'TC20.04 Super edit component code - devfs' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:37:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:37:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:37:18 - [TEST_STEP][PASSED] - verifyTextPresent(" Components List", false): Text ' Components List' is present on page 
+
+2022-06-24 08:37:19 - [MESSAGE][PASSED] - Text ' Components List' is present on page 
+
+2022-06-24 08:37:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-24 08:37:23 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-24 08:37:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.05 Sephora CloseProject_Errormsg_CreateButton - Used 20.04 (P5)" time="212.885" classname="Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.05 Sephora CloseProject_Errormsg_CreateButton - Used 20.04 (P5)" status="PASSED">
+         <system-out><![CDATA[2022-06-24 08:37:23 - [TEST_CASE][PASSED] - Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.05 Sephora CloseProject_Errormsg_CreateButton - Used 20.04 (P5): Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.05 Sephora CloseProject_Errormsg_CreateButton - Used 20.04 (P5)
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - password_atran = data_Sephora.getValue(2, 1): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_ProjectNo.txt"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refID.txt"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - ref_name1 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.01_Sephora_refIDName.txt"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - refID2 = I.readnotepad("D:\Upoad_File\Projet_ Login\Sephora\20.01\20.04_Sephora_refID3.txt"): null
+
+2022-06-24 08:37:24 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:37:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-24 08:37:24 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-24 08:37:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-24 08:37:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-24 08:37:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-24 08:37:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-24 08:37:50 - [TEST_STEP][PASSED] - I.Login_password("atran", password_atran): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:37:51 - [MESSAGE][PASSED] - Text 'atran' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:37:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:37:52 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:37:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:06 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-24 08:38:11 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:38:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:14 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:38:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:38:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:38:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:38:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052710937.png]]
+
+2022-06-24 08:38:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID2 + ""]/td[7]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:38:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID2 + ""]/td[7]/div/div/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:38:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/div[9]/div/div/div[2]/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:40 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="source_" + refID2 + ""]/td[5]/span", "Canceled"): Actual text 'Canceled' and expected text 'Canceled' are matched 
+
+2022-06-24 08:38:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Canceled'
+
+2022-06-24 08:38:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:42 - [MESSAGE][PASSED] - Actual text 'Canceled' and expected text 'Canceled' are matched 
+
+2022-06-24 08:38:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:38:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052722822.png]]
+
+2022-06-24 08:38:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:38:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:44 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:38:49 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled."): Actual text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' and expected text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' are matched 
+
+2022-06-24 08:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:38:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.'
+
+2022-06-24 08:38:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052731002.png]]
+
+2022-06-24 08:38:51 - [MESSAGE][PASSED] - Actual text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' and expected text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' are matched 
+
+2022-06-24 08:38:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:38:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052731810.png]]
+
+2022-06-24 08:38:52 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:38:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:38:54 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:38:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:38:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:39:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:39:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052746667.png]]
+
+2022-06-24 08:39:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[7]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:39:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:39:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[7]/div/div/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:39:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:39:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="validButtonStdBy"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:25 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="source_" + refID + ""]/td[5]/span", "Stand by"): Actual text 'Stand by' and expected text 'Stand by' are matched 
+
+2022-06-24 08:39:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Stand by'
+
+2022-06-24 08:39:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:39:28 - [MESSAGE][PASSED] - Actual text 'Stand by' and expected text 'Stand by' are matched 
+
+2022-06-24 08:39:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:39:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052768688.png]]
+
+2022-06-24 08:39:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:39:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:39:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:34 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled."): Actual text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' and expected text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' are matched 
+
+2022-06-24 08:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:39:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.'
+
+2022-06-24 08:39:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052776368.png]]
+
+2022-06-24 08:39:37 - [MESSAGE][PASSED] - Actual text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' and expected text 'You cannot close this project because it contains at least 1 reference not completed, not deleted or not cancelled.' are matched 
+
+2022-06-24 08:39:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:39:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052777601.png]]
+
+2022-06-24 08:39:38 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:39:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:39:40 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:39:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:39:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:39:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:39:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052793145.png]]
+
+2022-06-24 08:39:53 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[7]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:39:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-24 08:39:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:39:59 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[7]/div/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:40:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/div[9]/div/div/div[2]/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:05 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="source_" + refID + ""]/td[5]/span", "Deleted"): Actual text 'Deleted' and expected text 'Deleted' are matched 
+
+2022-06-24 08:40:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Deleted'
+
+2022-06-24 08:40:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:07 - [MESSAGE][PASSED] - Actual text 'Deleted' and expected text 'Deleted' are matched 
+
+2022-06-24 08:40:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-24 08:40:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052807693.png]]
+
+2022-06-24 08:40:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:40:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:12 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Project closed."): Actual text 'Project closed.' and expected text 'Project closed.' are matched 
+
+2022-06-24 08:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:40:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Project closed.'
+
+2022-06-24 08:40:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052815195.png]]
+
+2022-06-24 08:40:15 - [MESSAGE][PASSED] - Actual text 'Project closed.' and expected text 'Project closed.' are matched 
+
+2022-06-24 08:40:15 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:40:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:19 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:40:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:40:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:40:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/button"])): Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-24 08:40:34 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-24 08:40:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-24 08:40:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:35 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:40 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Project re-opened."): Actual text 'Project re-opened.' and expected text 'Project re-opened.' are matched 
+
+2022-06-24 08:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:40:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Project re-opened.'
+
+2022-06-24 08:40:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220624_081243\\03. Parallel Testing (Testing)\\TS -PT PART 3\\15.01 Sephora Duplication Standard\\20220624_081245\\1656052841211.png]]
+
+2022-06-24 08:40:41 - [MESSAGE][PASSED] - Actual text 'Project re-opened.' and expected text 'Project re-opened.' are matched 
+
+2022-06-24 08:40:41 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-24 08:40:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-24 08:40:43 - [MESSAGE][PASSED] - Text 'MI001958' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-24 08:40:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-24 08:40:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-24 08:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-24 08:40:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-24 08:40:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/button"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:40:56 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-24 08:40:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-24 08:12:58 - [TEST_SUITE][PASSED] - 15.01 Sephora Duplication Standard: Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.05 Sephora CloseProject_Errormsg_CreateButton - Used 20.04 (P5)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

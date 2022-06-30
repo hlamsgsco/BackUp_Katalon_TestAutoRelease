@@ -54,10 +54,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>be3f90cb-6cc1-463a-848a-1c1741d52ac7</guid>
+      <guid>a7278db3-e281-47cb-b177-20ebcc145ccb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/10. Tag Add Approver/10.01 Tag Add Approver (Existing Project _ admin)</testCaseId>
+      <testCaseId>Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

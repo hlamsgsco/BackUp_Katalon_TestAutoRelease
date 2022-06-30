@@ -12,31 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d8c951f0-389f-405f-9a8b-26437c0bab63</testSuiteGuid>
    <testCaseLink>
-      <guid>06a7c271-e327-46d7-a967-a53459c955f3</guid>
+      <guid>f73bc240-e576-48e9-89a9-b8bd3946965e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.01 Tag Full Lifecycle_Perform Task (used in 18.02) P1</testCaseId>
+      <testCaseId>Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.1 Tag Simultaneous Modif of ref (super edit) PART 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>55a2ca27-d65c-4094-96eb-06814ee4252f</guid>
+      <guid>cec75e13-4cdd-4232-8a43-bc9f6902e052</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/18. Tag Sephora Npp Starpack Task (Standard_ Question_ Prod)/18.02 Tag full Lifecycle Daughter _Perform Task 18.01 P2</testCaseId>
+      <testCaseId>Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dbde216d-a686-4c4e-b23f-892db151a331</guid>
+      <guid>ceaf720f-b2ef-4866-a395-80896334dd42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>12342a91-ee31-44d1-a954-43d53a30c05f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.09 Dreyers Out of Office Reset a delegation usermanagement and my profile</testCaseId>
+      <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.02 Dreyers SAS Add Step (Ongoing ref) S5 - P2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

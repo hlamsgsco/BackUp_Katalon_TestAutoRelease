@@ -88,7 +88,7 @@ WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="mediabase
 //LID FORMAT
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="mediabase-panel-cards"]/div/div[1]/div/div/div/a']))
 
-'Verify that the download button is not clickable'
+
 
 //HOVER OVER DOC
 'Hover over doc'

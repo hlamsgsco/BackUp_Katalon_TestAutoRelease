@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220623_161321</name>
+   <tag></tag>
+   <displayName>20220623_161321</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220623_161321/03. Parallel Testing (Testing)/TS -PT PART 3/01.Tag_Sephora Login and Creation user/20220623_161322</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/03. Parallel Testing (Testing)/05. Parallel Testing TSC</testSuiteCollectionId>
+</ReportCollectionEntity>

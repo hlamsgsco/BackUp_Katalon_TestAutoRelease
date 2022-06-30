@@ -12,13 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5f111dab-8afd-4444-8573-b3da020119e0</testSuiteGuid>
    <testCaseLink>
-      <guid>8779e782-b26e-4975-82b5-49c2d8b71317</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.09 Dreyers Out of Office Reset a delegation usermanagement and my profile</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>89f24630-e290-4841-895a-787e0eb88af5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,15 +56,29 @@
    <testCaseLink>
       <guid>87809499-c125-4f4a-a5db-a3342e4a0e70</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f73ccb17-2384-4061-a563-0b7a657edae0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.08 Starpack Out of Office DElete delegate User Management P2</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f0c3a46-9b61-496b-9b00-b41a8627492f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8779e782-b26e-4975-82b5-49c2d8b71317</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/17. Tag StarPack Out of Office (OOO)/17.09 Dreyers Out of Office Reset a delegation usermanagement and my profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

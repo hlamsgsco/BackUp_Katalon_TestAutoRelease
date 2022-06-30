@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220628_151957</name>
+   <tag></tag>
+   <displayName>20220628_151957</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220628_151957/4618_TestStarpack/TS/04 TestStarPack Out of Office (OOO)/20220628_151958</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/4618_TestStarpack/04. 4618_TestStarpack_Outof Office(OOO)</testSuiteCollectionId>
+</ReportCollectionEntity>

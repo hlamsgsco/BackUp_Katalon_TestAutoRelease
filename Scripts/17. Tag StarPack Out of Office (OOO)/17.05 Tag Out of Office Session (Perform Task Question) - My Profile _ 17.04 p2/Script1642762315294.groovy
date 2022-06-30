@@ -85,10 +85,12 @@ WebUI.takeScreenshot()
 'Click on Add delegate - 1'
 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="btn_add_delegation"]']))
 
+WebUI.delay(3)
+
 'Select date From : Previous'
 functions.I.Delegate_Select_date_PreviousMonth('//*[@id="delegation_linenew1"]/td[2]/div')
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 'Select date To: Next: previous month'
 functions.I.Delegate_Select_date_NextMonth('//*[@id="delegation_linenew1"]/td[4]/div')

@@ -159,9 +159,9 @@ WebUI.takeScreenshot()
 'Click submit'
 functions.I.click_button_javascript(findTestObject('1. Constant/xpath', [('xpath') : '//*[@id="ModifFiche"]/div[1]/div/button[2]']))
 
-WebUI.delay(1)
 
 'Verify toastr msg'
+////*[@id="toast-container"]/div/div[2]
 functions.I.VerifyMatchToastrmsg('//*[@id="toast-container"]/div/div[2]', 'Your changes can\'t be saved because another user updated values in this form in the meantime. Please reload the page to display them.')
 
 

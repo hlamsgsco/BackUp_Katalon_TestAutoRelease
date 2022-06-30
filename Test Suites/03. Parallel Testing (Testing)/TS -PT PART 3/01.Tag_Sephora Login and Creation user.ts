@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>7e2946db-d0a3-4ad0-953e-927258c68287</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/10. Tag Add Approver/10.01 Tag Add Approver (Existing Project _ admin)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
