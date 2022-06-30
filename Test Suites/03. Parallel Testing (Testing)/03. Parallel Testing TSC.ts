@@ -114,7 +114,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/13 Tag StarPack Dreyers Out of Office</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -182,7 +182,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.01 Sephora Duplication Standard</testSuiteEntity>
@@ -195,7 +195,7 @@
             <runConfigurationId>Chrome (headless)</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.02 NPP Duplication Shortcut (Translation Ref) -Part 1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/15.02 NPP Duplication Shortcut (Translation Ref)</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -224,7 +224,7 @@
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/Retest For failed TC</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

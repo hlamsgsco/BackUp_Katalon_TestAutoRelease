@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="04 Tag Simulateneous" time="1630.126" tests="4" failures="1" errors="0">
+   <testsuite name="04 Tag Simulateneous" tests="4" failures="1" errors="0" time="1630.126" skipped="0" timestamp="2022-06-23 18:43:41" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/04 Tag Simulateneous">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002712331.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002746705.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002761753.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002886803.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002894183.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003044484.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003104221.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003107986.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003258728.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003417159.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003452912.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003461121.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003462429.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003466550.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003608183.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003673253.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003781195.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003806328.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003826609.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003838423.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003839253.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003842206.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004001401.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004059164.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004147512.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004171040.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004177979.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004212516.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004213660.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004250905.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="6ea952270b069f4cbefd63d1fe89d2f3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.1 Tag Simultaneous Modif of ref (super edit) PART 1" time="562.291" classname="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.1 Tag Simultaneous Modif of ref (super edit) PART 1" status="PASSED">
+         <system-out><![CDATA[2022-06-23 18:43:43 - [TEST_CASE][PASSED] - Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.1 Tag Simultaneous Modif of ref (super edit) PART 1: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.1 Tag Simultaneous Modif of ref (super edit) PART 1
+
+2022-06-23 18:43:49 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 18:43:50 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 18:43:50 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 18:43:50 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_ProjectNo.txt"): null
+
+2022-06-23 18:43:51 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_refID.txt"): null
+
+2022-06-23 18:43:51 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 18:43:51 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 18:43:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "D:\Katalon_Studio\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"): null
+
+2022-06-23 18:43:51 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 18:44:17 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 18:44:19 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:45:10 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:45:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 18:45:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 18:45:11 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 18:45:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 18:45:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:45:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002712331.png]]
+
+2022-06-23 18:45:13 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:13 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:45:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:45:15 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:45:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:32 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:45:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div[1]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:45:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:45:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:45:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002746705.png]]
+
+2022-06-23 18:45:47 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="project_template"]", "11"): Delayed 2 second(s)
+
+2022-06-23 18:45:48 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:45:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:45:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:45:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:46:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:46:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002761753.png]]
+
+2022-06-23 18:46:02 - [TEST_STEP][PASSED] - Project_name = "AutoTest_Tag_SimultaneousRef_" + RandomStringUtils.randomAlphanumeric(10) + "_" + I.gettimedate(): null
+
+2022-06-23 18:46:02 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_141"]"]), Project_name): Text 'AutoTest_Tag_SimultaneousRef_vca5g0WocS_juin232022_184602' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:46:03 - [MESSAGE][PASSED] - Text 'AutoTest_Tag_SimultaneousRef_vca5g0WocS_juin232022_184602' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:46:03 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_12"]", "1025"): Delayed 2 second(s)
+
+2022-06-23 18:46:09 - [MESSAGE][PASSED] - All options with value '1025' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:11 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_116"]", "1070"): Delayed 2 second(s)
+
+2022-06-23 18:46:12 - [MESSAGE][PASSED] - All options with value '1070' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:14 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_262"]", "16352"): Delayed 2 second(s)
+
+2022-06-23 18:46:17 - [MESSAGE][PASSED] - All options with value '16352' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_14"]"]), "10/10/2020"): Text '10/10/2020' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:46:20 - [MESSAGE][PASSED] - Text '10/10/2020' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:46:20 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_15"]", "57"): Delayed 2 second(s)
+
+2022-06-23 18:46:21 - [MESSAGE][PASSED] - All options with value '57' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:46:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:25 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_16"]", "46"): Delayed 2 second(s)
+
+2022-06-23 18:46:35 - [MESSAGE][PASSED] - All options with value '46' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:46:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:39 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_17"]", "12174"): Delayed 2 second(s)
+
+2022-06-23 18:46:49 - [MESSAGE][PASSED] - All options with value '12174' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:46:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:53 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_18"]", "12414"): Delayed 2 second(s)
+
+2022-06-23 18:46:55 - [MESSAGE][PASSED] - All options with value '12414' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:46:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:46:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:47:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:00 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_20"]", "3773"): Delayed 2 second(s)
+
+2022-06-23 18:47:01 - [MESSAGE][PASSED] - All options with value '3773' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:47:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:05 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_21"]", "246"): Delayed 2 second(s)
+
+2022-06-23 18:47:06 - [MESSAGE][PASSED] - All options with value '246' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 18:47:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:11 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_22"]", "3853"): Delayed 2 second(s)
+
+2022-06-23 18:47:13 - [MESSAGE][PASSED] - All options with value '3853' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:15 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="selSource_23"]", "achatin"): Delayed 2 second(s)
+
+2022-06-23 18:47:17 - [MESSAGE][PASSED] - All options with value 'achatin' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:19 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_23"]", "//*[@id="btnAdd_23"]", "tliu"): Delayed 1 second(s)
+
+2022-06-23 18:47:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:47:24 - [MESSAGE][PASSED] - All options with value 'tliu' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:47:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:47:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:47:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:47:30 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_24"]", "//*[@id="btnAdd_24"]", "asamyn"): Delayed 1 second(s)
+
+2022-06-23 18:47:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:47:35 - [MESSAGE][PASSED] - All options with value 'asamyn' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:47:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:47:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:47:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 18:47:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:47:42 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-23 18:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-23 18:47:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-23 18:48:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-23 18:48:00 - [TEST_STEP][PASSED] - Project_No = I.ProjectNo(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21KDSSPLRA23GGPHAYJTBLI5JDPTIGPZGJRMVUIOAF&default_action=AfficheFichesProjet&id_project=MI003403'
+
+2022-06-23 18:48:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 18:48:06 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21KDSSPLRA23GGPHAYJTBLI5JDPTIGPZGJRMVUIOAF&default_action=AfficheFichesProjet&id_project=MI003403'
+
+2022-06-23 18:48:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:48:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002886803.png]]
+
+2022-06-23 18:48:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/div/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:48:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656002894183.png]]
+
+2022-06-23 18:48:14 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="ref_type"]", "5"): Delayed 2 second(s)
+
+2022-06-23 18:48:19 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 18:48:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 18:48:21 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:48:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:48:31 - [TEST_STEP][PASSED] - refID = I.RefID_tag(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21KDSSPLRA23GGPHAYJTBLI5JDPTIGPZGJRMVUIOAF&default_action=ModifierRef&id_project=MI003403&id_ref=24425&action_from=create_ref'
+
+2022-06-23 18:48:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 18:48:36 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21KDSSPLRA23GGPHAYJTBLI5JDPTIGPZGJRMVUIOAF&default_action=ModifierRef&id_project=MI003403&id_ref=24425&action_from=create_ref'
+
+2022-06-23 18:48:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div[1]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:48:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:48:43 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_ProjectNo.txt", Project_No): null
+
+2022-06-23 18:48:43 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_refID.txt", refID): null
+
+2022-06-23 18:48:43 - [TEST_STEP][PASSED] - I.superedit_ref(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/div[2]/button"]), findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/div[2]/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:48:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:48:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_117"]"]), "W1_SUPER_EDIT_JEDUN"): Text 'W1_SUPER_EDIT_JEDUN' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:49:01 - [MESSAGE][PASSED] - Text 'W1_SUPER_EDIT_JEDUN' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:49:01 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2022-06-23 18:49:01 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-06-23 18:49:01 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 18:49:12 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 18:49:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 18:49:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 18:49:13 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:50:20 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:50:20 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 18:50:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 18:50:20 - [TEST_STEP][PASSED] - I.Login_password("tliu", password_tliu): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:50:21 - [MESSAGE][PASSED] - Text 'tliu' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:50:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:50:24 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:50:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:50:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:50:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003044484.png]]
+
+2022-06-23 18:50:44 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:50:54 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 18:50:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:51:02 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:51:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:51:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 18:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 18:51:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 18:51:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:51:22 - [TEST_STEP][PASSED] - I.superedit_ref(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[13]/div/button"]), findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[13]/div/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:51:35 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_117"]"]), "W2_SUPER_EDIT_TINA"): Text 'W2_SUPER_EDIT_TINA' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:51:37 - [MESSAGE][PASSED] - Text 'W2_SUPER_EDIT_TINA' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:51:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:51:43 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved"): Actual text 'Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved' and expected text 'Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved' are matched 
+
+2022-06-23 18:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 18:51:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved'
+
+2022-06-23 18:51:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003104221.png]]
+
+2022-06-23 18:51:44 - [MESSAGE][PASSED] - Actual text 'Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved' and expected text 'Modifications of the reference W2_SUPER_EDIT_TINA____ have been saved' are matched 
+
+2022-06-23 18:51:44 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 18:51:44 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:51:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:51:45 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them."): Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 18:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 18:51:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.'
+
+2022-06-23 18:51:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003107986.png]]
+
+2022-06-23 18:51:48 - [MESSAGE][PASSED] - Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 18:51:48 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/a"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:51:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:51:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:51:55 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[6]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:52:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:52:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:52:05 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/span", "W2_SUPER_EDIT_TINA"): Actual text 'W2_SUPER_EDIT_TINA' and expected text 'W2_SUPER_EDIT_TINA' are matched 
+
+2022-06-23 18:52:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'W2_SUPER_EDIT_TINA'
+
+2022-06-23 18:52:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:52:07 - [MESSAGE][PASSED] - Actual text 'W2_SUPER_EDIT_TINA' and expected text 'W2_SUPER_EDIT_TINA' are matched 
+
+2022-06-23 18:52:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 18:52:15 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 18:52:15 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 18:52:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 18:53:05 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 18:53:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.2 Tag Simultaneous Modification of Ref (Update) PART 2" time="357.396" classname="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.2 Tag Simultaneous Modification of Ref (Update) PART 2" status="PASSED">
+         <system-out><![CDATA[2022-06-23 18:53:05 - [TEST_CASE][PASSED] - Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.2 Tag Simultaneous Modification of Ref (Update) PART 2: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.2 Tag Simultaneous Modification of Ref (Update) PART 2
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_ProjectNo.txt"): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_refID.txt"): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "D:\Katalon_Studio\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"): null
+
+2022-06-23 18:53:06 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 18:53:16 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 18:53:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:53:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:53:17 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:54:17 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:54:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 18:54:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 18:54:18 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 18:54:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 18:54:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:54:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003258728.png]]
+
+2022-06-23 18:54:19 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:54:21 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:54:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:54:23 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:54:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:54:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:54:46 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[7]/button"): Delayed 5 second(s)
+
+2022-06-23 18:54:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:54:49 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:54:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:54:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 18:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:55:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 18:55:03 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:55:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:55:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:55:10 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_143"]"]), "W1_UPDATE_JEDUN_PART2"): Text 'W1_UPDATE_JEDUN_PART2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:55:14 - [MESSAGE][PASSED] - Text 'W1_UPDATE_JEDUN_PART2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:55:14 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 18:55:24 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 18:55:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 18:55:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 18:55:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:55:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:55:27 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:56:28 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 18:56:28 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 18:56:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 18:56:29 - [TEST_STEP][PASSED] - I.Login_password("tliu", password_tliu): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:56:33 - [MESSAGE][PASSED] - Text 'tliu' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:56:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:56:36 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:56:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:56:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:56:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003417159.png]]
+
+2022-06-23 18:56:57 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 18:57:04 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 18:57:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:57:09 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:57:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 18:57:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 18:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:57:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 18:57:24 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[13]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:57:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:57:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_143"]"]), "W2_UPDATE_TLIU_PART2"): Text 'W2_UPDATE_TLIU_PART2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:57:32 - [MESSAGE][PASSED] - Text 'W2_UPDATE_TLIU_PART2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 18:57:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:57:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003452912.png]]
+
+2022-06-23 18:57:33 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:38 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:57:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:57:39 - [TEST_STEP][PASSED] - verifyTextPresent("References List", false): Text 'References List' is present on page 
+
+2022-06-23 18:57:40 - [MESSAGE][PASSED] - Text 'References List' is present on page 
+
+2022-06-23 18:57:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:57:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003461121.png]]
+
+2022-06-23 18:57:41 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 18:57:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 18:57:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003462429.png]]
+
+2022-06-23 18:57:43 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:44 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them."): Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 18:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 18:57:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.'
+
+2022-06-23 18:57:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003466550.png]]
+
+2022-06-23 18:57:47 - [MESSAGE][PASSED] - Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 18:57:47 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/a"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 18:57:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:57:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:57:52 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[6]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 18:58:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 18:58:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 18:58:01 - [TEST_STEP][PASSED] - text = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[1]/div[2]/div[8]/div"])): Text of object 'Object Repository/1. Constant/xpath' is: 'W2_UPDATE_TLIU_PART2'
+
+2022-06-23 18:58:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'W2_UPDATE_TLIU_PART2'
+
+2022-06-23 18:58:02 - [TEST_STEP][PASSED] - verifyMatch(text, "W2_UPDATE_TLIU_PART2", false): Actual text 'W2_UPDATE_TLIU_PART2' and expected text 'W2_UPDATE_TLIU_PART2' are matched 
+
+2022-06-23 18:58:02 - [MESSAGE][PASSED] - Actual text 'W2_UPDATE_TLIU_PART2' and expected text 'W2_UPDATE_TLIU_PART2' are matched 
+
+2022-06-23 18:58:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 18:58:09 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 18:58:09 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 18:58:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 18:59:02 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 18:59:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.3 Tag Simultaneous Modif of ref (Edit) PART 3" time="356.371" classname="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.3 Tag Simultaneous Modif of ref (Edit) PART 3" status="PASSED">
+         <system-out><![CDATA[2022-06-23 18:59:02 - [TEST_CASE][PASSED] - Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.3 Tag Simultaneous Modif of ref (Edit) PART 3: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.3 Tag Simultaneous Modif of ref (Edit) PART 3
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_ProjectNo.txt"): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_refID.txt"): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "D:\Katalon_Studio\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"): null
+
+2022-06-23 18:59:04 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 18:59:15 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 18:59:15 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:00:07 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:00:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:00:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:00:08 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:00:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:00:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:00:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003608183.png]]
+
+2022-06-23 19:00:08 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:00:11 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:00:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:00:15 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:00:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:00:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:00:37 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[7]/button"): Delayed 5 second(s)
+
+2022-06-23 19:00:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:00:40 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:00:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:00:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:00:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:00:58 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[6]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:01:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:01:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="tab_brief_phase"]/div/div[1]/div/div[1]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:01:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003673253.png]]
+
+2022-06-23 19:01:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:01:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:01:14 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_edit_phase_brief"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:01:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:01:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:01:26 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_35"]"]), "W1_EDIT_JEDUN_PART3"): Text 'W1_EDIT_JEDUN_PART3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:01:29 - [MESSAGE][PASSED] - Text 'W1_EDIT_JEDUN_PART3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:01:29 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 19:01:40 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 19:01:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:01:42 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:02:40 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:02:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:02:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:02:40 - [TEST_STEP][PASSED] - I.Login_password("tliu", password_tliu): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:02:41 - [MESSAGE][PASSED] - Text 'tliu' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:02:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:02:43 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:02:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:03:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003781195.png]]
+
+2022-06-23 19:03:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:03:07 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 19:03:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:03:12 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:03:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:03:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:03:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:03:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003806328.png]]
+
+2022-06-23 19:03:27 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[6]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="tab_brief_phase"]/div/div[1]/div/div[1]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:03:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:03:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_edit_phase_brief"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:03:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:03:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_35"]"]), "W2_EDIT_TLIUM_PART3"): Text 'W2_EDIT_TLIUM_PART3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:03:46 - [MESSAGE][PASSED] - Text 'W2_EDIT_TLIUM_PART3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:03:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:03:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003826609.png]]
+
+2022-06-23 19:03:47 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="type_save"]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:03:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:03:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:03:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:03:56 - [TEST_STEP][PASSED] - verifyTextPresent("References List", false): Text 'References List' is present on page 
+
+2022-06-23 19:03:58 - [MESSAGE][PASSED] - Text 'References List' is present on page 
+
+2022-06-23 19:03:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:03:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003838423.png]]
+
+2022-06-23 19:03:58 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 19:03:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:03:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003839253.png]]
+
+2022-06-23 19:03:59 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="type_save"]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:04:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:04:00 - [TEST_STEP][PASSED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them."): Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 19:04:01 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.'
+
+2022-06-23 19:04:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656003842206.png]]
+
+2022-06-23 19:04:02 - [MESSAGE][PASSED] - Actual text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' and expected text 'Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them.' are matched 
+
+2022-06-23 19:04:02 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/a"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:04:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:04:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:04:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:04:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[6]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:04:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:04:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:04:14 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[1]/div/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div", "W2_EDIT_TLIUM_PART3"): Actual text 'W2_EDIT_TLIUM_PART3' and expected text 'W2_EDIT_TLIUM_PART3' are matched 
+
+2022-06-23 19:04:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'W2_EDIT_TLIUM_PART3'
+
+2022-06-23 19:04:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:04:16 - [MESSAGE][PASSED] - Actual text 'W2_EDIT_TLIUM_PART3' and expected text 'W2_EDIT_TLIUM_PART3' are matched 
+
+2022-06-23 19:04:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:04:22 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:04:22 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 19:04:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:04:59 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:04:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4" time="352.092" classname="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4" status="FAILED">
+         <failure type="FAILED" message="Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id=&quot;toast-container&quot;]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+"/>
+         <system-out><![CDATA[2022-06-23 19:04:59 - [TEST_CASE][FAILED] - Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - Project_No = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_ProjectNo.txt"): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - refID = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\11.01 Tag Project_No\11.01_Tag_refID.txt"): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "D:\Katalon_Studio\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"): null
+
+2022-06-23 19:05:00 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 19:05:09 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 19:05:10 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:06:40 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:06:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:06:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:06:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:06:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:06:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:06:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004001401.png]]
+
+2022-06-23 19:06:41 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:06:45 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:06:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:06:47 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:06:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:07:00 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:07:09 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[7]/button"): Delayed 5 second(s)
+
+2022-06-23 19:07:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:07:12 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:07:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:07:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:07:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:07:29 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:07:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:07:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004059164.png]]
+
+2022-06-23 19:07:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:07:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:07:41 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2022-06-23 19:07:53 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2022-06-23 19:07:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:07:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:07:55 - [TEST_STEP][PASSED] - navigateToUrl(Url_Tag): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:08:47 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG' successfully
+
+2022-06-23 19:08:47 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:08:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:08:47 - [TEST_STEP][PASSED] - I.Login_password("tliu", password_tliu): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:08:48 - [MESSAGE][PASSED] - Text 'tliu' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:08:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:08:54 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:08:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:09:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:09:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004147512.png]]
+
+2022-06-23 19:09:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:09:13 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 19:09:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:09:16 - [MESSAGE][PASSED] - Text 'MI003403' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:09:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:09:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:09:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:09:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:09:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004171040.png]]
+
+2022-06-23 19:09:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[13]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:09:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:09:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004177979.png]]
+
+2022-06-23 19:09:38 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_57"]", "144"): Delayed 2 second(s)
+
+2022-06-23 19:09:42 - [MESSAGE][PASSED] - All options with value '144' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:09:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:09:44 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_28"]", "62"): Delayed 2 second(s)
+
+2022-06-23 19:09:47 - [MESSAGE][PASSED] - All options with value '62' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:09:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_54"]"]), "222"): Text '222' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:09:50 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:09:50 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_55"]", "122"): Delayed 2 second(s)
+
+2022-06-23 19:09:53 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:09:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:09:55 - [TEST_STEP][PASSED] - I.SelectFromList_Value("//*[@id="var_50"]", "15593"): Delayed 2 second(s)
+
+2022-06-23 19:09:58 - [MESSAGE][PASSED] - All options with value '15593' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:10:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:10:00 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:10:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:10:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:10:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:10:10 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="source_" + refID + ""]/td[11]/span[1]", "C&A: Brief completion"): Actual text 'C&A: Brief completion' and expected text 'C&A: Brief completion' are matched 
+
+2022-06-23 19:10:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'C&A: Brief completion'
+
+2022-06-23 19:10:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:10:11 - [MESSAGE][PASSED] - Actual text 'C&A: Brief completion' and expected text 'C&A: Brief completion' are matched 
+
+2022-06-23 19:10:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:10:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004212516.png]]
+
+2022-06-23 19:10:13 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2022-06-23 19:10:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:10:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004213660.png]]
+
+2022-06-23 19:10:14 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:10:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:10:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:10:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:10:17 - [TEST_STEP][FAILED] - I.VerifyMatchToastrmsg("//*[@id="toast-container"]/div/div[2]", "Your changes can't be saved because another user updated values in this form in the meantime. Please reload the page to display them."): Unable to get text of object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at Script1638871773273.run(Script1638871773273.groovy:165)
+	... 13 more
+)
+
+2022-06-23 19:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:10:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="toast-container"]/div/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-23 19:10:51 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/1. Constant/xpath' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at Script1638871773273.run(Script1638871773273.groovy:165)
+	... 13 more
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\04 Tag Simulateneous\\20220623_184215\\1656004250905.png]]
+
+2022-06-23 19:10:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[2022-06-23 19:04:59 - [TEST_CASE][FAILED] - Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-23 18:43:41 - [TEST_SUITE][FAILED] - 04 Tag Simulateneous: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[2022-06-23 18:43:41 - [TEST_SUITE][FAILED] - 04 Tag Simulateneous: Test Cases/11. Tag Simultaneous Modification of ref (P1 - P4 consecutive)/11.4 Simultaneous Modif of Ref (Submit) PART 4 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/1. Constant/xpath'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:918)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$11.call(Unknown Source)
+	at functions.I.VerifyMatchToastrmsg(I.groovy:455)
+	at functions.I$VerifyMatchToastrmsg$8.call(Unknown Source)
+	at 11.4 Simultaneous Modif of Ref (Submit) PART 4.run(11.4 Simultaneous Modif of Ref (Submit) PART 4:165)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002535984.run(TempTestSuite1656002535984.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1. Constant/xpath' located by '//*[@id="toast-container"]/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

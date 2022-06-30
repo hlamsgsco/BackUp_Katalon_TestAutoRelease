@@ -14,22 +14,36 @@
    <testCaseLink>
       <guid>e1284700-7893-4fc3-9e2d-f2e87656123d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/16 Support action (Completed ref)/16.08 NPP SAS Translation - Agency MKT RSA Reset to MKT (no skip) S5 - P1 (will be used16.09)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9721b05f-7076-4325-bbab-51927ee37cd8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/16 Support action (Completed ref)/16.09 NPP SAS translation - Add phases Completed subref ( Prev16.08) - P2 (Will be used in 20.06)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0de259d0-920e-46fc-b079-5cd64c28ce8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.06 NPP Duplication Shortcut_In this project - Brief - Used 16.08_16.09 P3 (Will be used in20.07)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a0f8699-7ef4-4447-9ab6-33e07b6dcd2d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.07 NPP Duplication Shortcut_In new project - Brief - Used 20.06 P4 (will be userd in 20.08)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5954fbd-6adc-4cde-80ce-425f6e935928</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/20. Sephora_NPP Duplication Standard_ Duplication Shortcut/20.08 NPP Duplication Shortcut_In New Project_CT and Lang - Used 16.08_19.09_20.06_20.07 P5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

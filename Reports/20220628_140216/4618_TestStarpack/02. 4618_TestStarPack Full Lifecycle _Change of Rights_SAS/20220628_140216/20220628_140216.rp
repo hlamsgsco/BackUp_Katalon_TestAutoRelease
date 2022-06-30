@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220628_140216</name>
+   <tag></tag>
+   <displayName>20220628_140216</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220628_140216/4618_TestStarpack/TS/02.TestStarPack Full Lifecycle _Change of Rights_SAS/20220628_140217</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/4618_TestStarpack/02. 4618_TestStarPack Full Lifecycle _Change of Rights_SAS</testSuiteCollectionId>
+</ReportCollectionEntity>

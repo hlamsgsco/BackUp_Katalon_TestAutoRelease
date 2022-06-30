@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>48b0a05a-aeef-458a-bdbe-e11050c6c5c6</testSuiteGuid>
    <testCaseLink>
-      <guid>d76f846d-4388-456a-a91f-ce1df9377a2e</guid>
+      <guid>7079e6fa-95d6-4837-bb92-92787f4790e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03. Sephora Full Lifecycle - FS Process/3.02 Sephora FullLifecycle FS Process(Chrome)_ControlTag 15.02P1</testCaseId>
+      <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.01 Dreyers SAS Add Step (Ongoing ref) S4 - P1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -26,10 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7079e6fa-95d6-4837-bb92-92787f4790e0</guid>
+      <guid>d76f846d-4388-456a-a91f-ce1df9377a2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/19. Dreyers Support Action (Ongoing ref_completed)/19.01 Dreyers SAS Add Step (Ongoing ref) S4 - P1</testCaseId>
+      <testCaseId>Test Cases/03. Sephora Full Lifecycle - FS Process/3.02 Sephora FullLifecycle FS Process(Chrome)_ControlTag 15.02P1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

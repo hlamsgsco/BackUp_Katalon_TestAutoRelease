@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="04 TestStarPack Out of Office (OOO)" time="677.289" tests="3" failures="0" errors="0">
+   <testsuite name="04 TestStarPack Out of Office (OOO)" tests="3" failures="0" errors="0" time="677.289" skipped="0" timestamp="2022-06-28 15:20:14" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/4618_TestStarpack/TS/04 TestStarPack Out of Office (OOO)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422428911.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422437691.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422438519.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422461601.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422468835.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422526232.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422575438.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422627115.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422671999.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422717373.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422764545.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422773831.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422789041.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422801515.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422818826.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422819962.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422832734.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422838991.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422840646.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422843164.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422869552.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422872922.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422942860.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422963128.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422967830.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422973501.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422990490.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423011167.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423031973.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423082127.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="8edc0ffbfec8cb1aeb962d8b585425c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1" time="359.542" classname="Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1" status="PASSED">
+         <system-out><![CDATA[2022-06-28 15:20:15 - [TEST_CASE][PASSED] - Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1: Test Cases/17. Tag StarPack Out of Office (OOO)/17.07 Starpack - Out of OfficeAdd_ErrorMsg User Management 17.08 P1
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-28 15:20:17 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:20:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-28 15:20:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-28 15:20:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-28 15:20:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:20:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-28 15:20:28 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-28 15:20:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:20:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422428911.png]]
+
+2022-06-28 15:20:29 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:20:29 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:20:31 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:20:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:20:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:20:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422437691.png]]
+
+2022-06-28 15:20:38 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2")): Object: 'Object Repository/xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2' is clicked on
+
+2022-06-28 15:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2' is clicked on
+
+2022-06-28 15:20:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:20:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422438519.png]]
+
+2022-06-28 15:20:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:20:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:20:41 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan")): Object: 'Object Repository/xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan' is clicked on
+
+2022-06-28 15:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan' is clicked on
+
+2022-06-28 15:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), "mediabox.outofoffice1@gmail.com"): Text 'mediabox.outofoffice1@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:20:57 - [MESSAGE][PASSED] - Text 'mediabox.outofoffice1@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:20:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:20:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:20:58 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="selectAllUser"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:20:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:21:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2_grouped_actions"]"]), "setdelegation", false): All options with value 'setdelegation' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:21:00 - [MESSAGE][PASSED] - All options with value 'setdelegation' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:21:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:21:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:21:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422461601.png]]
+
+2022-06-28 15:21:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="send_action_grouped"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:02 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="UpdateDelegations"]/div[1]/h5", "Arthur FRON's active delegations"): Actual text 'Arthur FRON's active delegations' and expected text 'Arthur FRON's active delegations' are matched 
+
+2022-06-28 15:21:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Arthur FRON's active delegations'
+
+2022-06-28 15:21:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:03 - [MESSAGE][PASSED] - Actual text 'Arthur FRON's active delegations' and expected text 'Arthur FRON's active delegations' are matched 
+
+2022-06-28 15:21:03 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="UpdateDelegations"]/div[2]/h5", "agency1 1's active delegations"): Actual text 'agency1 1's active delegations' and expected text 'agency1 1's active delegations' are matched 
+
+2022-06-28 15:21:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'agency1 1's active delegations'
+
+2022-06-28 15:21:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:05 - [MESSAGE][PASSED] - Actual text 'agency1 1's active delegations' and expected text 'agency1 1's active delegations' are matched 
+
+2022-06-28 15:21:05 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="UpdateDelegations"]/div[3]/h5", "packaging1 1's active delegations"): Actual text 'packaging1 1's active delegations' and expected text 'packaging1 1's active delegations' are matched 
+
+2022-06-28 15:21:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'packaging1 1's active delegations'
+
+2022-06-28 15:21:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:06 - [MESSAGE][PASSED] - Actual text 'packaging1 1's active delegations' and expected text 'packaging1 1's active delegations' are matched 
+
+2022-06-28 15:21:06 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_afron"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:21:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:21:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_change_delegations"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:07 - [TEST_STEP][PASSED] - err1 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div[1]/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Error : Please fill in delegate user'
+
+2022-06-28 15:21:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Error : Please fill in delegate user'
+
+2022-06-28 15:21:08 - [TEST_STEP][PASSED] - err2 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div[2]/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Error : Please fill in delegation's dates'
+
+2022-06-28 15:21:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Error : Please fill in delegation's dates'
+
+2022-06-28 15:21:08 - [TEST_STEP][PASSED] - verifyMatch(err1, "Error : Please fill in delegate user", false): Actual text 'Error : Please fill in delegate user' and expected text 'Error : Please fill in delegate user' are matched 
+
+2022-06-28 15:21:08 - [MESSAGE][PASSED] - Actual text 'Error : Please fill in delegate user' and expected text 'Error : Please fill in delegate user' are matched 
+
+2022-06-28 15:21:08 - [TEST_STEP][PASSED] - verifyMatch(err2, "Error : Please fill in delegation's dates", false): Actual text 'Error : Please fill in delegation's dates' and expected text 'Error : Please fill in delegation's dates' are matched 
+
+2022-06-28 15:21:08 - [MESSAGE][PASSED] - Actual text 'Error : Please fill in delegation's dates' and expected text 'Error : Please fill in delegation's dates' are matched 
+
+2022-06-28 15:21:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:21:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422468835.png]]
+
+2022-06-28 15:21:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-28 15:21:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-28 15:21:14 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_afron_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:46 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:21:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:21:52 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_afron_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:21:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:22:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_afron_new1"]"]), "jmartinez_almarza", false): All options with value 'jmartinez_almarza' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:22:03 - [MESSAGE][PASSED] - All options with value 'jmartinez_almarza' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:22:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:22:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_afron"]"]), 2): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-28 15:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-28 15:22:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:22:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422526232.png]]
+
+2022-06-28 15:22:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:22:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:22:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_afron"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:22:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1agency1"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:07 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_1agency1_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:40 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:22:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:22:44 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_1agency1_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:22:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:22:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_1agency1_new1"]"]), "_almeida", false): All options with value '_almeida' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:22:55 - [MESSAGE][PASSED] - All options with value '_almeida' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:22:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:22:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422575438.png]]
+
+2022-06-28 15:22:55 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1agency1"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:56 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_1agency1_new2"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:28 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:23:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:23:35 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_1agency1_new2"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:23:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:23:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_1agency1_new2"]"]), "1packaging1", false): All options with value '1packaging1' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:23:45 - [MESSAGE][PASSED] - All options with value '1packaging1' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:23:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:23:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:23:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1agency1"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:23:47 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:23:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:23:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422627115.png]]
+
+2022-06-28 15:23:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1packaging1"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:47 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_1packaging1_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:20 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:24:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:24:24 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_1packaging1_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_1packaging1_new1"]"]), "_almeida", false): All options with value '_almeida' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:24:31 - [MESSAGE][PASSED] - All options with value '_almeida' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:24:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:24:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422671999.png]]
+
+2022-06-28 15:24:32 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1packaging1"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:32 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_1packaging1_new2"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:05 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:25:09 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_1packaging1_new2"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_1packaging1_new2"]"]), "fazer", false): All options with value 'fazer' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:25:17 - [MESSAGE][PASSED] - All options with value 'fazer' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:25:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:25:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422717373.png]]
+
+2022-06-28 15:25:17 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1packaging1"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:18 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_1packaging1_new3"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:51 - [MESSAGE][PASSED] - Delayed 32 second(s)
+
+2022-06-28 15:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:25:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:25:55 - [TEST_STEP][PASSED] - I.UserManagement_Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_1packaging1_new3"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:25:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_1packaging1_new3"]"]), "jmartinez_almarza", false): All options with value 'jmartinez_almarza' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:26:03 - [MESSAGE][PASSED] - All options with value 'jmartinez_almarza' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:26:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:26:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:04 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation_1packaging1"]"])): Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-28 15:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-28 15:26:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:26:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422764545.png]]
+
+2022-06-28 15:26:04 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_change_delegations"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:26:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422773831.png]]
+
+2022-06-28 15:26:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-28 15:26:14 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-28 15:26:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17. Tag StarPack Out of Office (OOO)/17.08 Starpack Out of Office DElete delegate User Management P2" time="110.58" classname="Test Cases/17. Tag StarPack Out of Office (OOO)/17.08 Starpack Out of Office DElete delegate User Management P2" status="PASSED">
+         <system-out><![CDATA[2022-06-28 15:26:15 - [TEST_CASE][PASSED] - Test Cases/17. Tag StarPack Out of Office (OOO)/17.08 Starpack Out of Office DElete delegate User Management P2: Test Cases/17. Tag StarPack Out of Office (OOO)/17.08 Starpack Out of Office DElete delegate User Management P2
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_jmarest = data.getValue(2, 9): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - password_jmartinez_almarza = data.getValue(2, 10): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-28 15:26:16 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:26:16 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-28 15:26:16 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-28 15:26:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-28 15:26:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:26:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-28 15:26:22 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-28 15:26:22 - [TEST_STEP][PASSED] - I.Login_password("jmartinez_almarza", password_jmartinez_almarza): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:22 - [MESSAGE][PASSED] - Text 'jmartinez_almarza' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:26:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:23 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:26:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:26:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:26:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422789041.png]]
+
+2022-06-28 15:26:29 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="modal_delegations"]/div/div/div[1]/h3", "Cuentas delegadas a mí"): Actual text 'Cuentas delegadas a mí' and expected text 'Cuentas delegadas a mí' are matched 
+
+2022-06-28 15:26:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Cuentas delegadas a mí'
+
+2022-06-28 15:26:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:30 - [MESSAGE][PASSED] - Actual text 'Cuentas delegadas a mí' and expected text 'Cuentas delegadas a mí' are matched 
+
+2022-06-28 15:26:30 - [TEST_STEP][PASSED] - I.VerifyMatchText("//*[@id="modal_delegations"]/div/div/div[2]/div/div/div[1]/div[2]/h6", "Arthur FRON"): Actual text 'Arthur FRON' and expected text 'Arthur FRON' are matched 
+
+2022-06-28 15:26:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Arthur FRON'
+
+2022-06-28 15:26:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:31 - [MESSAGE][PASSED] - Actual text 'Arthur FRON' and expected text 'Arthur FRON' are matched 
+
+2022-06-28 15:26:31 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[3]/div/div/div[2]/div/div/div[2]/div[2]/h6", "packaging1 1"): Actual text 'packaging1 1' and expected text 'packaging1 1' are matched 
+
+2022-06-28 15:26:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'packaging1 1'
+
+2022-06-28 15:26:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:32 - [MESSAGE][PASSED] - Actual text 'packaging1 1' and expected text 'packaging1 1' are matched 
+
+2022-06-28 15:26:32 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_delegations"]/div/div/div[3]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img"]), 2): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-28 15:26:33 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-28 15:26:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:26:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:26:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422801515.png]]
+
+2022-06-28 15:26:41 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:26:41 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:26:41 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/form/div[2]/div[2]/div[2]/div[4]/table/tbody/tr[1]/td[2]/div", "Arthur FRON"): Actual text 'Arthur FRON' and expected text 'Arthur FRON' are matched 
+
+2022-06-28 15:26:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Arthur FRON'
+
+2022-06-28 15:26:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:43 - [MESSAGE][PASSED] - Actual text 'Arthur FRON' and expected text 'Arthur FRON' are matched 
+
+2022-06-28 15:26:43 - [TEST_STEP][PASSED] - I.VerifyMatchText("/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/form/div[2]/div[2]/div[2]/div[4]/table/tbody/tr[2]/td[2]/div", "packaging1 1"): Actual text 'packaging1 1' and expected text 'packaging1 1' are matched 
+
+2022-06-28 15:26:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'packaging1 1'
+
+2022-06-28 15:26:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:44 - [MESSAGE][PASSED] - Actual text 'packaging1 1' and expected text 'packaging1 1' are matched 
+
+2022-06-28 15:26:44 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifierUser"]/div[3]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:46 - [TEST_STEP][PASSED] - I.Logout_xpath("//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img", "//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[5]"): Wait for page load successfully
+
+2022-06-28 15:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-28 15:26:50 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:51 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:26:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:52 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:26:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:26:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:26:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422818826.png]]
+
+2022-06-28 15:26:59 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2")): Object: 'Object Repository/xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2' is clicked on
+
+2022-06-28 15:26:59 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.0 R_Menu_Settings id_kt_aside_menu_ul_li11aspan2' is clicked on
+
+2022-06-28 15:26:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422819962.png]]
+
+2022-06-28 15:27:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:27:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:27:03 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan")): Object: 'Object Repository/xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan' is clicked on
+
+2022-06-28 15:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.01_Menu_Usermanagement id_kt_aside_menu_ul_li11div_ul_li2aspan' is clicked on
+
+2022-06-28 15:27:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422832734.png]]
+
+2022-06-28 15:27:13 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), "mediabox.outofoffice1@gmail.com"): Text 'mediabox.outofoffice1@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:27:14 - [MESSAGE][PASSED] - Text 'mediabox.outofoffice1@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:27:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:27:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:27:16 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="selectAllUser"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="select2_grouped_actions"]"]), "setdelegation", false): All options with value 'setdelegation' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:27:17 - [MESSAGE][PASSED] - All options with value 'setdelegation' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:27:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422838991.png]]
+
+2022-06-28 15:27:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="send_action_grouped"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422840646.png]]
+
+2022-06-28 15:27:20 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[1]/table/tbody/tr/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[2]/table/tbody/tr[1]/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[2]/table/tbody/tr/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[3]/table/tbody/tr[1]/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[3]/table/tbody/tr[1]/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:21 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[6]/div/div/div[2]/div/form/div[3]/table/tbody/tr/td[6]/button[1]"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:27:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422843164.png]]
+
+2022-06-28 15:27:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_change_delegations"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:32 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-28 15:27:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:27:43 - [TEST_STEP][PASSED] - I.Login_password("jmartinez_almarza", password_jmartinez_almarza): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:43 - [MESSAGE][PASSED] - Text 'jmartinez_almarza' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:27:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:44 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:27:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422869552.png]]
+
+2022-06-28 15:27:49 - [TEST_STEP][PASSED] - verifyTextNotPresent("Cuentas delegadas a mí", false): Text 'Cuentas delegadas a mí' is not present on page
+
+2022-06-28 15:27:50 - [MESSAGE][PASSED] - Text 'Cuentas delegadas a mí' is not present on page
+
+2022-06-28 15:27:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:27:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:27:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422872922.png]]
+
+2022-06-28 15:27:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:27:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:27:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegationSettings"]/div[2]/div[4]/table/tbody/tr[1]/td[2]/div/i"]), 2): Web element with id: 'Object Repository/1. Constant/xpath' located by 'By.xpath: //*[@id="delegationSettings"]/div[2]/div[4]/table/tbody/tr[1]/td[2]/div/i' is not present after '2' second(s)
+
+2022-06-28 15:27:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/1. Constant/xpath' located by 'By.xpath: //*[@id="delegationSettings"]/div[2]/div[4]/table/tbody/tr[1]/td[2]/div/i' is not present after '2' second(s)
+
+2022-06-28 15:27:54 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-28 15:27:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-28 15:28:05 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-28 15:28:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified)" time="206.128" classname="Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified)" status="PASSED">
+         <system-out><![CDATA[2022-06-28 15:28:05 - [TEST_CASE][PASSED] - Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified): Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified)
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_jmarest = data.getValue(2, 9): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_jmartinez_almarza = data.getValue(2, 10): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_dcrow = data.getValue(2, 11): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_ncurnier = data.getValue(2, 12): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_mdelrio = data.getValue(2, 13): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - password_1packaging2 = data.getValue(2, 14): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-28 15:28:06 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:28:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-28 15:28:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-28 15:28:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-28 15:28:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mdb-v3-test.diadeis.com/Mediabox4618/?MBI_datasource=TESTAUTO_STARPACK_4618'
+
+2022-06-28 15:28:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-28 15:28:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-28 15:28:11 - [TEST_STEP][PASSED] - I.Login_password("mdelrio", password_mdelrio): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:11 - [MESSAGE][PASSED] - Text 'mdelrio' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:28:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:13 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:28:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:17 - [TEST_STEP][PASSED] - I.Go_to_MyProfile(): Delayed 1 second(s)
+
+2022-06-28 15:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:21 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="btn_add_delegation"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:28:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:24 - [TEST_STEP][PASSED] - I.Delegate_Select_date_PreviousMonth("//*[@id="delegation_start_date_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:28:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:31 - [TEST_STEP][PASSED] - I.Delegate_Select_date_NextMonth("//*[@id="delegation_end_date_new1"]"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:28:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="delegation_select_user_new1"]"]), "1packaging2", false, STOP_ON_FAILURE): All options with value '1packaging2' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:28:39 - [MESSAGE][PASSED] - All options with value '1packaging2' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-28 15:28:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-28 15:28:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:42 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifierUser"]/div[3]/div/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:28:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:28:45 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-28 15:28:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:28:56 - [TEST_STEP][PASSED] - I.Login_password("1packaging2", password_1packaging2): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:28:56 - [MESSAGE][PASSED] - Text '1packaging2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:28:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:28:58 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:28:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:29:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422942860.png]]
+
+2022-06-28 15:29:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_delegations"]/div/div/div[3]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:04 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:05 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:08 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:29:08 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:29:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/form/div[2]/div[2]/div[2]/div[4]/table/tbody/tr/td[3]/label"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:10 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifierUser"]/div[3]/div/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:29:12 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:29:12 - [TEST_STEP][PASSED] - I.Logout_xpath("//*[@id="kt_header"]/div/div[2]/div[2]/div[1]/div/span/img", "//*[@id="kt_header"]/div/div[2]/div[2]/div[2]/a[4]"): Wait for page load successfully
+
+2022-06-28 15:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-28 15:29:15 - [TEST_STEP][PASSED] - I.Login_password("adelamatanieves", password_adelamatanieves): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:16 - [MESSAGE][PASSED] - Text 'adelamatanieves' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:29:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:17 - [MESSAGE][PASSED] - Text 'dchi4' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:29:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:29:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:29:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422963128.png]]
+
+2022-06-28 15:29:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-28 15:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-28 15:29:26 - [TEST_STEP][PASSED] - click(findTestObject("xxx Todelete/3 ProjectListPage_Create_Project_Button")): Object: 'Object Repository/xxx Todelete/3 ProjectListPage_Create_Project_Button' is clicked on
+
+2022-06-28 15:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/3 ProjectListPage_Create_Project_Button' is clicked on
+
+2022-06-28 15:29:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:29:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422967830.png]]
+
+2022-06-28 15:29:28 - [TEST_STEP][PASSED] - project_name0 = "AutoTest_Chrome_Starpack_OutOfOffice" + RandomStringUtils.randomAlphanumeric(10) + "_" + I.gettimedate(): null
+
+2022-06-28 15:29:28 - [TEST_STEP][PASSED] - setText(findTestObject("HL Full Lifecycle/4 CreateProjPage_inputProjectname"), project_name0): Text 'AutoTest_Chrome_Starpack_OutOfOfficeHfNFCV1V1o_juin282022_152928' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-28 15:29:28 - [MESSAGE][PASSED] - Text 'AutoTest_Chrome_Starpack_OutOfOfficeHfNFCV1V1o_juin282022_152928' is set on object 'Object Repository/HL Full Lifecycle/4 CreateProjPage_inputProjectname'
+
+2022-06-28 15:29:28 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton")): Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-28 15:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/4 CreateProjPage_Create Project_Bluebutton' is clicked on
+
+2022-06-28 15:29:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:29:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422973501.png]]
+
+2022-06-28 15:29:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_98"]), "122", false): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:34 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:29:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:29:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_9"]), "amartin_arbol", false): All options with value 'amartin_arbol' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:37 - [MESSAGE][PASSED] - All options with value 'amartin_arbol' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_10"]), "aterreshernandez", false): All options with value 'aterreshernandez' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:39 - [MESSAGE][PASSED] - All options with value 'aterreshernandez' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)"), "nalonsobermejo", true): All options with value 'nalonsobermejo' are selected in object 'Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)'  using regular expression
+
+2022-06-28 15:29:40 - [MESSAGE][PASSED] - All options with value 'nalonsobermejo' are selected in object 'Object Repository/xxx Todelete/1.4 ModifyProPage_MF(IDP)'  using regular expression
+
+2022-06-28 15:29:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF")): Object: 'Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF' is clicked on
+
+2022-06-28 15:29:41 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/1.41 ModifyProPage_AddMF' is clicked on
+
+2022-06-28 15:29:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_15"]), "292", false): All options with value '292' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:43 - [MESSAGE][PASSED] - All options with value '292' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_26"]), "94", false): All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:44 - [MESSAGE][PASSED] - All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_12"]), "94", false): All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:46 - [MESSAGE][PASSED] - All options with value '94' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_27"]), "734", false): All options with value '734' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:48 - [MESSAGE][PASSED] - All options with value '734' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_71"]), "efood", false): All options with value 'efood' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:49 - [MESSAGE][PASSED] - All options with value 'efood' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:29:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:29:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:29:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:29:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656422990490.png]]
+
+2022-06-28 15:29:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-28 15:29:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-28 15:29:55 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-28 15:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-28 15:29:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:30:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:30:01 - [TEST_STEP][PASSED] - Project_No = I.ProjectNo(): Current window's url is: 'https://mdb-v3-test.diadeis.com/Mediabox4618/Base/ExecAction?IDSession=MBI%21TESTAUTO_STARPACK_4618%21DXLBJVRYYXCK8PQHZSI5249SDQ97JXAZV1D04QRW&default_action=AfficheFichesProjet&id_project=MI001289'
+
+2022-06-28 15:30:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-28 15:30:06 - [MESSAGE][PASSED] - Current window's url is: 'https://mdb-v3-test.diadeis.com/Mediabox4618/Base/ExecAction?IDSession=MBI%21TESTAUTO_STARPACK_4618%21DXLBJVRYYXCK8PQHZSI5249SDQ97JXAZV1D04QRW&default_action=AfficheFichesProjet&id_project=MI001289'
+
+2022-06-28 15:30:06 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPage_createrefbutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-28 15:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPage_createrefbutton' is clicked on
+
+2022-06-28 15:30:07 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferenceListPaga_Create a component_button")): Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-28 15:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferenceListPaga_Create a component_button' is clicked on
+
+2022-06-28 15:30:11 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-06-28 15:30:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-28 15:30:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:30:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423011167.png]]
+
+2022-06-28 15:30:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"ref_type"]), "6", false): All options with value '6' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:14 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:30:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:30:16 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton")): Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-28 15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/6 ReferencePg_Create a component_bluebutton' is clicked on
+
+2022-06-28 15:30:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:30:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:30:26 - [TEST_STEP][PASSED] - refID = I.RefID(): Current window's url is: 'https://mdb-v3-test.diadeis.com/Mediabox4618/Base/ExecAction?IDSession=MBI%21TESTAUTO_STARPACK_4618%21DXLBJVRYYXCK8PQHZSI5249SDQ97JXAZV1D04QRW&default_action=ModifierRef&id_project=MI001289&id_ref=6408&action_from=create_ref'
+
+2022-06-28 15:30:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-28 15:30:31 - [MESSAGE][PASSED] - Current window's url is: 'https://mdb-v3-test.diadeis.com/Mediabox4618/Base/ExecAction?IDSession=MBI%21TESTAUTO_STARPACK_4618%21DXLBJVRYYXCK8PQHZSI5249SDQ97JXAZV1D04QRW&default_action=ModifierRef&id_project=MI001289&id_ref=6408&action_from=create_ref'
+
+2022-06-28 15:30:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:30:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423031973.png]]
+
+2022-06-28 15:30:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_28"]), "209293"): Keys '209293' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:32 - [MESSAGE][PASSED] - Keys '209293' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_30"]), "test Submarca"): Keys 'test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:33 - [MESSAGE][PASSED] - Keys 'test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_31"]), "test Submarca Vínculo con bulto: test Submarca"): Keys 'test Submarca Vínculo con bulto: test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:33 - [MESSAGE][PASSED] - Keys 'test Submarca Vínculo con bulto: test Submarca' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_38"]), "24", false): All options with value '24' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:34 - [MESSAGE][PASSED] - All options with value '24' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_39"]), "8480017155061"): Keys '8480017155061' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:34 - [MESSAGE][PASSED] - Keys '8480017155061' sent to object: 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-28 15:30:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_19"]), "22", false): All options with value '22' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:35 - [MESSAGE][PASSED] - All options with value '22' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/xxx Todelete/2.01 ModifyRef_Pais")): Object: 'Object Repository/xxx Todelete/2.01 ModifyRef_Pais' is clicked on
+
+2022-06-28 15:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/xxx Todelete/2.01 ModifyRef_Pais' is clicked on
+
+2022-06-28 15:30:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"var_75"]), "26", false): All options with value '26' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:36 - [MESSAGE][PASSED] - All options with value '26' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-28 15:30:36 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/7 ModifyRefPage_button_Save")): Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-28 15:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/7 ModifyRefPage_button_Save' is clicked on
+
+2022-06-28 15:30:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:30:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:30:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:30:54 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/ul/li[3]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:30:57 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:30:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:30:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 15:31:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 15:31:00 - [TEST_STEP][PASSED] - i = 1: null
+
+2022-06-28 15:31:00 - [TEST_STEP][PASSED] - while (i <= 8): null
+
+2022-06-28 15:31:00 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Adela GarciaSanchez'
+
+2022-06-28 15:31:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Adela GarciaSanchez'
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Packaging1 Dia Test'
+
+2022-06-28 15:31:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Packaging1 Dia Test'
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:01 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'packaging1 1'
+
+2022-06-28 15:31:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'packaging1 1'
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'BEATRIZ SOLLETBRAVO'
+
+2022-06-28 15:31:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'BEATRIZ SOLLETBRAVO'
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'ANAISABEL TERRÉSHERNÁNDEZ'
+
+2022-06-28 15:31:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'ANAISABEL TERRÉSHERNÁNDEZ'
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'YOLANDA SANZMONEDERO'
+
+2022-06-28 15:31:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'YOLANDA SANZMONEDERO'
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - else: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - i = i + 1: null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - name = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[3]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Mónica DelRio'
+
+2022-06-28 15:31:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Mónica DelRio'
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - if (name == "Mónica DelRio"): null
+
+2022-06-28 15:31:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[1]/div/i"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-28 15:31:03 - [TEST_STEP][PASSED] - mouseOver(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[1]/div/i"])): Object: 'Object Repository/1. Constant/xpath' is hovered
+
+2022-06-28 15:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is hovered
+
+2022-06-28 15:31:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:31:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:04 - [TEST_STEP][PASSED] - tooltip1 = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[8]/div[3]/div/div[3]/div[3]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/div[" + i + "]/div/div[1]/div/div"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2'
+
+2022-06-28 15:31:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2'
+
+2022-06-28 15:31:04 - [TEST_STEP][PASSED] - I.print(tooltip1): null
+
+2022-06-28 15:31:04 - [TEST_STEP][PASSED] - verifyMatch(tooltip1, "Ausente de oficina" + "
+
+" + "Tareas delegadas a : 1packaging2", false): Actual text 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2' and expected text 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2' are matched 
+
+2022-06-28 15:31:04 - [MESSAGE][PASSED] - Actual text 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2' and expected text 'Ausente de oficina
+
+Tareas delegadas a : 1packaging2' are matched 
+
+2022-06-28 15:31:04 - [TEST_STEP][PASSED] - i = 9: null
+
+2022-06-28 15:31:04 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-28 15:31:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-28 15:31:15 - [TEST_STEP][PASSED] - I.Login_password("mdelrio", password_mdelrio): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:15 - [MESSAGE][PASSED] - Text 'mdelrio' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:31:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:17 - [MESSAGE][PASSED] - Text 'dchi3' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-28 15:31:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-28 15:31:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220628_151957\\4618_TestStarpack\\TS\\04 TestStarPack Out of Office (OOO)\\20220628_151958\\1656423082127.png]]
+
+2022-06-28 15:31:22 - [TEST_STEP][PASSED] - I.Go_to_MyProfile(): Delayed 1 second(s)
+
+2022-06-28 15:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:26 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:31:27 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-28 15:31:27 - [TEST_STEP][PASSED] - I.click_button_javascriptS("/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/form/div[2]/div[2]/div[2]/div[2]/table/tbody/tr/td[6]/button[1]"): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:31:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-28 15:31:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:31:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:28 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifierUser"]/div[3]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-28 15:31:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-28 15:31:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 15:31:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-28 15:31:31 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-28 15:31:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-28 15:20:14 - [TEST_SUITE][PASSED] - 04 TestStarPack Out of Office (OOO): Test Cases/17. Tag StarPack Out of Office (OOO)/17.10 StarPack Add A delegate _ accounts delegated to me check P1 (Email need to be verified)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

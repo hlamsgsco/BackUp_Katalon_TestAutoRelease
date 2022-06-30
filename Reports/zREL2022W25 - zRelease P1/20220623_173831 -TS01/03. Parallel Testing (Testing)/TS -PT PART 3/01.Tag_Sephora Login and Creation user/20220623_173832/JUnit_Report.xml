@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01.Tag_Sephora Login and Creation user" time="652.768" tests="6" failures="0" errors="0">
+   <testsuite name="01.Tag_Sephora Login and Creation user" tests="6" failures="0" errors="0" time="652.768" skipped="0" timestamp="2022-06-23 17:38:43" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/01.Tag_Sephora Login and Creation user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998754090.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998755565.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998773100.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998889396.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998955574.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998956142.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998957050.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998957795.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998958348.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998958957.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998959608.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998964143.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998972225.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998979001.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998985342.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999007708.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999010037.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999016845.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999022896.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999029384.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999036495.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999051597.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999064250.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999078714.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999087462.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999096022.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999113825.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999137296.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999137951.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999155604.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999157356.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999177080.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999178364.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999196210.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999213569.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999232796.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999241145.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999241843.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999258665.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999364276.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="1c0c562227977d84ad8c0a80cbb961f2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01)" time="199.434" classname="Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:38:44 - [TEST_CASE][PASSED] - Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01): Test Cases/02. Sephora_Starpack User management/2.02 Création de compte (avec parametre) (Need verification email 6.01)
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\login.txt"): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - I.clearnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\Name.txt"): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - Email = "mediabox.creation@gmail.com": null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-23 17:38:47 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:38:48 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:38:48 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:38:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:38:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:38:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:38:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:38:58 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:00 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:39:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:39:01 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:39:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:39:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998754090.png]]
+
+2022-06-23 17:39:14 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:39:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:39:14 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:39:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998755565.png]]
+
+2022-06-23 17:39:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:39:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:39:18 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:31 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:39:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:39:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:32 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:39:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:39:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:39:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998773100.png]]
+
+2022-06-23 17:39:33 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-23 17:39:33 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-23 17:39:33 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-23 17:39:33 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LN9Oy173933' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:39:34 - [MESSAGE][PASSED] - Text 'LN9Oy173933' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:39:34 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNblC' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:39:34 - [MESSAGE][PASSED] - Text 'FNblC' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:39:34 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), Email): Text 'mediabox.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:39:37 - [MESSAGE][PASSED] - Text 'mediabox.creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:39:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:38 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:39:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:39:39 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:39:40 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:39:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_Brand"]), "122", true): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:40 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:39:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userRoleParams_block"]/div/div/table/tbody/tr/td[2]/input[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:39:40 - [TEST_STEP][PASSED] - login = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'fln9oy173933'
+
+2022-06-23 17:39:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'fln9oy173933'
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:39:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - I.VerifyCheckboxChecked("Track Click", findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-23 17:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - FirstName1 = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'FNblC'
+
+2022-06-23 17:39:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'FNblC'
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - LastName1 = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'LN9Oy173933'
+
+2022-06-23 17:39:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'LN9Oy173933'
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\Name.txt", FirstName1 + " " + LastName1): null
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - I.writenotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\login.txt", login): null
+
+2022-06-23 17:39:41 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:41:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:41:26 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'fln9oy173933' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:41:28 - [MESSAGE][PASSED] - Text 'fln9oy173933' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:41:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:41:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:41:29 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id='" + login + "']/td[5]"]), login, log): Text of object 'Object Repository/1. Constant/xpath' is: 'fln9oy173933'
+
+2022-06-23 17:41:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'fln9oy173933'
+
+2022-06-23 17:41:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:41:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998889396.png]]
+
+2022-06-23 17:41:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:41:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:41:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - value1 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"2"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'LN9Oy173933'
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'LN9Oy173933'
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - I.print(value1): null
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - verifyEqual(value1, Lastname): Actual object 'LN9Oy173933' and expected object 'LN9Oy173933' are equal
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Actual object 'LN9Oy173933' and expected object 'LN9Oy173933' are equal
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - value2 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"3"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'FNblC'
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'FNblC'
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - verifyEqual(value2, FirstName): Actual object 'FNblC' and expected object 'FNblC' are equal
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Actual object 'FNblC' and expected object 'FNblC' are equal
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - value3 = getAttribute(findTestObject("Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput", ["no":"4"]), "value"): Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'mediabox.creation@gmail.com'
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Starpack USermanagement/1.06 UpdateUser id_UpdateUser_div2divdiv1div_no_divinput' is: 'mediabox.creation@gmail.com'
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - verifyEqual(value3, Email): Actual object 'mediabox.creation@gmail.com' and expected object 'mediabox.creation@gmail.com' are equal
+
+2022-06-23 17:41:32 - [MESSAGE][PASSED] - Actual object 'mediabox.creation@gmail.com' and expected object 'mediabox.creation@gmail.com' are equal
+
+2022-06-23 17:41:32 - [TEST_STEP][PASSED] - I.VerifyListSelected_byValue("Company", findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1"): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-23 17:41:33 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id' 
+
+2022-06-23 17:41:33 - [TEST_STEP][PASSED] - I.VerifyCheckboxChecked("Track Click", findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-23 17:41:33 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' is checked
+
+2022-06-23 17:41:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="UpdateUser"]/div[2]/div/div[2]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:41:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:41:48 - [TEST_STEP][PASSED] - "Verify Roles data": null
+
+2022-06-23 17:41:48 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'fln9oy173933' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:41:49 - [MESSAGE][PASSED] - Text 'fln9oy173933' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:41:49 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div/div/div[2]/div/div/div/div[1]/table/tbody/tr/td[4]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:41:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:41:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:41:51 - [TEST_STEP][PASSED] - value_role = getAttribute(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="selDest_Brand"]/option"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '122'
+
+2022-06-23 17:41:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/xpath' is: '122'
+
+2022-06-23 17:41:51 - [TEST_STEP][PASSED] - verifyEqual(value_role, "122"): Actual object '122' and expected object '122' are equal
+
+2022-06-23 17:41:51 - [MESSAGE][PASSED] - Actual object '122' and expected object '122' are equal
+
+2022-06-23 17:41:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="UpdateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 17:42:04 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 17:42:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Sephora_Starpack User management/2.04 Création de compte (Validation des champs obligatoires)" time="115.296" classname="Test Cases/02. Sephora_Starpack User management/2.04 Création de compte (Validation des champs obligatoires)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:42:04 - [TEST_CASE][PASSED] - Test Cases/02. Sephora_Starpack User management/2.04 Création de compte (Validation des champs obligatoires): Test Cases/02. Sephora_Starpack User management/2.04 Création de compte (Validation des champs obligatoires)
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_aherms = data.getValue(2, 2): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_agluszczynska = data.getValue(2, 3): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_jmaciaszczyk = data.getValue(2, 4): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_aterreshernandez = data.getValue(2, 5): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_amartin_arbol = data.getValue(2, 6): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_adelamatanieves = data.getValue(2, 7): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - password_kcannoosamy_dia = data.getValue(2, 8): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-23 17:42:05 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:42:05 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:42:05 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:42:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:42:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:42:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:42:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - "SCENARIO 1 : ALL REQUIRED FIELDS ARE EMPTY": null
+
+2022-06-23 17:42:11 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:12 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:42:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:42:13 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:42:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:20 - [TEST_STEP][PASSED] - I.GoToUserManagement(): Wait for page load successfully
+
+2022-06-23 17:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:42:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:35 - [TEST_STEP][PASSED] - "Verify if star is displayed on": null
+
+2022-06-23 17:42:35 - [TEST_STEP][PASSED] - I.verifystar("Last name", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[1]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998955574.png]]
+
+2022-06-23 17:42:35 - [TEST_STEP][PASSED] - I.verifystar("First Name", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[2]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998956142.png]]
+
+2022-06-23 17:42:36 - [TEST_STEP][PASSED] - I.verifystar("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[3]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998957050.png]]
+
+2022-06-23 17:42:37 - [TEST_STEP][PASSED] - I.verifystar("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998957795.png]]
+
+2022-06-23 17:42:38 - [TEST_STEP][PASSED] - I.verifystar("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[5]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:38 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998958348.png]]
+
+2022-06-23 17:42:38 - [TEST_STEP][PASSED] - I.verifystar("Expiration date", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[8]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:38 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998958957.png]]
+
+2022-06-23 17:42:39 - [TEST_STEP][PASSED] - I.verifystar("User Role", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[9]/label/img"]), log): Taking screenshot successfully
+
+2022-06-23 17:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998959608.png]]
+
+2022-06-23 17:42:39 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:42:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998964143.png]]
+
+2022-06-23 17:42:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:44 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:42:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:42:47 - [TEST_STEP][PASSED] - "SCENARIO 2: COMPANY BLANK": null
+
+2022-06-23 17:42:47 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:42:48 - [MESSAGE][PASSED] - Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:42:48 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNBhQ' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:42:48 - [MESSAGE][PASSED] - Text 'FNBhQ' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:42:48 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TEST@TEST.com"): Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:42:48 - [MESSAGE][PASSED] - Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:42:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:42:49 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:42:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:42:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:42:50 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:42:50 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:42:50 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:42:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:42:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:42:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998972225.png]]
+
+2022-06-23 17:42:52 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Company missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Company missing'
+
+2022-06-23 17:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:42:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Company missing'
+
+2022-06-23 17:42:52 - [TEST_STEP][PASSED] - "SCENARIO 3: Last Name blank": null
+
+2022-06-23 17:42:52 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:42:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:42:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:42:53 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:42:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:42:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:42:55 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:42:55 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:42:55 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:42:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:42:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:42:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:42:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998979001.png]]
+
+2022-06-23 17:42:59 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Name missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Name missing'
+
+2022-06-23 17:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Name missing'
+
+2022-06-23 17:43:00 - [TEST_STEP][PASSED] - "SCENARIO 4: First name blank": null
+
+2022-06-23 17:43:00 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:00 - [MESSAGE][PASSED] - Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:43:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:43:01 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:43:01 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:43:01 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655998985342.png]]
+
+2022-06-23 17:43:05 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "First Name missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'First Name missing'
+
+2022-06-23 17:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'First Name missing'
+
+2022-06-23 17:43:06 - [TEST_STEP][PASSED] - "SCENARIO 5A: Login blank": null
+
+2022-06-23 17:43:06 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:15 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:18 - [MESSAGE][PASSED] - Text 'LNuVs174211' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNBhQ' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:19 - [MESSAGE][PASSED] - Text 'FNBhQ' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TEST@TEST.com"): Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:19 - [MESSAGE][PASSED] - Text 'TEST@TEST.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:20 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:21 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:21 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:43:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:43:22 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:43:22 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:43:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999007708.png]]
+
+2022-06-23 17:43:28 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "This login must contain beetween 4 and 18 characters", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-23 17:43:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-23 17:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "ter"): Text 'ter' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:29 - [MESSAGE][PASSED] - Text 'ter' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:29 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999010037.png]]
+
+2022-06-23 17:43:30 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Login", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "This login must contain beetween 4 and 18 characters", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-23 17:43:30 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login must contain beetween 4 and 18 characters'
+
+2022-06-23 17:43:31 - [TEST_STEP][PASSED] - "SCENARIO 6A: EMAIL blank": null
+
+2022-06-23 17:43:31 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:43:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:43:31 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "ter12"): Text 'ter12' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:33 - [MESSAGE][PASSED] - Text 'ter12' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999016845.png]]
+
+2022-06-23 17:43:37 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Email", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Email missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Email missing
+Invalid email
+Login error : This login is already used'
+
+2022-06-23 17:43:37 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Email missing
+Invalid email
+Login error : This login is already used'
+
+2022-06-23 17:43:37 - [TEST_STEP][PASSED] - "SCENARIO 6B: INVALID EMAIL": null
+
+2022-06-23 17:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TESTT.com"): Text 'TESTT.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:38 - [MESSAGE][PASSED] - Text 'TESTT.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:38 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999022896.png]]
+
+2022-06-23 17:43:43 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Email", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Invalid email", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid email
+Login error : This login is already used'
+
+2022-06-23 17:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid email
+Login error : This login is already used'
+
+2022-06-23 17:43:43 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:43:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:43:43 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "TESTT@test.com"): Text 'TESTT@test.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:44 - [MESSAGE][PASSED] - Text 'TESTT@test.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:43:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:45 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:45 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999029384.png]]
+
+2022-06-23 17:43:49 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), "Brand missing", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Brand missing
+
+Login error : This login is already used'
+
+2022-06-23 17:43:50 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Brand missing
+
+Login error : This login is already used'
+
+2022-06-23 17:43:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:51 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:43:51 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), STOP_ON_FAILURE): Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/01_id_field_id' is cleared
+
+2022-06-23 17:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "aherms"): Text 'aherms' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:51 - [MESSAGE][PASSED] - Text 'aherms' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:43:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:43:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:43:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:43:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:43:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999036495.png]]
+
+2022-06-23 17:43:56 - [TEST_STEP][PASSED] - I.verifyErrormsg_toastr("Company", findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"]), " This login is already used", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login is already used'
+
+2022-06-23 17:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:43:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login error : This login is already used'
+
+2022-06-23 17:43:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 17:43:59 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 17:43:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome)" time="78.659" classname="Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:43:59 - [TEST_CASE][PASSED] - Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome): Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.01 Login (Chrome)
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - data_Sephora = findTestData("Data Files/Username_Password/Sephora"): null
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - password_aalbeaux = data_Sephora.getValue(2, 7): null
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - Url_Sephora = data_urlRELAUTO.getValue(2, 1): null
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-23 17:44:00 - [TEST_STEP][PASSED] - openBrowser(Url_Sephora): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-23 17:44:00 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:44:00 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:44:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:44:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_SEPHORA'
+
+2022-06-23 17:44:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:44:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:44:06 - [TEST_STEP][PASSED] - I.Login_password("fake_user", "dchi"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:07 - [MESSAGE][PASSED] - Text 'fake_user' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:08 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:11 - [TEST_STEP][FAILED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"]), "Access denied", log): Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Accès refusé'
+
+2022-06-23 17:44:11 - [MESSAGE][FAILED] - Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:44:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999051597.png]]
+
+2022-06-23 17:44:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:44:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:44:13 - [TEST_STEP][PASSED] - I.ClearLoginandPasswordField(): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:15 - [TEST_STEP][PASSED] - ts1 = System.currentTimeMillis(): null
+
+2022-06-23 17:44:15 - [TEST_STEP][PASSED] - I.Login_password("aalbeaux", password_aalbeaux): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:15 - [MESSAGE][PASSED] - Text 'aalbeaux' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:17 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:23 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2022-06-23 17:44:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:44:23 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/h1/span[1]"]), "Aline", log): Text of object 'Object Repository/1. Constant/xpath' is: 'Aline'
+
+2022-06-23 17:44:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Aline'
+
+2022-06-23 17:44:24 - [TEST_STEP][PASSED] - ts2 = System.currentTimeMillis(): null
+
+2022-06-23 17:44:24 - [TEST_STEP][PASSED] - println("Login duration: " + ts2 - ts1 + " miliseconds."): null
+
+2022-06-23 17:44:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:44:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999064250.png]]
+
+2022-06-23 17:44:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:44:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:44:26 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:44:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:44:26 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 17:44:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:44:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/HL Full Lifecycle/1 LoginPage_input_Login_field")): Object 'Object Repository/HL Full Lifecycle/1 LoginPage_input_Login_field' is visible
+
+2022-06-23 17:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/HL Full Lifecycle/1 LoginPage_input_Login_field' is visible
+
+2022-06-23 17:44:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:44:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999078714.png]]
+
+2022-06-23 17:44:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:44:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:44:41 - [TEST_STEP][PASSED] - I.Login_password("aalbeaux", "yoo"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:41 - [MESSAGE][PASSED] - Text 'aalbeaux' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:42 - [MESSAGE][PASSED] - Text 'yoo' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:46 - [TEST_STEP][FAILED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"]), "Access denied", log): Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Accès refusé'
+
+2022-06-23 17:44:47 - [MESSAGE][FAILED] - Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:44:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999087462.png]]
+
+2022-06-23 17:44:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:44:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:44:49 - [TEST_STEP][PASSED] - I.ClearLoginandPasswordField(): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:51 - [TEST_STEP][PASSED] - I.Login_password("aalbeaux", ""): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:51 - [MESSAGE][PASSED] - Text 'aalbeaux' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:44:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:44:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:44:55 - [TEST_STEP][FAILED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"]), "Access denied", log): Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Accès refusé'
+
+2022-06-23 17:44:55 - [MESSAGE][FAILED] - Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:44:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:44:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999096022.png]]
+
+2022-06-23 17:44:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:44:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:44:58 - [TEST_STEP][PASSED] - I.ClearLoginandPasswordField(): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:44:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:44:59 - [TEST_STEP][PASSED] - I.Login_password("", "diadeis"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:01 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:45:05 - [TEST_STEP][FAILED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"]), "Access denied", log): Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:45:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Accès refusé'
+
+2022-06-23 17:45:05 - [MESSAGE][FAILED] - Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:45:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:45:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:45:07 - [TEST_STEP][PASSED] - I.ClearLoginandPasswordField(): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:45:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:45:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-23 17:45:09 - [TEST_STEP][PASSED] - I.Login_password("", ""): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:45:13 - [TEST_STEP][FAILED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="errorline"]"]), "Access denied", log): Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:45:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Accès refusé'
+
+2022-06-23 17:45:13 - [MESSAGE][FAILED] - Warning! Incorrect messageAccès refusé- Test KO
+
+2022-06-23 17:45:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:45:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999113825.png]]
+
+2022-06-23 17:45:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 17:45:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 17:45:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 17:45:18 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.02 StatPack Reset Password (Need to verify email 6.02)" time="41.404" classname="Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.02 StatPack Reset Password (Need to verify email 6.02)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:45:18 - [TEST_CASE][PASSED] - Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.02 StatPack Reset Password (Need to verify email 6.02): Test Cases/01. Sephora _StarPack Login_Logout Connexion-Deconnexion/1.02 StatPack Reset Password (Need to verify email 6.02)
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - login = "flndhx162043": null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-23 17:45:18 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:45:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:45:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:45:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:45:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:45:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:45:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:45:25 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:45:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:45:25 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:26 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:27 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:45:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999137296.png]]
+
+2022-06-23 17:45:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:45:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999137951.png]]
+
+2022-06-23 17:45:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:45:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:45:41 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:45:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:54 - [MESSAGE][PASSED] - Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:45:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:45:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:45:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999155604.png]]
+
+2022-06-23 17:45:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:45:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:45:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="flndhx162043"]/td[14]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:45:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:45:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999157356.png]]
+
+2022-06-23 17:45:57 - [TEST_STEP][PASSED] - actualmsg = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Login information email sent to flndhx162043'
+
+2022-06-23 17:45:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Login information email sent to flndhx162043'
+
+2022-06-23 17:45:58 - [TEST_STEP][PASSED] - Expectedmsg = "Login information email sent to " + login: null
+
+2022-06-23 17:45:58 - [TEST_STEP][PASSED] - verifyEqual(actualmsg, Expectedmsg): Actual object 'Login information email sent to flndhx162043' and expected object 'Login information email sent to flndhx162043' are equal
+
+2022-06-23 17:45:58 - [MESSAGE][PASSED] - Actual object 'Login information email sent to flndhx162043' and expected object 'Login information email sent to flndhx162043' are equal
+
+2022-06-23 17:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 17:45:59 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 17:45:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Sephora_Starpack User management/2.01 Création de compte - annuler la creation (Chrome)" time="66.436" classname="Test Cases/02. Sephora_Starpack User management/2.01 Création de compte - annuler la creation (Chrome)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:45:59 - [TEST_CASE][PASSED] - Test Cases/02. Sephora_Starpack User management/2.01 Création de compte - annuler la creation (Chrome): Test Cases/02. Sephora_Starpack User management/2.01 Création de compte - annuler la creation (Chrome)
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - password_gmailcancel = "Diadeis*1": null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-23 17:46:00 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:46:00 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:46:00 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:46:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:46:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:46:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:46:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:46:08 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:08 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:46:10 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:46:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999177080.png]]
+
+2022-06-23 17:46:17 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:46:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:46:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:46:17 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:46:17 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:46:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999178364.png]]
+
+2022-06-23 17:46:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:46:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:46:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:46:22 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 17:46:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:32 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:46:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:46:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:36 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:46:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:46:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:46:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999196210.png]]
+
+2022-06-23 17:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), "ancell"): Text 'ancell' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:46:36 - [MESSAGE][PASSED] - Text 'ancell' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), "c"): Text 'c' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:46:37 - [MESSAGE][PASSED] - Text 'c' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "Mediabox.cancel@gmail.com"): Text 'Mediabox.cancel@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:37 - [MESSAGE][PASSED] - Text 'Mediabox.cancel@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "Commercial_support", true): All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:38 - [MESSAGE][PASSED] - All options with value 'Commercial_support' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:46:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:46:39 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:46:39 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:46:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"selSource_Brand"]), "122", true): All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:40 - [MESSAGE][PASSED] - All options with value '122' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:46:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userRoleParams_block"]/div/div/table/tbody/tr/td[2]/input[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value", "cancell", 20): Object 'Object Repository/1. Constant/01_id_field_id' has attribute 'value' with value 'cancell'
+
+2022-06-23 17:46:40 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/01_id_field_id' has attribute 'value' with value 'cancell'
+
+2022-06-23 17:46:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:46:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:46:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:46:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:46:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), "cancel@testautodiadeis.com"): Text 'cancel@testautodiadeis.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:51 - [MESSAGE][PASSED] - Text 'cancel@testautodiadeis.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:46:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:46:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:46:52 - [TEST_STEP][PASSED] - CT = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table"]/tbody/tr/td"])): Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-23 17:46:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-23 17:46:53 - [TEST_STEP][PASSED] - I.print(CT): null
+
+2022-06-23 17:46:53 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table"]/tbody/tr/td"]), "No matching records found", log): Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-23 17:46:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'No matching records found'
+
+2022-06-23 17:46:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:46:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999213569.png]]
+
+2022-06-23 17:46:53 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 17:46:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:47:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 17:47:05 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 17:47:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02. Sephora_Starpack User management/2.03 Création de compte (normal)" time="150.387" classname="Test Cases/02. Sephora_Starpack User management/2.03 Création de compte (normal)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 17:47:05 - [TEST_CASE][PASSED] - Test Cases/02. Sephora_Starpack User management/2.03 Création de compte (normal): Test Cases/02. Sephora_Starpack User management/2.03 Création de compte (normal)
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Username_Password/Starpack (10June2021)"): null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - password_suser = data.getValue(2, 1): null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-23 17:47:06 - [TEST_STEP][PASSED] - openBrowser(Url_Starpack): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:47:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 17:47:06 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 17:47:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 17:47:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK'
+
+2022-06-23 17:47:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 17:47:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 17:47:12 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:47:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:47:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:47:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999232796.png]]
+
+2022-06-23 17:47:13 - [TEST_STEP][PASSED] - "SCENARIO : User has the rights to see Usermanagement": null
+
+2022-06-23 17:47:13 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:13 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:47:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:47:14 - [MESSAGE][PASSED] - Text 'dchi2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:47:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:47:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999241145.png]]
+
+2022-06-23 17:47:21 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:47:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:47:21 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/a/span[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:47:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999241843.png]]
+
+2022-06-23 17:47:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:47:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_aside_menu"]/ul/li[11]/div/ul/li[2]/a/span"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:36 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:47:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:47:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div/div[1]/div/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:47:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:47:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999258665.png]]
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - Lastname = "LN" + RandomStringUtils.randomAlphanumeric(3) + today.format("HHmmss"): null
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - FirstName = "FN" + RandomStringUtils.randomAlphanumeric(3): null
+
+2022-06-23 17:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userName"]), Lastname): Text 'LNuvo174738' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:47:39 - [MESSAGE][PASSED] - Text 'LNuvo174738' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/01_id_field_id", ["field_id":"userFirstName"]), FirstName): Text 'FNdes' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:47:39 - [MESSAGE][PASSED] - Text 'FNdes' is set on object 'Object Repository/1. Constant/01_id_field_id'
+
+2022-06-23 17:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="userDetails"]/div[2]/div[4]/div/input"]), "Mediabox.Creation@gmail.com"): Text 'Mediabox.Creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:47:40 - [MESSAGE][PASSED] - Text 'Mediabox.Creation@gmail.com' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:47:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userCompany"]), "1", true): All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:47:40 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:47:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/01_id_field_id", ["field_id":"userRole"]), "admin", true): All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:47:41 - [MESSAGE][PASSED] - All options with value 'admin' are selected in object 'Object Repository/1. Constant/01_id_field_id'  using regular expression
+
+2022-06-23 17:47:41 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/01_id_field_id", ["field_id":"userTrackClick"])): Object: 'Object Repository/1. Constant/01_id_field_id' is clicked on
+
+2022-06-23 17:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/01_id_field_id' is clicked on
+
+2022-06-23 17:47:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:47:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:47:42 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:47:42 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 17:47:42 - [TEST_STEP][PASSED] - login = getAttribute(findTestObject("1. Constant/01_id_field_id", ["field_id":"userLogin"]), "value"): Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnuvo174738'
+
+2022-06-23 17:47:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/1. Constant/01_id_field_id' is: 'flnuvo174738'
+
+2022-06-23 17:47:43 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-23 17:47:43 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 17:47:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 17:47:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="CreateUser"]/div[3]/div/button[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:49:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 17:49:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:49:22 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="users_table_filter"]/label/input"]), login): Text 'flnuvo174738' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:49:23 - [MESSAGE][PASSED] - Text 'flnuvo174738' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 17:49:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 17:49:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 17:49:24 - [TEST_STEP][PASSED] - I.verifymsg(findTestObject("1. Constant/xpath", ["xpath":"//*[@id='" + login + "']/td[5]"]), login, log): Text of object 'Object Repository/1. Constant/xpath' is: 'flnuvo174738'
+
+2022-06-23 17:49:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'flnuvo174738'
+
+2022-06-23 17:49:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 17:49:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_173831\\03. Parallel Testing (Testing)\\TS -PT PART 3\\01.Tag_Sephora Login and Creation user\\20220623_173832\\1655999364276.png]]
+
+2022-06-23 17:49:24 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 17:49:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:49:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 17:49:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 17:49:36 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-23 17:38:43 - [TEST_SUITE][PASSED] - 01.Tag_Sephora Login and Creation user: Test Cases/02. Sephora_Starpack User management/2.03 Création de compte (normal)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -23,47 +23,9 @@ import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 //DATA FIELD USERNAME_PASSWORD (TAG)
 def data_Tag = TestDataFactory.findTestData('Data Files/Username_Password/Tag')
 
-String password_jedun = data_Tag.getValue(3, 1)
+String password_jedun = data_Tag.getValue(3, 1) //R
 
-String password_rrowland = data_Tag.getValue(3, 2)
-
-String password_stest = data_Tag.getValue(3, 3)
-
-String password_itroin = data_Tag.getValue(3, 4)
-
-String password_igedik = data_Tag.getValue(3, 2)
-
-String password_mderdour = data_Tag.getValue(3, 6)
-
-String password_achatin = data_Tag.getValue(3, 7)
-
-String password_tliu = data_Tag.getValue(3, 8)
-
-String password_ccaramella = data_Tag.getValue(3, 9)
-
-String password_achay = data_Tag.getValue(3, 10)
-
-String password_cbono = data_Tag.getValue(3, 11)
-
-String password_pmareri = data_Tag.getValue(3, 12)
-
-String password_qeuzen = data_Tag.getValue(3, 13)
-
-String password_alanglois = data_Tag.getValue(3, 14)
-
-String password_bde_villeneuve = data_Tag.getValue(3, 12)
-
-String password_scai = data_Tag.getValue(3, 16)
-
-String password_bzavaglia = data_Tag.getValue(3, 17)
-
-String password_asamyn = data_Tag.getValue(3, 18)
-
-String password_idiaz = data_Tag.getValue(3, 19)
-
-String password_asalama = data_Tag.getValue(3, 20)
-
-String password_suser = data_Tag.getValue(3, 21)
+String password_suser = data_Tag.getValue(3, 21) //R
 
 //DATA FIELD URL
 def data_urlRELAUTO = TestDataFactory.findTestData('Data Files/URL/URL_relauto')

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220628_151309</name>
+   <tag></tag>
+   <displayName>20220628_151309</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220628_151309/4618_TestStarpack/TS/03.TestStarpack _ Tag Mediabase/20220628_151310</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome (headless)</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/4618_TestStarpack/03. 4618_TestStarpack _ Tag Mediabase</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)" time="634.249" tests="2" failures="0" errors="0">
+   <testsuite name="z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)" tests="2" failures="0" errors="0" time="634.249" skipped="0" timestamp="2022-06-09 22:00:21" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654804856829.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654804934253.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654805090204.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654805297016.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.63"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="a1042c0eee97164faa7747c8d22a0b48"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/07. Star Pack Verification Email - User management/7.01 Verification Email pour creation user (2.02)" time="262.885" classname="Test Cases/07. Star Pack Verification Email - User management/7.01 Verification Email pour creation user (2.02)" status="PASSED">
+         <system-out><![CDATA[2022-06-09 22:00:22 - [TEST_CASE][PASSED] - Test Cases/07. Star Pack Verification Email - User management/7.01 Verification Email pour creation user (2.02): Test Cases/07. Star Pack Verification Email - User management/7.01 Verification Email pour creation user (2.02)
+
+2022-06-09 22:00:23 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-09 22:00:23 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-09 22:00:23 - [TEST_STEP][PASSED] - login = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\login.txt"): null
+
+2022-06-09 22:00:24 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-09 22:00:24 - [TEST_STEP][PASSED] - FLName = I.readnotepad("D:\Upoad_File\Projet_ Login\Tag\2.02 Tag_Login username\Name.txt"): null
+
+2022-06-09 22:00:24 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-09 22:00:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 22:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 22:00:24 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-09 22:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 22:00:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 22:00:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-09 22:00:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-09 22:00:54 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-09 22:00:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-09 22:00:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-09 22:00:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654804856829.png]]
+
+2022-06-09 22:00:57 - [TEST_STEP][PASSED] - I.Login_gmail("Mediabox.Creation@gmail.com ", password_mediaboxCreation): Navigate to 'https://gmail.com/' successfully
+
+2022-06-09 22:01:11 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2022-06-09 22:01:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:01:15 - [MESSAGE][PASSED] - Text 'Mediabox.Creation@gmail.com ' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:01:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:01:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:01:19 - [MESSAGE][PASSED] - Text 'Diadeis*1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:01:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:01:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:02:09 - [MESSAGE][PASSED] - Navigate to 'https://gmail.com/' successfully
+
+2022-06-09 22:02:09 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="gs_lc50"]/input[1]"]), "Your login information " + login): Text 'Your login information flnmbm182855' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:02:11 - [MESSAGE][PASSED] - Text 'Your login information flnmbm182855' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:02:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aso_search_form_anchor"]/button[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:12 - [TEST_STEP][PASSED] - verifyTextPresent("RELEASE-StarPack [Mediabox] Your login information", false): Text 'RELEASE-StarPack [Mediabox] Your login information' is present on page 
+
+2022-06-09 22:02:13 - [MESSAGE][PASSED] - Text 'RELEASE-StarPack [Mediabox] Your login information' is present on page 
+
+2022-06-09 22:02:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-09 22:02:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654804934253.png]]
+
+2022-06-09 22:02:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-09 22:02:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-09 22:02:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[5]/div[2]/div/table/tbody/tr"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:21 - [TEST_STEP][PASSED] - password_new = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div[1]/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'ZII0QP3R'
+
+2022-06-09 22:02:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'ZII0QP3R'
+
+2022-06-09 22:02:23 - [TEST_STEP][PASSED] - I.print("password - " + password_new): null
+
+2022-06-09 22:02:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-09 22:02:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-09 22:02:28 - [TEST_STEP][PASSED] - url_new = Url_Starpack: null
+
+2022-06-09 22:02:28 - [TEST_STEP][PASSED] - I.print("url - " + url_new): null
+
+2022-06-09 22:02:28 - [TEST_STEP][PASSED] - navigateToUrl(url_new): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK' successfully
+
+2022-06-09 22:02:51 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK' successfully
+
+2022-06-09 22:02:51 - [TEST_STEP][PASSED] - I.Login_password(login, password_new): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:52 - [MESSAGE][PASSED] - Text 'flnmbm182855' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:02:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:02:53 - [MESSAGE][PASSED] - Text 'ZII0QP3R' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:02:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:02:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-09 22:02:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:02:57 - [TEST_STEP][PASSED] - changepassword_page = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/h3"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Change your password - flnmbm182855'
+
+2022-06-09 22:02:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Change your password - flnmbm182855'
+
+2022-06-09 22:02:58 - [TEST_STEP][PASSED] - I.print("change password - " + changepassword_page): null
+
+2022-06-09 22:02:58 - [TEST_STEP][PASSED] - Expected_changepassword = "Change your password - " + login: null
+
+2022-06-09 22:02:58 - [TEST_STEP][PASSED] - verifyEqual(changepassword_page, Expected_changepassword): Actual object 'Change your password - flnmbm182855' and expected object 'Change your password - flnmbm182855' are equal
+
+2022-06-09 22:02:58 - [MESSAGE][PASSED] - Actual object 'Change your password - flnmbm182855' and expected object 'Change your password - flnmbm182855' are equal
+
+2022-06-09 22:02:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-09 22:02:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"]), "dchi1"): Text 'dchi1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:02 - [MESSAGE][PASSED] - Text 'dchi1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:02 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/div[4]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:03 - [TEST_STEP][PASSED] - Expected_ErrormsgPass2 = "Please enter same password": null
+
+2022-06-09 22:03:03 - [TEST_STEP][PASSED] - Actual_Errormsg2 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:03:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:03:04 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg2, Expected_ErrormsgPass2): Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:03:04 - [MESSAGE][PASSED] - Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:03:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:03:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:03:06 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:07 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"]), "test1"): Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:09 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/div[4]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:09 - [TEST_STEP][PASSED] - Expected_ErrormsgPass3 = "Invalid password - Minimum of 3 characters": null
+
+2022-06-09 22:03:09 - [TEST_STEP][PASSED] - Actual_Errormsg3 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:03:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:03:10 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg3, Expected_ErrormsgPass3): Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:03:10 - [MESSAGE][PASSED] - Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:03:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:03:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:03:12 - [TEST_STEP][PASSED] - I.Change_password("test1", "test2"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:13 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:03:15 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:15 - [TEST_STEP][PASSED] - Expected_ErrormsgPass4 = "Please enter same password": null
+
+2022-06-09 22:03:15 - [TEST_STEP][PASSED] - Actual_Errormsg4 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:03:17 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg4, Expected_ErrormsgPass4): Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:03:17 - [MESSAGE][PASSED] - Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:03:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:03:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:03:19 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:19 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:21 - [TEST_STEP][PASSED] - I.Change_password("te", "te"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:22 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:03:23 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:24 - [TEST_STEP][PASSED] - Expected_ErrormsgPass5 = "Invalid password - Minimum of 3 characters": null
+
+2022-06-09 22:03:24 - [TEST_STEP][PASSED] - Actual_Errormsg5 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:03:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:03:24 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg5, Expected_ErrormsgPass5): Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:03:24 - [MESSAGE][PASSED] - Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:03:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:03:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:03:26 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:28 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:03:28 - [TEST_STEP][PASSED] - I.Change_password("dchi", "dchi"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:03:29 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:03:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:03:31 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:04:00 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-09 22:04:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:04:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:04:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:04:23 - [TEST_STEP][PASSED] - I.Login_password(login, "dchi"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:04:28 - [MESSAGE][PASSED] - Text 'flnmbm182855' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:04:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:04:33 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:04:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:04:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="menu_2"]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:04:40 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:04:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 22:04:45 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 22:04:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/07. Star Pack Verification Email - User management/7.02 Verification Email pour le reset password (2.05)" time="370.431" classname="Test Cases/07. Star Pack Verification Email - User management/7.02 Verification Email pour le reset password (2.05)" status="PASSED">
+         <system-out><![CDATA[2022-06-09 22:04:45 - [TEST_CASE][PASSED] - Test Cases/07. Star Pack Verification Email - User management/7.02 Verification Email pour le reset password (2.05): Test Cases/07. Star Pack Verification Email - User management/7.02 Verification Email pour le reset password (2.05)
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - Url_Starpack = data_urlRELAUTO.getValue(2, 2): null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - login = "flndhx162043": null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - I.print(login): null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - FLName = "FN1V5 LNDHx162043": null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - password_mediaboxCreation = "Diadeis*1": null
+
+2022-06-09 22:04:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 22:04:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 22:04:46 - [MESSAGE][INFO] - User set preference: ['arg', '[[--lang=en-GB]]']
+
+2022-06-09 22:04:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 22:04:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 22:04:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-09 22:04:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-09 22:04:50 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-09 22:04:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-09 22:04:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-09 22:04:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654805090204.png]]
+
+2022-06-09 22:04:50 - [TEST_STEP][PASSED] - I.Login_gmail("Mediabox.modif@gmail.com ", password_mediaboxCreation): Navigate to 'https://gmail.com/' successfully
+
+2022-06-09 22:05:10 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2022-06-09 22:05:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:05:13 - [MESSAGE][PASSED] - Text 'Mediabox.modif@gmail.com ' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:05:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:05:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:05:17 - [MESSAGE][PASSED] - Text 'Diadeis*1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:05:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:05:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:05:40 - [MESSAGE][PASSED] - Navigate to 'https://gmail.com/' successfully
+
+2022-06-09 22:05:40 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="gs_lc50"]/input[1]"]), "Your login information " + login): Text 'Your login information flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:06:42 - [MESSAGE][PASSED] - Text 'Your login information flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:06:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aso_search_form_anchor"]/button[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:07:14 - [TEST_STEP][PASSED] - verifyTextPresent("RELEASE-StarPack [Mediabox] Your login information", false): Text 'RELEASE-StarPack [Mediabox] Your login information' is present on page 
+
+2022-06-09 22:07:46 - [MESSAGE][PASSED] - Text 'RELEASE-StarPack [Mediabox] Your login information' is present on page 
+
+2022-06-09 22:07:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-09 22:08:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220609_181011\\03. Parallel Testing (Testing)\\TS -PT PART 3\\z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome)\\20220609_181125\\1654805297016.png]]
+
+2022-06-09 22:08:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-09 22:08:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-09 22:08:22 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div[5]/div[2]/div/table/tbody/tr"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:08:53 - [TEST_STEP][PASSED] - password_new = getText(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[7]/div[3]/div/div[2]/div[1]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[3]/div/table/tr/td[1]/div[2]/div[2]/div/div[3]/div[1]/div/div/div/div/div[1]/div[2]/div[3]/div[3]/div/div[2]/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'DTTI2YCC'
+
+2022-06-09 22:09:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'DTTI2YCC'
+
+2022-06-09 22:09:24 - [TEST_STEP][PASSED] - I.print("password - " + password_new): null
+
+2022-06-09 22:09:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-09 22:09:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-09 22:09:29 - [TEST_STEP][PASSED] - url_new = Url_Starpack: null
+
+2022-06-09 22:09:29 - [TEST_STEP][PASSED] - I.print("url - " + url_new): null
+
+2022-06-09 22:09:29 - [TEST_STEP][PASSED] - navigateToUrl(url_new): Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK' successfully
+
+2022-06-09 22:09:34 - [MESSAGE][PASSED] - Navigate to 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_STARPACK' successfully
+
+2022-06-09 22:09:34 - [TEST_STEP][PASSED] - I.Login_password(login, password_new): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:37 - [MESSAGE][PASSED] - Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:09:39 - [MESSAGE][PASSED] - Text 'DTTI2YCC' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-09 22:09:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - changepassword_page = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/h3"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Change your password - flndhx162043'
+
+2022-06-09 22:09:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Change your password - flndhx162043'
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - I.print("change password - " + changepassword_page): null
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - Expected_changepassword = "Change your password - " + login: null
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - verifyEqual(changepassword_page, Expected_changepassword): Actual object 'Change your password - flndhx162043' and expected object 'Change your password - flndhx162043' are equal
+
+2022-06-09 22:09:43 - [MESSAGE][PASSED] - Actual object 'Change your password - flndhx162043' and expected object 'Change your password - flndhx162043' are equal
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - "Screenshot for change password page": null
+
+2022-06-09 22:09:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/div[4]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:44 - [TEST_STEP][PASSED] - Expected_ErrormsgPass1 = "Invalid password - Minimum of 3 characters": null
+
+2022-06-09 22:09:44 - [TEST_STEP][PASSED] - Actual_Errormsg1 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:09:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:09:44 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg1, Expected_ErrormsgPass1): Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:09:44 - [MESSAGE][PASSED] - Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:09:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-09 22:09:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-09 22:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"]), "dchi1"): Text 'dchi1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:52 - [MESSAGE][PASSED] - Text 'dchi1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:52 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/div[4]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:53 - [TEST_STEP][PASSED] - Expected_ErrormsgPass2 = "Please enter same password": null
+
+2022-06-09 22:09:53 - [TEST_STEP][PASSED] - Actual_Errormsg2 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:09:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:09:54 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg2, Expected_ErrormsgPass2): Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:09:54 - [MESSAGE][PASSED] - Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:09:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:09:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:09:56 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:09:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:09:57 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"]), "test1"): Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:59 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:09:59 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifPassword"]/div[4]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:09:59 - [TEST_STEP][PASSED] - Expected_ErrormsgPass3 = "Invalid password - Minimum of 3 characters": null
+
+2022-06-09 22:09:59 - [TEST_STEP][PASSED] - Actual_Errormsg3 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:10:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:10:00 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg3, Expected_ErrormsgPass3): Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:10:00 - [MESSAGE][PASSED] - Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:10:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:10:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:10:02 - [TEST_STEP][PASSED] - I.Change_password("test1", "test2"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:03 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:10:05 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:06 - [TEST_STEP][PASSED] - Expected_ErrormsgPass4 = "Please enter same password": null
+
+2022-06-09 22:10:06 - [TEST_STEP][PASSED] - Actual_Errormsg4 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:10:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Please enter same password'
+
+2022-06-09 22:10:06 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg4, Expected_ErrormsgPass4): Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:10:06 - [MESSAGE][PASSED] - Actual object 'Please enter same password' and expected object 'Please enter same password' are equal
+
+2022-06-09 22:10:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:10:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:10:08 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:09 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:09 - [TEST_STEP][PASSED] - I.Change_password("te", "te"): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:10 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:10:12 - [MESSAGE][PASSED] - Text 'te' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:14 - [TEST_STEP][PASSED] - Expected_ErrormsgPass5 = "Invalid password - Minimum of 3 characters": null
+
+2022-06-09 22:10:14 - [TEST_STEP][PASSED] - Actual_Errormsg5 = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:10:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'Invalid password - Minimum of 3 characters'
+
+2022-06-09 22:10:14 - [TEST_STEP][PASSED] - verifyEqual(Actual_Errormsg5, Expected_ErrormsgPass5): Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:10:14 - [MESSAGE][PASSED] - Actual object 'Invalid password - Minimum of 3 characters' and expected object 'Invalid password - Minimum of 3 characters' are equal
+
+2022-06-09 22:10:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-09 22:10:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-09 22:10:16 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="new_password"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:17 - [TEST_STEP][PASSED] - clearText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="passwordConfirm"]"])): Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is cleared
+
+2022-06-09 22:10:18 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2022-06-09 22:10:18 - [TEST_STEP][PASSED] - newpass = today.format("MMMddyyyy_HHmmss"): null
+
+2022-06-09 22:10:18 - [TEST_STEP][PASSED] - I.print(newpass): null
+
+2022-06-09 22:10:18 - [TEST_STEP][PASSED] - I.Change_password(newpass, newpass): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:19 - [MESSAGE][PASSED] - Text 'juin092022_221018' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:10:21 - [MESSAGE][PASSED] - Text 'juin092022_221018' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="menu_2"]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:10:29 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-09 22:10:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-09 22:10:43 - [TEST_STEP][PASSED] - I.Login_password(login, newpass): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:44 - [MESSAGE][PASSED] - Text 'flndhx162043' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:10:46 - [MESSAGE][PASSED] - Text 'juin092022_221018' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-09 22:10:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 22:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-09 22:10:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="menu_2"]/a"])): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-09 22:10:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-09 22:10:56 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-09 22:10:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 22:00:21 - [TEST_SUITE][PASSED] - z01.1 Verification of Email for Reset Password_ Creation(TS - Chrome): Test Cases/07. Star Pack Verification Email - User management/7.02 Verification Email pour le reset password (2.05)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

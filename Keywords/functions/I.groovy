@@ -19,6 +19,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import groovy.json.StringEscapeUtils
+
 import java.util.Date
 
 
@@ -54,11 +57,7 @@ import org.openqa.selenium.By as By
 
 import org.openqa.selenium.WebDriver as WebDriver
 
-import org.openqa.selenium.WebElement as WebElement
-
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 public class I {
 
 	///////////////////////////////////////////ACTION USED IN MEDIABOX //////////////////////////////////////
@@ -183,31 +182,23 @@ public class I {
 
 	}
 	/*
-	//SELECT AN OPTION FORM SAS LIST
-	
-	public static Select_Click_SAS(String Expected_SAS_Selected ,String xpath_SAS){
-		'no of option present '
-int x = 20 // I HAVE PUT ANY NUMBER
-int i = 1 //START WITH 1
-
-while ( i <=x)
-{
-	
-	
-	String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
-	functions.I.print(i)
-	
-	if (Actual_SAS.contains(Expected_SAS_Selected))
-	{
-		WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
-		
-		break
-		}
-		i =i+1
-	}
-
-
-	}*/
+	 //SELECT AN OPTION FORM SAS LIST
+	 public static Select_Click_SAS(String Expected_SAS_Selected ,String xpath_SAS){
+	 'no of option present '
+	 int x = 20 // I HAVE PUT ANY NUMBER
+	 int i = 1 //START WITH 1
+	 while ( i <=x)
+	 {
+	 String Actual_SAS = WebUI.getText(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	 functions.I.print(i)
+	 if (Actual_SAS.contains(Expected_SAS_Selected))
+	 {
+	 WebUI.click(findTestObject('1. Constant/xpath', [('xpath') : xpath_SAS]))
+	 break
+	 }
+	 i =i+1
+	 }
+	 }*/
 
 	/////////////////////////////////////// GET THE PROJECT NO AND REFID VIA URL///////////////////////////////////////////////////
 
@@ -253,7 +244,18 @@ while ( i <=x)
 
 	}
 
+	//***FUNCTION TO GET Ref
+	public static String href_RefID_Tag(String xpath){
+		WebUI.delay(3)
+		//ATTRIBUTE
+		String href = WebUI.getAttribute(findTestObject('1. Constant/xpath', [('xpath') : xpath]), 'href')
 
+
+		String refID = href.substring(href.length() - 5)
+
+		return refID
+
+	}
 
 
 	//GET THE STEP NAME OF THE LIFECYCLE
@@ -729,9 +731,9 @@ while ( i <=x)
 
 	//***FUNCTION TO SELECT MULTIPLE LIST
 
-	public static select_multiplelist(String xpath1, String xpath2, String textselected){
+	public static select_multiplelist(String xpath1, String xpath2, String value_textselected){
 		WebUI.delay(1)
-		WebUI.selectOptionByValue(findTestObject('1. Constant/xpath',[('xpath'): xpath1]), textselected, false)
+		WebUI.selectOptionByValue(findTestObject('1. Constant/xpath',[('xpath'): xpath1]), value_textselected, false)
 		WebUI.delay(2)
 		WebUI.click(findTestObject('1. Constant/xpath',[('xpath'): xpath2]))
 

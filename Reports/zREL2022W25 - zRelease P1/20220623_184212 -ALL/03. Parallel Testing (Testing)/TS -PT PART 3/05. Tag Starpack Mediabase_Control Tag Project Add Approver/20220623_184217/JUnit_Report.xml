@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="05. Tag Starpack Mediabase_Control Tag Project Add Approver" time="1035.997" tests="4" failures="0" errors="0">
+   <testsuite name="05. Tag Starpack Mediabase_Control Tag Project Add Approver" tests="4" failures="0" errors="0" time="1035.997" skipped="0" timestamp="2022-06-23 19:12:13" hostname="lamhe - DPF-MBI-VERIF.ad.sgsco.int" id="Test Suites/03. Parallel Testing (Testing)/TS -PT PART 3/05. Tag Starpack Mediabase_Control Tag Project Add Approver">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217"/>
+         <property name="logFiles" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\execution0.log"/>
+         <property name="attachments" value="D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004367750.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004423239.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004438657.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004443099.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004444362.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004483800.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004534748.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004545796.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004550803.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004567960.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004572306.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004577786.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004585738.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004588939.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004599606.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004637806.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004673147.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004691031.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004768004.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004780425.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004867459.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004874970.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004906746.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004960720.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004966636.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004974273.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004980952.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004986163.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004998151.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005018015.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005041867.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005112594.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005172576.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005189005.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005243152.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005257608.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005276674.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005316215.png, D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005329595.png"/>
+         <property name="hostName" value="lamhe - DPF-MBI-VERIF.ad.sgsco.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.15.10.53"/>
+         <property name="sessionId" value="5a26fb32ba0ef1a1b1edfa8cb16f0629"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.01 Tag - Project Control Tag (Scenario 1 Admin _ Exisitng project)" time="122.412" classname="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.01 Tag - Project Control Tag (Scenario 1 Admin _ Exisitng project)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 19:12:15 - [TEST_CASE][PASSED] - Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.01 Tag - Project Control Tag (Scenario 1 Admin _ Exisitng project): Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.01 Tag - Project Control Tag (Scenario 1 Admin _ Exisitng project)
+
+2022-06-23 19:12:16 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 19:12:16 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 19:12:17 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 19:12:17 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 19:12:17 - [TEST_STEP][PASSED] - openBrowser(Url_Tag): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:12:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 19:12:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 19:12:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 19:12:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:12:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:12:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:12:46 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:12:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:12:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:12:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004367750.png]]
+
+2022-06-23 19:12:48 - [TEST_STEP][PASSED] - Project_No = "MI003388": null
+
+2022-06-23 19:12:48 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:12:50 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:12:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:12:52 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:12:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:13:05 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:13:15 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[7]/button"): Delayed 5 second(s)
+
+2022-06-23 19:13:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:13:22 - [MESSAGE][PASSED] - Text 'MI003388' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:13:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:13:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:13:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:13:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:13:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004423239.png]]
+
+2022-06-23 19:13:43 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:13:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:13:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:13:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:13:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004438657.png]]
+
+2022-06-23 19:13:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26437_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26437_ModifFiche"]/div[2]/div[3]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26437_ModifFiche"]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:01 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26437_ModifFiche"]/div[2]/div[6]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26437_ModifFiche"]/div[2]/div[7]/label/img"]), 5): Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:14:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:14:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:14:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004443099.png]]
+
+2022-06-23 19:14:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26447_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:04 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_26447_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:04 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:14:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:14:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004444362.png]]
+
+2022-06-23 19:14:04 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:14:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:14:17 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:14:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.03 Dreyers - Project Control tag (Scenario 3 Scope Ref and Project)" time="157.109" classname="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.03 Dreyers - Project Control tag (Scenario 3 Scope Ref and Project)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 19:14:17 - [TEST_CASE][PASSED] - Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.03 Dreyers - Project Control tag (Scenario 3 Scope Ref and Project): Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.03 Dreyers - Project Control tag (Scenario 3 Scope Ref and Project)
+
+2022-06-23 19:14:18 - [TEST_STEP][PASSED] - data_Dreyers = findTestData("Data Files/Username_Password/Dreyer"): null
+
+2022-06-23 19:14:18 - [TEST_STEP][PASSED] - password_suser = data_Dreyers.getValue(2, 1): null
+
+2022-06-23 19:14:18 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 19:14:18 - [TEST_STEP][PASSED] - Url_Dreyer = data_urlRELAUTO.getValue(2, 4): null
+
+2022-06-23 19:14:18 - [TEST_STEP][PASSED] - openBrowser(Url_Dreyer): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_DREYERS'
+
+2022-06-23 19:14:18 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 19:14:18 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 19:14:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 19:14:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_DREYERS'
+
+2022-06-23 19:14:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:14:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:14:43 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:14:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:14:43 - [TEST_STEP][PASSED] - Project_No = "MI000208": null
+
+2022-06-23 19:14:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:14:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004483800.png]]
+
+2022-06-23 19:14:44 - [TEST_STEP][PASSED] - I.Login_password("suser", password_suser): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:14:47 - [MESSAGE][PASSED] - Text 'suser' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:14:52 - [MESSAGE][PASSED] - Text 'diadeis' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:14:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:10 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:15:15 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 19:15:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:15:20 - [MESSAGE][PASSED] - Text 'MI000208' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:15:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:15:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:15:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004534748.png]]
+
+2022-06-23 19:15:35 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_project"]/div[2]/div/div[3]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:15:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:15:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:15:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004545796.png]]
+
+2022-06-23 19:15:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="field_var_24"]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:47 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3877_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3880_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3880_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3880_ModifFiche"]/div[2]/div[3]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3880_ModifFiche"]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3880_ModifFiche"]/div[2]/div[6]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3895_ModifFiche"]/div[2]/div[1]/label/img"]), 5): Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:15:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:15:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004550803.png]]
+
+2022-06-23 19:15:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3895_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:15:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:15:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-23 19:16:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-23 19:16:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004567960.png]]
+
+2022-06-23 19:16:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_2157"]/td[16]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004572306.png]]
+
+2022-06-23 19:16:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3770_ModifFiche"]/div[2]/div[4]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3770_ModifFiche"]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3785_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:13 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div[1]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004577786.png]]
+
+2022-06-23 19:16:18 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_2157"]/td[16]/div[2]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:16:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:16:20 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_2157"]/td[16]/div[2]/div/a[4]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:16:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:16:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004585738.png]]
+
+2022-06-23 19:16:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3951_ModifFiche"]/div[2]/div[4]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3951_ModifFiche"]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004588939.png]]
+
+2022-06-23 19:16:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3968_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:29 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3968_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:30 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:30 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:35 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_2157"]/td[16]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:16:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004599606.png]]
+
+2022-06-23 19:16:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3770_ModifFiche"]/div[2]/div[4]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3770_ModifFiche"]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:41 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3785_ModifFiche"]/div[2]/div[1]/label/img"]), 5): Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:16:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:16:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3785_ModifFiche"]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="card_phase_group_3785_ModifFiche"]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:16:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:16:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:16:54 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:16:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project)" time="93.681" classname="Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 19:16:54 - [TEST_CASE][PASSED] - Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project): Test Cases/09. Tag _ Dreyers _Control Tag ( Project Level)/9.02 Tag - Project Control Tag (Scenario 2 Non admin _ New Project)
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_rrowland = data_Tag.getValue(3, 2): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_stest = data_Tag.getValue(3, 3): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_itroin = data_Tag.getValue(3, 4): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_igedik = data_Tag.getValue(3, 5): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_mderdour = data_Tag.getValue(3, 6): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_achatin = data_Tag.getValue(3, 7): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_ccaramella = data_Tag.getValue(3, 9): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_achay = data_Tag.getValue(3, 10): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_cbono = data_Tag.getValue(3, 11): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_pmareri = data_Tag.getValue(3, 12): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - password_qeuzen = data_Tag.getValue(3, 13): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 19:16:55 - [TEST_STEP][PASSED] - openBrowser(Url_Tag): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:16:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 19:16:55 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 19:16:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 19:17:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:17:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:17:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:17:17 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-06-23 19:17:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:17:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:17:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004637806.png]]
+
+2022-06-23 19:17:18 - [TEST_STEP][PASSED] - I.Login_password("rrowland", password_rrowland): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:17:19 - [MESSAGE][PASSED] - Text 'rrowland' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:17:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:17:22 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:17:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:17:36 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:17:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div[1]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:17:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:17:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:17:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:17:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004673147.png]]
+
+2022-06-23 19:17:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="project_template"]"]), "14", false): All options with value '14' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:17:55 - [MESSAGE][PASSED] - All options with value '14' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:17:55 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:18:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:18:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:18:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:18:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004691031.png]]
+
+2022-06-23 19:18:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[2]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[2]/div[2]/div[3]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[2]/div[2]/div[5]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[2]/div[2]/div[6]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[2]/div[2]/div[7]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[3]/div[2]/div[1]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[3]/div[2]/div[2]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[3]/div[2]/div[3]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[3]/div[2]/div[4]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/form/div[2]/div[2]/div[3]/div[2]/div[6]/label/img"]), 10): Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is present
+
+2022-06-23 19:18:15 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button/i"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:18:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:18:28 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:18:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)" time="661.526" classname="Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)" status="PASSED">
+         <system-out><![CDATA[2022-06-23 19:18:28 - [TEST_CASE][PASSED] - Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights): Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - data_Tag = findTestData("Data Files/Username_Password/Tag"): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - password_jedun = data_Tag.getValue(3, 1): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - password_tliu = data_Tag.getValue(3, 8): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - password_achay = data_Tag.getValue(3, 10): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - password_asamyn = data_Tag.getValue(3, 16): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - data_urlRELAUTO = findTestData("Data Files/URL/URL_relauto"): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - Url_Tag = data_urlRELAUTO.getValue(2, 3): null
+
+2022-06-23 19:18:29 - [TEST_STEP][PASSED] - openBrowser(Url_Tag): Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:18:29 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-06-23 19:18:29 - [MESSAGE][INFO] - User set preference: ['args', '[--window-size=1920,1080, --headless]']
+
+2022-06-23 19:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-23 19:18:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://mdb-release.diadeis.lan/MediaboxIndependence/?MBI_datasource=RELTESTAUTO_TAG'
+
+2022-06-23 19:18:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-23 19:18:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-23 19:18:51 - [TEST_STEP][PASSED] - I.Login_password("jedun", password_jedun): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:18:52 - [MESSAGE][PASSED] - Text 'jedun' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:18:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:18:55 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:18:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:19:11 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:19:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/div/div[1]/div[2]/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:19:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:19:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:19:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="project_template"]"]), "11", false): All options with value '11' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:27 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:19:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004768004.png]]
+
+2022-06-23 19:19:28 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[3]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:19:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 19:19:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:19:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:19:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004780425.png]]
+
+2022-06-23 19:19:41 - [TEST_STEP][PASSED] - Project_name = "AutoTest_Tag_AddApprover_" + RandomStringUtils.randomAlphanumeric(10) + "_" + I.gettimedate(): null
+
+2022-06-23 19:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_141"]"]), Project_name): Text 'AutoTest_Tag_AddApprover_eeqzi54gBI_juin232022_191941' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:19:46 - [MESSAGE][PASSED] - Text 'AutoTest_Tag_AddApprover_eeqzi54gBI_juin232022_191941' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:19:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_12"]"]), "1025", false): All options with value '1025' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:53 - [MESSAGE][PASSED] - All options with value '1025' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_116"]"]), "1070", false): All options with value '1070' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:56 - [MESSAGE][PASSED] - All options with value '1070' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_262"]"]), "16352", false): All options with value '16352' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:59 - [MESSAGE][PASSED] - All options with value '16352' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_14"]"]), "10/10/2020"): Text '10/10/2020' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:20:02 - [MESSAGE][PASSED] - Text '10/10/2020' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:20:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_15"]"]), "57", false): All options with value '57' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:05 - [MESSAGE][PASSED] - All options with value '57' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_16"]"]), "46", false): All options with value '46' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:07 - [MESSAGE][PASSED] - All options with value '46' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-23 19:20:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:20:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_17"]"]), "12174", false): All options with value '12174' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:14 - [MESSAGE][PASSED] - All options with value '12174' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_18"]"]), "12414", false): All options with value '12414' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:16 - [MESSAGE][PASSED] - All options with value '12414' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_20"]"]), "3773", false): All options with value '3773' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:19 - [MESSAGE][PASSED] - All options with value '3773' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_21"]"]), "246", false): All options with value '246' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:19 - [MESSAGE][PASSED] - All options with value '246' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_22"]"]), "3853", false): All options with value '3853' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:23 - [MESSAGE][PASSED] - All options with value '3853' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="selSource_23"]"]), "achatin", false): All options with value 'achatin' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:25 - [MESSAGE][PASSED] - All options with value 'achatin' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:25 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_23"]", "//*[@id="btnAdd_23"]", "tliu"): Delayed 1 second(s)
+
+2022-06-23 19:20:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:29 - [MESSAGE][PASSED] - All options with value 'tliu' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:20:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:20:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:34 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_24"]", "//*[@id="btnAdd_24"]", "asamyn"): Delayed 1 second(s)
+
+2022-06-23 19:20:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:37 - [MESSAGE][PASSED] - All options with value 'asamyn' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:20:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:20:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:20:40 - [TEST_STEP][PASSED] - click(findTestObject("HL Full Lifecycle/5 ModifyProjPage_button_Update")): Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-23 19:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/5 ModifyProjPage_button_Update' is clicked on
+
+2022-06-23 19:20:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-23 19:21:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-23 19:21:01 - [TEST_STEP][PASSED] - Project_No = I.ProjectNo(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=AfficheFichesProjet&id_project=MI003405'
+
+2022-06-23 19:21:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:21:06 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=AfficheFichesProjet&id_project=MI003405'
+
+2022-06-23 19:21:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:21:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004867459.png]]
+
+2022-06-23 19:21:08 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:09 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="create_ref_btn"]/div/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:21:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004874970.png]]
+
+2022-06-23 19:21:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ref_type"]"]), "5", false): All options with value '5' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:21:25 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:21:25 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:21:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:21:34 - [TEST_STEP][PASSED] - refID = I.RefID_tag(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=ModifierRef&id_project=MI003405&id_ref=24426&action_from=create_ref'
+
+2022-06-23 19:21:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:21:40 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=ModifierRef&id_project=MI003405&id_ref=24426&action_from=create_ref'
+
+2022-06-23 19:21:40 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div[1]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:21:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:21:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:21:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004906746.png]]
+
+2022-06-23 19:21:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:21:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:21:48 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/div[1]/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:21:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:21:51 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[15]/div[1]/div/a[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:21:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:21:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:21:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="lfc_tpl"]"]), "65", false): All options with value '65' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:22:02 - [MESSAGE][PASSED] - All options with value '65' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:22:02 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:14 - [TEST_STEP][PASSED] - refID_AC = I.RefID_tag(): Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=ModifierRef&id_project=MI003405&id_ref=24427&action_from=create_ref'
+
+2022-06-23 19:22:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:22:19 - [MESSAGE][PASSED] - Current window's url is: 'http://mdb-release.diadeis.lan/MediaboxIndependence/Base/ExecAction?IDSession=MBI%21RELTESTAUTO_TAG%21E97AAEWV8CTUAJJXWN12W2219FJ51GQSMSXGC822&default_action=ModifierRef&id_project=MI003405&id_ref=24427&action_from=create_ref'
+
+2022-06-23 19:22:19 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSource_10"]", "//*[@id="btnAdd_10"]", "1303"): Delayed 1 second(s)
+
+2022-06-23 19:22:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:21 - [MESSAGE][PASSED] - All options with value '1303' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:22:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="var_166"]"]), "1190", false): All options with value '1190' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:22:28 - [MESSAGE][PASSED] - All options with value '1190' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:22:28 - [TEST_STEP][PASSED] - I.Pagedown(): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 19:22:28 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight)' successfully
+
+2022-06-23 19:22:28 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/form/div[3]/div[1]/button"])): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:22:38 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:22:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 19:22:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:22:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:22:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004960720.png]]
+
+2022-06-23 19:22:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[8]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:44 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[8]/a/span"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:22:45 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:22:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:22:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004966636.png]]
+
+2022-06-23 19:22:47 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"/html/body/div[1]/div[2]/div[4]/div[3]/div/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[8]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[8]/a/span"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:22:52 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:22:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:22:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004974273.png]]
+
+2022-06-23 19:22:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="all_a"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:22:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:22:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:22:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[8]/a[1]"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:00 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[8]/a/span"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:23:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:23:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004980952.png]]
+
+2022-06-23 19:23:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:02 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="all_a"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID + ""]/td[8]/a[1]"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[8]/a/span"]), STOP_ON_FAILURE): Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:06 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is visible
+
+2022-06-23 19:23:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:23:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004986163.png]]
+
+2022-06-23 19:23:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:07 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[17]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:23:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656004998151.png]]
+
+2022-06-23 19:23:18 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="ModifFiche"]/div[1]/div/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:31 - [TEST_STEP][PASSED] - color1 = getCSSValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[17]/a[3]"]), "color", OPTIONAL): Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-23 19:23:33 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/1. Constant/xpath' successfully: 'rgba(255, 255, 255, 1)'.
+
+2022-06-23 19:23:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:23:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:23:34 - [TEST_STEP][PASSED] - I.print(color1): null
+
+2022-06-23 19:23:34 - [TEST_STEP][PASSED] - while (color1 == "rgba(255, 255, 255, 1)"): null
+
+2022-06-23 19:23:34 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="source_" + refID_AC + ""]/td[17]/a[3]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:23:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:23:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005018015.png]]
+
+2022-06-23 19:23:38 - [TEST_STEP][PASSED] - I.UploadDoc_sendkey_Prod(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_body"]/input[2]"]), "D:\Upoad_File\Upload doc\testdataaddition1.jpg", "testdataaddition1.jpg"): Delayed 5 second(s)
+
+2022-06-23 19:23:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:23:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:23:45 - [MESSAGE][PASSED] - File 'D:\Upoad_File\Upload doc\testdataaddition1.jpg' sent to object: 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:23:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:23:51 - [MESSAGE][PASSED] - Text 'testdataaddition1.jpg' is present on page 
+
+2022-06-23 19:23:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:24:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:24:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:24:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005041867.png]]
+
+2022-06-23 19:24:02 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-06-23 19:24:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-23 19:24:12 - [TEST_STEP][PASSED] - I.click_button_javascript(findTestObject("Object Repository/HL Full Lifecycle/12 ReferncePage_Button_Updatensenddoc")): Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:24:56 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+2022-06-23 19:24:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:25:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:25:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/TAG/id_refid_td19_a2", ["refID":"source_" + refID]), 10, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TAG/id_refid_td19_a2' located by '//*[@id='source_24426']/td[19]/a[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TAG/id_refid_td19_a2' located by '//*[@id='source_24426']/td[19]/a[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$17.call(Unknown Source)
+	at 10.02 Tag Add Approver (New Project _ Non Admin _ Rights).run(10.02 Tag Add Approver (New Project _ Non Admin _ Rights):337)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002537758.run(TempTestSuite1656002537758.groovy:36)
+)
+
+2022-06-23 19:25:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='source_24426']/td[19]/a[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-23 19:25:13 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TAG/id_refid_td19_a2' located by '//*[@id='source_24426']/td[19]/a[2]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/TAG/id_refid_td19_a2' located by '//*[@id='source_24426']/td[19]/a[2]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$17.call(Unknown Source)
+	at 10.02 Tag Add Approver (New Project _ Non Admin _ Rights).run(10.02 Tag Add Approver (New Project _ Non Admin _ Rights):337)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656002537758.run(TempTestSuite1656002537758.groovy:36)
+)
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005112594.png]]
+
+2022-06-23 19:25:13 - [TEST_STEP][PASSED] - else: null
+
+2022-06-23 19:25:13 - [TEST_STEP][PASSED] - color1 = "white": null
+
+2022-06-23 19:25:13 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 19:25:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:25:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:25:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:25:27 - [TEST_STEP][PASSED] - I.Login_password("asamyn", password_asamyn): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:25:29 - [MESSAGE][PASSED] - Text 'asamyn' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:25:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:25:34 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:25:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:25:42 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:25:47 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[5]/button"): Delayed 5 second(s)
+
+2022-06-23 19:25:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:25:51 - [MESSAGE][PASSED] - Text 'MI003405' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:25:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:25:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:26:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:26:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:26:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:26:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005172576.png]]
+
+2022-06-23 19:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TAG/id_refid_td8_a", ["refID":"source_" + refID_AC])): Object: 'Object Repository/TAG/id_refid_td8_a' is clicked on
+
+2022-06-23 19:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TAG/id_refid_td8_a' is clicked on
+
+2022-06-23 19:26:19 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/ul/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:23 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aff_doc_AW"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:26:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:26:26 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="level_apl_0"]/div[1]/div[2]/a[1]"])): Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:26:28 - [MESSAGE][PASSED] - Object 'Object Repository/1. Constant/xpath' is NOT visible
+
+2022-06-23 19:26:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:26:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005189005.png]]
+
+2022-06-23 19:26:29 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 19:26:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:26:44 - [TEST_STEP][PASSED] - I.Login_password("tliu", password_tliu): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:47 - [MESSAGE][PASSED] - Text 'tliu' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:26:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:26:50 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:26:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:26:56 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/02_LHSMenu_Projects")): Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/02_LHSMenu_Projects' is clicked on
+
+2022-06-23 19:27:00 - [TEST_STEP][PASSED] - I.SearchProjectNo_xpath(Project_No, "//*[@id="keynum_project"]", "//*[@id="form_filters"]/div[4]/button"): Delayed 5 second(s)
+
+2022-06-23 19:27:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:27:03 - [MESSAGE][PASSED] - Text 'MI003405' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:27:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:27:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1. Constant/xpath' successfully
+
+2022-06-23 19:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:27:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:27:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:27:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:27:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005243152.png]]
+
+2022-06-23 19:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TAG/id_refid_td8_a", ["refID":"source_" + refID_AC])): Object: 'Object Repository/TAG/id_refid_td8_a' is clicked on
+
+2022-06-23 19:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/TAG/id_refid_td8_a' is clicked on
+
+2022-06-23 19:27:27 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_content"]/div[3]/div/ul/li[2]/a"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:31 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="aff_doc_AW"]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:27:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:27:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:27:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005257608.png]]
+
+2022-06-23 19:27:38 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="level_apl_0"]/div[1]/div[2]/a[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 19:27:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:27:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="added_group_approval"]"]), "82", false): All options with value '82' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:27:45 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:27:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-23 19:27:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:27:47 - [TEST_STEP][PASSED] - I.select_multiplelist("//*[@id="selSourceUsers"]", "//*[@id="btnAdd0"]", "achay"): Delayed 1 second(s)
+
+2022-06-23 19:27:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:27:51 - [MESSAGE][PASSED] - All options with value 'achay' are selected in object 'Object Repository/1. Constant/xpath' 
+
+2022-06-23 19:27:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-23 19:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:27:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:27:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:27:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005276674.png]]
+
+2022-06-23 19:27:57 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="modal_addvalideur"]/div/div/div[3]/button[2]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:28:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:28:03 - [TEST_STEP][PASSED] - Amsg_success = getText(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="toast-container"]/div/div[2]"])): Text of object 'Object Repository/1. Constant/xpath' is: 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval'
+
+2022-06-23 19:28:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1. Constant/xpath' is: 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval'
+
+2022-06-23 19:28:06 - [TEST_STEP][PASSED] - verifyMatch(Amsg_success, "A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval", false, OPTIONAL): Actual text 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval' and expected text 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval' are matched 
+
+2022-06-23 19:28:06 - [MESSAGE][PASSED] - Actual text 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval' and expected text 'A new user approver Abigail Chay has been added to level Leader MKT: Artwork approval' are matched 
+
+2022-06-23 19:28:06 - [TEST_STEP][PASSED] - I.Logout(): Delayed 3 second(s)
+
+2022-06-23 19:28:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:28:23 - [TEST_STEP][PASSED] - I.Login_password("achay", password_achay): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:25 - [MESSAGE][PASSED] - Text 'achay' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:28:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:28:27 - [MESSAGE][PASSED] - Text 'dchi' is set on object 'Object Repository/1. Constant/xpath'
+
+2022-06-23 19:28:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:33 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[1]/div[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-23 19:28:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-23 19:28:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:28:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005316215.png]]
+
+2022-06-23 19:28:37 - [TEST_STEP][PASSED] - click(findTestObject("1. Constant/xpath", ["xpath":"//*[@id="kt_header"]/div/div[2]/div[1]/div[2]/form/div[2]/a[2]/div[2]/span[1]"])): Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Constant/xpath' is clicked on
+
+2022-06-23 19:28:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-23 19:28:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:28:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-06-23 19:28:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Projet Test Auto\\Mediabox Test Automation\\Reports\\20220623_184212\\03. Parallel Testing (Testing)\\TS -PT PART 3\\05. Tag Starpack Mediabase_Control Tag Project Add Approver\\20220623_184217\\1656005329595.png]]
+
+2022-06-23 19:28:50 - [TEST_STEP][PASSED] - I.AWF_approve_view(): Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-23 19:28:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-06-23 19:29:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-06-23 19:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is hovered
+
+2022-06-23 19:29:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-23 19:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_access Viewer2' is clicked on
+
+2022-06-23 19:29:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_AppButton' is clicked on
+
+2022-06-23 19:29:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-23 19:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HL Full Lifecycle/Function_Appbutton2' is clicked on
+
+2022-06-23 19:29:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-23 19:29:29 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-23 19:29:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-23 19:12:13 - [TEST_SUITE][PASSED] - 05. Tag Starpack Mediabase_Control Tag Project Add Approver: Test Cases/10. Tag Add Approver/10.02 Tag Add Approver (New Project _ Non Admin _ Rights)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

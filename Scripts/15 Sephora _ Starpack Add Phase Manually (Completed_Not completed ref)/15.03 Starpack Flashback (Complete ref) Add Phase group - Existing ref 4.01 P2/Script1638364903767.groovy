@@ -23,6 +23,7 @@ import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 [Phase même lifecycle et même step] - Question phase
 Vérifier que l'utilisateur peut ajouter une phase > La phase est ajoutée en dessous du même step
 Vérifier que l'utilisateur peut avancer la phase
+
 Scenario 2: Flashback sur une ref incomplète
 PART A: Add a phase - au milieu du lifecycle
 Vérifier que l'utilisateur peut ajouter une phase > La phase est ajoutée en dessous du même step
